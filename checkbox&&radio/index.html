@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo-check$radio</title>
+	<link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
+	<style>
+		.checkbox-wrap{
+			width:200px;
+			padding:100px 0;
+			margin:0 auto;
+		}
+		.checkbox-wrap label{
+			padding-left:20px;
+			cursor:pointer;
+		}
+		input[type="checkbox"],
+		input[type="radio"]{
+			position:absolute;
+			clip:rect(0,0,0,0);
+		}
+		input[type="checkbox"] + .lbl,
+		input[type="radio"] + .lbl{
+			display:inline-block;
+		}
+		input[type="checkbox"] + .lbl::before,
+		input[type="radio"] + .lbl::before{
+			position:relative;
+			top:-2px;
+			content:'\a0';
+			display:inline-block;
+			width:14px;
+			height:14px;
+			border:1px solid #999;
+			margin-right:5px;
+			font-size:12px;
+			line-height:14px;
+			text-align:center;
+			font-family:'fontAwesome';
+		}
+		input[type="checkbox"]:checked + .lbl::before{
+			content:'\f00c';
+			color:red;
+		}
+		input[type="radio"] + .lbl::before{
+			border-radius:50%;
+		}
+		input[type="radio"]:checked + .lbl::before{
+			content:'\f111';
+			color:red;
+		}
+	</style>
+	<!--[if lt IE 9]>
+	  	<style>
+			input[type="checkbox"],
+			input[type="radio"]{position:static;width:auto;height:auto;}
+	  	</style>
+	<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<div class="checkbox-wrap">
+			<label>
+				<input type="checkbox">
+				<span class="lbl">复选框</span>
+			</label>
+			<label>
+				<input name="radio" type="radio">
+				<span class="lbl">单选框</span>
+			</label>
+		</div>
+	</div>
+</body>
+</html>
