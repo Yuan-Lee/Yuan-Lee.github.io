@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>margin</title>
+	<style>
+		.margin-wrap{
+			width:600px;
+			height:800px;
+			padding:10%;
+			margin: 100px auto;
+			border:1px solid #999;
+			box-shadow: 0 0 5px #999;
+			color:#fff;
+			font-size:30px;
+			text-align: center;
+		}
+		.margin-wrap>*{
+			height:50px;
+			margin-bottom: 10%;
+			line-height: 50px;
+			background-color: #333;
+		}
+		.margin-demo-01{
+			padding:10%;
+		}
+		.margin-demo-02{
+			width:200px;
+			margin-left: auto;
+		}
+		.margin-demo-04 ul{
+			overflow: hidden;
+			margin-left: 20px;
+		}
+		.margin-demo-04 ul li{
+			float: left;
+			width:100px;
+			border-left: 1px solid #fff;
+			margin-left: -1px;
+			text-align: center;
+		}
+		.margin-demo-04 ul a{
+			color:#fff;
+		}
+		.margin-demo-05{
+			margin:2px -2px;
+		}
+		.margin-demo-06{
+			overflow:hidden;
+			background-color:#fff !important;
+		}
+		.margin-demo-06>div{
+			width:45%;
+			padding-bottom:9999px;
+			margin-bottom:-9999px;
+		}
+		.margin-demo-06 .left{float:left;background-color: #233;}
+		.margin-demo-06 .right{float:right;height:500px;background-color: #233;}
+	</style>
+</head>
+<body>
+	<div class="margin-wrap">
+		<div class="margin-demo-01">1</div>
+		<div class="margin-demo-02">2</div>
+		<div class="margin-demo-03">3</div>
+		<div class="margin-demo-04">
+			<ul class="fn-clearfix">
+				<li><a href="">标签一</a></li>
+				<li><a href="">标签二</a></li>
+				<li><a href="">标签三</a></li>
+			</ul>
+		</div>
+		<div class="margin-demo-05"></div>
+		<div class="margin-demo-06">
+			<div class="left"></div>
+			<div class="right">ssssssssss</div>
+		</div>
+	</div>
+</body>
+</html>

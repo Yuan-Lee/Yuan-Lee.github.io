@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>loading</title>
+	<style>
+		.wrapper{width:800px;margin:50px auto;}
+		.loading-01{
+			text-align:center;
+		}
+		.loading-01 span{
+			display:inline-block;
+			width:80px;
+			height:80px;
+			border-style:solid;
+			border-width:5px;
+			border-color:yellow black blue red;
+			border-radius:50%;
+			animation: round linear .8s infinite;
+		}
+		@keyframes round{
+			from{
+				transform: rotate(0deg);
+			}
+			to{
+				transform: rotate(360deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="loading-01">
+			<span></span>
+		</div>
+	</div>
+</body>
+</html>

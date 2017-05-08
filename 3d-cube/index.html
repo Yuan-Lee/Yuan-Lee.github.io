@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>cube</title>
+	<style>
+		.cube-wrap{
+			padding-top:100px;
+			-webkit-perspective:1800px;
+			        perspective:1800px;
+			-webkit-perspective-origin:50%;
+			        perspective-origin:50%;
+		}
+		.cube-box{
+			width:300px;
+			height:300px;
+			margin:auto;
+			-webkit-transform-style:preserve-3d;
+			        transform-style:preserve-3d;
+			-webkit-transform-origin:0;
+			        transform-origin:0;
+			-webkit-animation:rotate linear 5s infinite;
+			        animation:rotate linear 5s infinite;
+		}
+		.cube-flat{
+			position: absolute;
+			width: 100%;
+			height:100%;
+			border:3px solid #ccc;
+			box-shadow: 0 0 50px #ccc;
+			background-color: rgba(0,0,0,.2);
+		}
+		.cube-flat.up{
+			-webkit-transform:rotatex(90deg) translatez(150px);
+			        transform:rotatex(90deg) translatez(150px);
+		}
+		.cube-flat.down{
+			-webkit-transform:rotatex(-90deg) translatez(150px);
+			        transform:rotatex(-90deg) translatez(150px);
+		}
+		.cube-flat.left{
+			-webkit-transform:rotatey(-90deg)  translatez(150px);
+			        transform:rotatey(-90deg)  translatez(150px);
+		}
+		.cube-flat.right{
+			-webkit-transform:rotatey(90deg) translatez(150px);
+			        transform:rotatey(90deg) translatez(150px);
+		}
+		.cube-flat.front{
+			-webkit-transform:translatez(150px);
+			        transform:translatez(150px);
+		}
+		.cube-flat.back{
+			-webkit-transform:translatez(-150px);
+			        transform:translatez(-150px);
+		}
+		@-webkit-keyframes rotate{
+			0%{
+				-webkit-transform:rotate3d(1,0,-3,0);
+				        transform:rotate3d(1,0,-3,0);
+			}
+			100%{
+				-webkit-transform:rotate3d(1,0,-3,360deg);
+				        transform:rotate3d(1,0,-3,360deg);
+			}
+		}
+		@keyframes rotate{
+			0%{
+				-webkit-transform:rotate3d(1,0,-3,0);
+				        transform:rotate3d(1,0,-3,0);
+			}
+			100%{
+				-webkit-transform:rotate3d(1,0,-3,360deg);
+				        transform:rotate3d(1,0,-3,360deg);
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="cube-wrap">
+	<div class="cube-box">
+		<div class="cube-flat up"></div>
+		<div class="cube-flat down"></div>
+		<div class="cube-flat front"></div>
+		<div class="cube-flat back"></div>
+		<div class="cube-flat left"></div>
+		<div class="cube-flat right"></div>
+	</div>
+</div>
+	
+</body>
+</html>

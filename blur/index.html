@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>毛玻璃</title>
+	<style>
+		.demo03-body,.container03::before{background: url(tiger.jpg) 0 / cover fixed;}
+		.container03{position:relative;width:500px;height:430px;margin:300px auto 0;border-radius:15px;background-color: hsla(0,0%,100%,.3);overflow: hidden;}
+		.container03::before{position: absolute;left:0;right:0;top:0;bottom:0;z-index:-1;margin:-30px;content:' '; -webkit-filter: blur(20px); filter: blur(20px);}
+		.container03 blockquote{padding:0 10px;line-height:1.5;text-indent:2em;font-size: 28px;font-style:italic;text-align: justify;}
+	</style>
+</head>
+<body class="demo03-body">
+	<div class="container03">
+		<blockquote>“The only way to get rid of a temptation is to yield to it. Resist it, and your soul grows sick with longing for the things it has forbidden to itself, with desire for what its monstrous laws have made monstrous and unlawful.” </blockquote>
+	</div>
+</body>
+</html>

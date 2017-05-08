@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>clip-path</title>
+	<style>
+		.wrap{
+			width:800px;
+			margin:0 auto;
+		}
+		.clipath{
+			width:400px;
+			height:400px;
+			margin:50px auto;
+			background-color: #233;
+		}
+		.clipath01{
+			-webkit-clip-path:polygon(0 100%, 50% 0, 100% 100%); /*多边形——三角形*/
+		}
+		.clipath02{
+			-webkit-clip-path: circle(50% at 50% 50%); /*圆*/
+		}
+		.clipath03{
+			-webkit-clip-path: ellipse(30% 50% at 50% 50%); /*椭圆*/
+		}
+		.clipath04{
+			-webkit-clip-path: inset(25% 0 round 0 25%); /*圆角矩形*/
+		}
+		.clipath05{
+			-webkit-clip-path:polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 50% 100%, 25% 75%, 0% 75%); 
+		}
+		.clipath06{
+			-webkit-clip-path:polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0 38%, 37% 38%); /*五角星*/
+		}
+		.clipath07{
+			-webkit-clip-path: polygon(20% 0%, 0% 0%, 0% 50%, 0% 80%, 0% 100%, 50% 100%, 80% 100%, 100% 100%, 100% 50%, 100% 0, 80% 0, 50% 0);
+			transition: -webkit-clip-path 0.5s; /*动画*/
+		}
+		.clipath07:hover{
+			-webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="clipath clipath01"></div>
+		<div class="clipath clipath02"></div>
+		<div class="clipath clipath03"></div>
+		<div class="clipath clipath04"></div>
+		<div class="clipath clipath05"></div>
+		<div class="clipath clipath06"></div>
+		<div class="clipath clipath07"></div>
+	</div>
+</body>
+</html>

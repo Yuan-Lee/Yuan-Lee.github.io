@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>居中</title>
+	<style>
+		.demo05-wrap{position: relative;width: 200px;height:200px;border:5px solid #444;margin:50px auto;}
+		.demo05-example{width:80px;height:80px;background-color: #888;}
+		.demo05-example01{position: absolute;left:0;right:0;top:0;bottom:0;margin:auto;resize:both;}
+		.demo05-example02{position: absolute;left: 50%;top:50%;margin:-40px 0 0 -40px;}
+		.demo05-example03{
+			position: absolute;
+			left: 50%;top:50%;
+			-webkit-transform:-webkit-translate(-50%, -50%) -webkit-scale(.6);
+			transform:translate(-50%, -50%) scale(.6);
+		}
+		.demo05-wrap04{display: table-cell;vertical-align: middle;text-align: center;}
+		.demo05-example04{display: inline-block;vertical-align: middle;}
+		.demo05-wrap05{display:-weblit-flx;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;}
+		.demo05-example05{-ms-flex-item-align: center;-webkit-align-self: center;align-self: center;}
+	</style>
+</head>
+<body>
+	<div class="demo05-wrap">
+		<span class="demo05-example demo05-example01"></span>
+	</div>
+	<div class="demo05-wrap">
+		<span class="demo05-example demo05-example02"></span>
+	</div>
+	<div class="demo05-wrap">
+		<span class="demo05-example demo05-example03"></span>
+	</div>
+	<div class="demo05-wrap demo05-wrap04">
+		<span class="demo05-example demo05-example04"></span>
+	</div>
+	<div class="demo05-wrap demo05-wrap05">
+		<span class="demo05-example demo05-example05"></span>
+	</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lazyload</title>
+	<style>
+		.wrapper{
+			width:800px;
+			margin:auto;
+		}
+		.wrapper img{
+			display:block;
+			width:100%;
+			min-height:600px;
+			margin-bottom:30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<img data-src="Chrysanthemum.jpg" src="" alt="">
+		<img data-src="Desert.jpg" src="" alt="">
+		<img data-src="Hydrangeas.jpg" src="" alt="">
+		<img data-src="Jellyfish.jpg" src="" alt="">
+		<img data-src="tiger.jpg" src="" alt="">
+		<img data-src="Desert.jpg" src="" alt="">
+		<img data-src="Hydrangeas.jpg" src="" alt="">
+		<img data-src="Jellyfish.jpg" src="" alt="">
+		<img data-src="tiger.jpg" src="" alt="">
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+	<script>
+		(function($){
+			var defalutSrc='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC';
+
+			function changeSrc(elem){
+				clearTimeout(timer);
+				var timer=setTimeout(function(){
+					elem.setAttribute('src',elem.getAttribute('data-src'))
+				},150)
+			};
+
+			var imgs=document.getElementsByTagName('img');
+			for(var i=0;i<imgs.length;i++){
+				imgs[i].setAttribute('src',defalutSrc);
+				if($(imgs[i]).offset().top<window.innerHeight){
+					changeSrc(imgs[i])
+				}
+			}
+
+			window.addEventListener('scroll',function(){
+
+				for(var i=0;i<imgs.length;i++){
+					if(imgs[i].getAttribute('src')==defalutSrc && $(imgs[i]).offset().top-window.scrollY<=window.innerHeight){
+						changeSrc(imgs[i]);
+					}
+				}
+			},false)
+
+		})(jQuery)
+	</script>
+</body>
+</html>
