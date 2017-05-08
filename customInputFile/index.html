@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>input[type='file']</title>
+	<style>
+		.wrap{
+			width:500px;
+			margin:50px auto;
+		}
+		.btn-upload-file{
+			display:inline-block;
+			position:relative;
+			width:200px;
+			height:50px;
+			text-align:center;
+			line-height:50px;
+			font-size:30px;
+			color:#fff;
+			background-color:red;
+			overflow:hidden;
+			cursor: pointer;
+		}
+		.btn-upload-file:hover{background-color:#bd0101;}
+		.input-file{
+			position:absolute;
+			right:0;
+			top:0;
+			font-size:100px;
+			opacity:0;
+			filter:alpha(opacity=0);
+			cursor:pointer;
+		}
+		.input-file02{
+			position:absolute;
+			width:0;
+			height:0;
+			z-index:-1;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<h3>1. 直接修改input</h3>
+		<div class="btn-upload-file">
+			<input class="input-file" type="file">
+			上传文件
+		</div>
+		<h3>2. 使用label标签</h3>
+		<label class="btn-upload-file">
+			<input class="input-file02" type="file">
+			<span>上传文件</span>
+		</label>
+	</div>
+</body>
+</html>
