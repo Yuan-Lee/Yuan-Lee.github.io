@@ -1,0 +1,790 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>bootstrap分享</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css">
+		<link rel="stylesheet" href="bootstrap-3.3.5/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="bootstrap-3.3.5/docs/assets/css/docs.min.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<style>
+			body{background:#eee;}
+			.reveal .slides{text-align: left;color:#333;}
+			.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6{
+				text-transform: initial;
+				color:#333;
+			}
+			.component-list li,
+			.plugin-list li{float:left;width:50%;}
+
+		</style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="page">
+					<h1>Bootstrap的应用</h1>
+					<p>v 3.3.6</p>
+					<p>界面设计部<br>李渊</p>
+					<p>2016-11-29</p>
+				</section>
+				<section>
+					<h2>本次分享内容</h2>
+					<ol>
+						<li>Bootstrap</li>
+						<li>ACE</li>
+						<li>使用总结和想法</li>
+					</ol>
+				</section>
+				<section>
+					<h1 class="text-center">Bootstrap</h1>
+				</section>
+				<section class="page">
+					面向设计的，响应式的和移动优先的前端开发框架
+					<p><a target="_blank" href="http://www.bootcss.com/">Bootstrap中文网</a></p>
+				</section>
+				<section>
+					<h3>Bootstrap包含哪些东西：</h3>
+					<ul>
+						<li>响应式布局</li>
+						<li>预置模板组件</li>
+						<li>预置的通用插件</li>
+					</ul>
+				</section>
+
+				<section class="page">
+					<section>
+						<div id="fragments">
+							<h3>1. 响应式web</h3>
+							<br>
+							<p class="fragment">一套页面内容可以在不同的屏幕尺寸中展示使用</p>
+							<p class="fragment"><a target="_blank" href="bootstrap-3.3.5/docs/examples/carousel/index.html">示例</a></p>
+							<div class="fragment">
+								<p>相关文章</p>
+								<p><a target="_blank" href="http://alistapart.com/article/responsive-web-design">Responsive Web Design（by Ethan Marcotte）</a></p>
+								<p><a target="_blank" href="http://beforweb.com/node/6">什么是响应式Web设计？怎样进行？</a></p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h3>响应式需要处理的三类问题：</h3>
+						<ol>
+							<li>图片如何处理</li>
+							<li>布局如何处理</li>
+							<li>移动设备上的人机交互处理</li>
+						</ol>
+					</section>
+					<section>
+						<h3>1. 图片如何处理</h3>
+						<ul>
+							<li><a href="example/responsive-img.html">最大宽度处理</a></li>
+							<li><a href="example/picturefill-master/examples/demo-02.html">picture</a></li>
+						</ul>
+					</section>
+					<section>
+						<h3>2. 如何处理响应式布局</h3>
+					</section>
+					<section>
+						<h3>了解几种不同的布局概念</h3>
+						<ul id="fragments">
+							<li>
+								静态布局/固定布局(Static Layout) <a target="_blank" href="example/Static Layout.html">示例</a>
+								<p class="fragment">特点：固定布局、固定宽度大小，屏幕宽度不够超出显示滚动条</p>
+							</li>
+							<li>
+								流式布局/液态布局(Liquid Layout) <a target="_blank" href="example/Liquid Layout.html">示例</a>
+								<p class="fragment">特点：铺满屏幕、宽度随屏幕大小变化，布局不变</p>
+							</li>
+							<li>
+								自适应布局(Adaptive Layout)	<a target="_blank" href="example/Adaptive Layout.html">示例</a>
+								<p class="fragment">特点：布局随屏幕大小变化，宽度不变</p>
+							</li>
+							<li>
+								响应式布局(Responsive Layout) <a target="_blank" href="example/Responsive Layout.html">示例</a>
+								<p class="fragment">特点：液态布局和自适应布局的结合</p>
+							</li>
+						</ul>
+						<p><a href="http://blog.teamtreehouse.com/which-page-layout">哪些布局？静态，液体，自适应，或响应</a></p>
+					</section>
+					<section>
+						<h3>实现手段：</h3>
+						<ul>
+							<li>css媒体查询</li>
+							<li>宽度百分比</li>
+							<li>margin、padding百分比</li>
+							<li>em、rem、vw、vh</li>
+							<li>flex布局</li>
+						</ul>
+					</section>
+					<section>
+						<h3>3. 人机交互的处理</h3>
+						<p>在移动设备上，不支持鼠标指针事件，比如没有:hover状态、click事件有300ms的延迟</p>
+						<p>如有所需则要添加手势事件</p>
+					</section>
+					<section>
+						<h3>重看例子</h3>
+						<p><a target="_blank" href="bootstrap-3.3.5/docs/examples/carousel/index.html">示例</a></p>
+					</section>
+					<section>
+						<h3>bootstrap中响应式布局的实现</h3>
+						<br>
+						<ul>
+							<li>栅格系统</li>
+							<li>媒体查询</li>
+							<li>响应式图片和响应式媒体</li>
+						</ul>
+					</section>
+					<section>
+						<h3>栅格系统</h3>
+						<br>
+						<p>栅格系统是通过一系列的行（row）和列（column）来组合创建页面，可以提高页面的设计及规范化</p>
+					</section>
+					<section>
+						<img src="images/grid.png" alt="">
+					</section>
+					<section>
+						<div class="text-center">
+							<img src="images/bs-grid.png" alt="" style="width:100%;">
+						</div>
+					</section>
+					
+					<section style="font-size:24px;">
+						<div class="table-responsive">
+						    <table class="table table-bordered table-striped">
+						    	<thead>
+						    		<tr>
+						    			<th></th>
+						    			<th>
+						    				超小屏幕
+						    				<small>手机 (&lt;768px)</small>
+						    			</th>
+						    			<th>
+						    				小屏幕
+						    				<small>平板 (≥768px)</small>
+						    			</th>
+						    			<th>
+						    				中等屏幕
+						    				<small>桌面显示器 (≥992px)</small>
+						    			</th>
+						    			<th>
+						    				大屏幕
+						    				<small>大桌面显示器 (≥1200px)</small>
+						    			</th>
+						    		</tr>
+						    	</thead>
+						    	<tbody>
+						    		<tr>
+						    			<th scope="row" class="text-nowrap">栅格系统行为</th>
+						    			<td>总是水平排列</td>
+						    			<td colspan="3">开始是堆叠在一起的，当大于这些阈值时将变为水平排列C</td>
+						    		</tr>
+						    		<tr>
+						    			<th scope="row" class="text-nowrap">
+						    				<code>.container</code>
+						    				最大宽度
+						    			</th>
+						    			<td>None （自动）</td>
+						    			<td>750px</td>
+						    			<td>970px</td>
+						    			<td>1170px</td>
+						    		</tr>
+						    		<tr>
+						    			<th scope="row" class="text-nowrap">类前缀</th>
+						    			<td>
+						    				<code>.col-xs-</code>
+						    			</td>
+						    			<td>
+						    				<code>.col-sm-</code>
+						    			</td>
+						    			<td>
+						    				<code>.col-md-</code>
+						    			</td>
+						    			<td>
+						    				<code>.col-lg-</code>
+						    			</td>
+						    		</tr>
+						    		<tr>
+						    			<th scope="row" class="text-nowrap">列（column）数</th>
+						    			<td colspan="4">12</td>
+						    		</tr>
+						    		<tr>
+						    			<th scope="row" class="text-nowrap">最大列（column）宽</th>
+						    			<td class="text-muted">自动</td>
+						    			<td>~62px</td>
+						    			<td>~81px</td>
+						    			<td>~97px</td>
+						    		</tr>
+						    		<tr>
+						    			<th scope="row" class="text-nowrap">槽（gutter）宽</th>
+						    			<td colspan="4">30px （每列左右均有 15px）</td>
+						    		</tr>
+						    		<tr>
+						    			<th scope="row" class="text-nowrap">可嵌套</th>
+						    			<td colspan="4">是</td>
+						    		</tr>
+						    		<tr>
+						    			<th scope="row" class="text-nowrap">偏移（Offsets）</th>
+						    			<td colspan="4">是</td>
+						    		</tr>
+						    		<tr>
+						    			<th scope="row" class="text-nowrap">列排序</th>
+						    			<td colspan="4">是</td>
+						    		</tr>
+						    	</tbody>
+						    </table>
+						</div>
+					</section>
+					<section>
+						<h3 class="text-center">CSS媒体查询</h3>
+						<pre><code>
+<!-- link元素中的CSS媒体查询 -->
+<link rel="stylesheet" media="(min-width: 800px)" href="example.css" />
+
+<!-- 样式表中的CSS媒体查询 -->
+<style>
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
+</style>
+						</code></pre>
+					</section>
+					
+					<section style="font-size:24px;">
+						<div class="bs-docs-grid">
+							<div class="row show-grid">
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+								<div class="col-md-1">.col-md-1</div>
+							</div>
+							<div class="row show-grid">
+								<div class="col-md-8">.col-md-8</div>
+								<div class="col-md-4">.col-md-4</div>
+							</div>
+							<div class="row show-grid">
+								<div class="col-md-4">.col-md-4</div>
+								<div class="col-md-4">.col-md-4</div>
+								<div class="col-md-4">.col-md-4</div>
+							</div>
+							<div class="row show-grid">
+								<div class="col-md-6">.col-md-6</div>
+								<div class="col-md-6">.col-md-6</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<pre><code>
+<div class="row">
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+</div>
+<div class="row">
+	<div class="col-md-8">.col-md-8</div>
+	<div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row">
+	<div class="col-md-4">.col-md-4</div>
+	<div class="col-md-4">.col-md-4</div>
+	<div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row">
+	<div class="col-md-6">.col-md-6</div>
+	<div class="col-md-6">.col-md-6</div>
+</div>
+						</code></pre>
+					</section>
+					<section>
+						<div class="row">
+							<div class="col-xs-6">
+								<pre><code>
+.col-xs-1, .col-xs-2, .col-xs-3, 
+.col-xs-4, .col-xs-5, .col-xs-6,
+.col-xs-7, .col-xs-8, .col-xs-9, 
+.col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+.col-xs-1 {width: 8.333333%;}
+.col-xs-2 {width: 16.666667%;}
+.col-xs-3 {width: 25%;}
+.col-xs-4 {width: 33.333333%;}
+.col-xs-5 {width: 41.666667%;}
+.col-xs-6 {width: 50%;}
+.col-xs-7 {width: 58.333333%;}
+.col-xs-8 {width: 66.666667%;}
+.col-xs-9 {width: 75%;}
+.col-xs-10 {width: 83.333333%;}
+.col-xs-11 {width: 91.666667%;}
+.col-xs-12 {width: 100%;}
+								</code></pre>
+							</div>
+							<div class="col-xs-6">
+								<pre><code>
+@media (min-width: 768px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, 
+  .col-sm-4, .col-sm-5, .col-sm-6, 
+  .col-sm-7, .col-sm-8, .col-sm-9, 
+  .col-sm-10, .col-sm-11, .col-sm-12 {
+	float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-1, .col-md-2, .col-md-3, 
+  .col-md-4, .col-md-5, .col-md-6, 
+  .col-md-7, .col-md-8, .col-md-9, 
+  .col-md-10, .col-md-11, .col-md-12 {
+	float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, 
+  .col-lg-4, .col-lg-5, .col-lg-6, 
+  .col-lg-7, .col-lg-8, .col-lg-9, 
+  .col-lg-10, .col-lg-11, .col-lg-12 {
+	float: left;
+  }
+}
+								</code></pre>
+							</div>
+						</div>
+					</section>
+					<section>
+						<p><a target="_blank" href="bootstrap-3.3.5/docs/examples/grid/index.html">网格布局示例</a></p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>2. HTML组件</h3>
+						<ul class="component-list clearfix">
+							<li>字体图标</li>
+							<li>下拉菜单</li>
+							<li>按钮组</li>
+							<li>按钮式下拉菜单</li>
+							<li>输入框组</li>
+							<li>导航</li>
+							<li>导航条</li>
+							<li>路径导航</li>
+							<li>分页</li>
+							<li>标签</li>
+							<li>徽章</li>
+							<li>巨幕</li>
+							<li>页头</li>
+							<li>缩略图</li>
+							<li>警告框</li>
+							<li>进度条</li>
+							<li>媒体对象</li>
+							<li>列表组</li>
+							<li>面版</li>
+							<li>具有响应式特性的嵌入内容</li>
+							<li>Well</li>
+						</ul>
+						<p><a target="_blank" href="bootstrap-3.3.5/docs/examples/theme/index.html">示例</a></p>
+					</section>
+					<section>
+						<h2>字体图标</h2>
+					</section>
+					<section>
+						<h2>我们之前是如何处理图标的？</h2>
+						<ul>
+							<li>直接插入img标签</li>
+							<li>css背景图</li>
+							<li>雪碧图</li>
+						</ul>
+					</section>
+					<section>
+						<div id="fragments">
+							<div>
+								<p class="text-center"><img src="images/icon01-1.png" alt=""></p>
+								<pre><code><img src="images/icon01-1.png" alt=""></code></pre>
+							</div>
+
+							<div class="fragment">
+								<style>
+									.example-icon{
+										display:inline-block;
+										width:20px;height:20px;
+										background:url(images/icon01-1.png) no-repeat center center;
+									}
+									.example-icon:hover{
+										background:url(images/icons.png) no-repeat 0 0;
+									}
+								</style>
+								<p class="text-center"><span class="example-icon"></span></p>
+								<pre><code>background:url(images/icon01-1.png) no-repeat center center;</code></pre>
+							</div>
+
+							<div class="fragment">
+								<p class="text-center"><img src="images/icons.png" alt=""></p>
+								<pre><code>background-position: -1px -20px;</code></pre>
+							</div>
+						</div>
+					</section>
+					<section>
+						<ul id="fragments">
+							<li>
+								<h5>字体图标是什么？</h5>
+								<p class="fragment">像制作字体一样，把画好的图标用Unicode编码，像使用字体一样使用图标</p>
+							</li>
+							<li>
+								<h5>为什么要用字体图标？</h5>
+								<p class="fragment">减少文件大小、减少请求链接数、可以像使用字体一样使用图标</p>
+							</li>
+							<li>
+								<h5>字体图标有什么不足？</h5>
+								<p class="fragment">不支持多色</p>
+			                    <p class="fragment">解决办法？<a target="_blank" href="http://www.zhangxinxu.com/wordpress/2014/07/introduce-svg-sprite-technology/?spm=a313x.7781069.0.0.C8xU8N">未来必热：SVG Sprite技术介绍</a></p>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3>使用字体图标的三种方式</h3>
+						<ul>
+							<li><a href="example/iconfont/demo_unicode.html">直接使用Unicode编码</a></li>
+							<li><a href="example/iconfont/demo_fontclass.html">使用写好样式的css</a></li>
+							<li><a href="example/iconfont/demo_symbol.html">使用svg</a></li>
+						</ul>
+					</section>
+					<section>
+						<img src="images/icon-files.png" alt="">
+					</section>
+					<section>
+						<p>Firefox、Chrome、Safari 以及 Opera 支持 .ttf (True Type Fonts) 和 .otf (OpenType Fonts) 类型的字体。</p>
+						<p>Internet Explorer 9+ 支持新的 @font-face 规则，但是仅支持 .eot 类型的字体 (Embedded OpenType)。</p>
+						<img src="images/font-face-support.png" alt="">
+					</section>
+					<section>
+						<p><a target="_blank" href="http://fontawesome.io/icons/">fontawesome</a></p>
+						<p><a target="_blank" href="http://glyphicons.com/">glyphicons</a></p>
+						<p><a target="_blank" href="https://icomoon.io/">icomoon</a></p>
+						<p><a target="_blank" href="http://www.iconfont.cn/plus">阿里巴巴 - iconfont</a></p>
+					</section>
+				</section>
+
+				
+				
+				<section>
+					<h3>3. JS插件</h3>
+					<ul class="plugin-list">
+						<li>过渡效果 transition.js</li>
+						<li>模态框 modal.js</li>
+						<li>下拉菜单 dropdown.js</li>
+						<li>滚动监听 scrollspy.js</li>
+						<li>tab标签页 tab.js</li>
+						<li>提示工具 tooltip.js</li>
+						<li>弹出框 popover.js</li>
+						<li>警告信息 alert.js</li>
+						<li>按钮 button.js</li>
+						<li>展开折叠 collapse.js</li>
+						<li>幻灯片 carousel.js</li>
+						<li>固定导航菜单 affix.js</li>
+					</ul>
+					<p><a target="_blank" href="bootstrap-3.3.5/docs/examples/theme/plugins.html">示例</a></p>
+				</section>
+
+				<section>
+					<section>
+						<h3>Bootstrap中的css命名</h3>
+					</section>
+					<section>
+						<div class="row">
+							<div class="col-xs-6" id="fragments">
+								<pre class="fragment"><code>
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-radius: 4px;
+	...
+}
+.btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+.btn-sm {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+.btn-lg {
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333;
+	border-radius: 6px;
+}
+
+								</code></pre>
+								<pre class="fragment"><code>
+<button class="btn btn-primary btn-lg">按钮</button>
+								</code></pre>
+								
+							</div>
+							<div class="col-xs-6">
+								<pre class="fragment"><code>
+.btn01,.btn02,.btn03{
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-radius: 4px;
+	...
+}
+.btn01{
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+.btn02{
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+.btn03{
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+								</code></pre>
+								<pre class="fragment"><code>
+<button class="btn03">按钮</button>
+								</code></pre>
+							</div>
+						</div>
+						<p class="text-center">
+							<button class="btn btn-default btn-sm">按钮</button>
+							<button class="btn btn-primary">按钮</button>
+							<button class="btn btn-info btn-lg">按钮</button>
+						</p>
+					</section>
+					<section>
+						<p>Bootstrap的作者对css命名的解释：</p>
+						<p><a target="_blank" href="https://github.com/cssmagic/blog/issues/45">浅析 Bootstrap 的 CSS 类名设计</a></p>
+					</section>
+					<section>
+						<h2>OOCSS</h2>
+						<div id="fragments">
+							<p class="fragment">面向对象的CSS</p>
+							<p class="fragment">不是一门语言也不是一个框架</p>
+							<p class="fragment">一种css书写模式和方法</p>
+						</div>
+					</section>
+					<section>
+						<h3>OOCSS的特点</h3>
+						<ul>
+							<li>组件化CSS，提高CSS的可重用性</li>
+							<li>语义化的命名</li>
+							<li>提高代码的简洁度和可维护性</li>
+						</ul>
+						<p><a href="http://oocss.org/">oocss</a> <a href="http://www.w3cplus.com/css/oocss-concept">OOCSS——概念篇</a></p>
+					</section>
+				</section>
+				<section>
+					<h3>思考</h3>
+					<ul>
+						<li>栅格系统为什么是12列，我24列怎么办？</li>
+						<li>我不喜欢它上面的默认配色怎么办？</li>
+						<li>我不要它上面的某个插件怎么办？</li>
+					</ul>
+					<p>对呀，怎么办？？？</p>
+				</section>
+				<section>
+					<section>
+						<h2>定制Bootstrap</h2>
+					</section>
+					<section>
+						<p class="text-center"><img src="images/bs-less.jpg" alt=""></p>
+					</section>
+					<section>
+						<p class="text-center"><img src="images/bs-js.jpg" alt=""></p>
+					</section>
+					<section>
+						<p class="text-center"><img src="images/bs-files.jpg" alt=""></p>
+					</section>
+					<section>
+						<h3>图形化操作界面：</h3>
+						<p><a target="_blank" href="http://v3.bootcss.com/customize/">定制Bootstrap</a></p>
+					</section>
+					<section>
+						<h3>定制的前提：</h3>
+						<ul>
+							<li>项目整体需求框架的确定</li>
+							<li>项目需求的设计稿确定</li>
+						</ul>
+					</section>
+					<section>
+						<h3>其它的css框架</h3>
+						<p><a target="_blank" href="http://usablica.github.io/front-end-frameworks/compare.html">CSS FRONTEND FRAMEWORKS</a></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1 class="text-center">ACE</h1>
+					</section>
+					<section>
+						<div id="fragments">
+							<p>一套基于Bootstrap制作的系统后台页面模板</p>
+							<p class="fragment">一个Bootstrap的应用实例</p>
+						</div>
+					</section>
+					<section>
+						<h3>ACE的组成</h3>
+						<p>Bootstrap + 第三方插件 + Angular + ACE的自己的定制、扩展和需求组织</p>
+						<p>在设计风格和布局方式上选择了Bootstrap</p>
+						<p><a target="_blank" href="ace_admin_v1.4.0/index.html">ACE</a></p>
+					</section>
+					<section>
+						<h3>其它的与ACE相似的模板</h3>
+						<p><a target="_blank" href="https://wrapbootstrap.com/">wrapbootstrap</a></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1 class="text-center">一些思考和总结</h1>
+					</section>
+					<section>
+						<div id="fragments">
+							<h3>重新回顾下什么是响应式web</h3>
+							<p class="fragment">一套页面内容可以在不同的屏幕尺寸中展示使用</p>
+							<p class="fragment">在做web时，这么多年来我们是怎么处理这么多的屏幕大小的？</p>
+						</div>
+					</section>
+					<section>
+						<div id="fragments">
+							<h3>1. 设计一个响应式web应用需要做哪些工作？</h3>
+							<p class="fragment">根据对屏幕的宽度区段的划分，考虑每一区段的设计</p>
+							<p class="fragment">考虑每一区段变化时的衔接</p>
+						</div>
+					</section>
+					<section>
+						<div id="fragments">
+							<h3>2. 响应式的缺点，怎么样的项目适合响应式？</h3>
+							<p class="fragment">代码量大，功能复杂时实现难度大。博客类、小型门户网站比较适合</p>
+							<p class="fragment">公司最适合使用的产品：wpcms</p>
+							<div class="fragment">
+								<a target="_blank" href="http://cloud.szxy.edu88.com/user/zmkm.aspx">wpcms</a>
+								<p>wpcms/wpcms@123</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div id="fragments">
+							<h3>3. ACE适合什么样的产品？</h3>
+							<p class="fragment">后台系统，不适合前台页面</p>
+							<p class="fragment">设计风格差太多的不适合</p>
+							<p class="fragment">使用率、修改程度</p>
+							<div class="fragment"><a target="_blank" href="http://msyk.wanpeng.com/ ">美思优课</a>
+							<p>36405893/a123456</p></div>
+						</div>
+					</section>
+					<section>
+						<div id="fragments">
+							<h3>4. 一个web应用由哪些元素组成？</h3>
+							<p class="fragment">前提是剥离了具体的业务需求</p>
+							<p class="fragment">布局 + 标题 + 导航 + 表格 + 列表 + 卡片式列表 + 表单 + 弹框 + 按钮 + 提示 + 图片 + 文章 + 视频 + 音频 + 幻灯片 + 树目录 + ...</p>
+						</div>
+					</section>
+					<section>
+						<div id="fragments">
+							<h3>5. 如果说要做个web项目，但是还没有需求，我们能事先做点什么？</h3>
+							<h3 class="fragment">5. 如何在中大型项目中提升工作效率，重复利用之前所做过的东西？</h3>
+							<p class="fragment">答案：组件化</p>
+						</div>
+					</section>
+					<section>
+						<div id="fragments">
+							<h3>6. 怎么样做好一个组件？</h3>
+							<p class="fragment"><button class="btn btn-warning btn-lg">按钮</button> &emsp;<button class="btn btn-warning btn-lg disabled ">按钮</button></p>
+							<ul>
+								<li class="fragment">抽离业务</li>
+								<li class="fragment">基本功能需要做全面</li>
+							</ul>
+						</div>
+					</section>
+				</section>
+				<section>
+					<h1 class="text-center">Q&A</h1> 
+				</section>
+				<section>
+					<h1 class="text-center">Thanks</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="bootstrap-3.3.5/dist/js/bootstrap.min.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				width: 1200,
+				history: true,
+				slideNumber: true,
+				transition: 'concave',
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

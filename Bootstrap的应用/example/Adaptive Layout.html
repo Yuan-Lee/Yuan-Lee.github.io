@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Adaptive Layout</title>
+</head>
+<style>
+	/**************************************
+	ADAPTIVE LAYOUT CSS
+	**************************************/
+
+	.wrapper {
+	  width: 400px;
+	  margin: 0 auto;
+	}
+
+	header {
+		width: 400px;
+	}
+
+	nav {
+	  width: 400px;
+	}
+
+	section {
+	  width: 400px;
+	}
+
+	@media screen and (min-width: 800px) {
+
+	  .wrapper {
+	    width: 640px;
+	  }
+	  
+	  header {
+	    width: 640px;
+	  }
+	  
+	  nav, section {
+	    float: left;
+	  }
+
+	  nav {
+	    width: 133px;
+	    margin-right: 10px;
+	  }
+
+	  section {
+	    width: 497px;
+	  }
+	  
+	}
+
+
+	@media screen and (min-width: 1000px) {
+
+	  .wrapper {
+	    width: 960px;
+	  }
+	  
+	  header {
+	    width: 960px;
+	  }
+
+	  nav {
+	    width: 200px;
+	  }
+
+	  section {
+	    width: 750px;
+	  }
+	  
+	}
+
+
+
+	/**************************************
+	CSS TO MAKE THE EXAMPLE LOOK PRETTY
+	**************************************/
+
+	*, *:before, *:after {
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+
+	body {
+	  background: #2980b9;
+	  color: #FFF;
+	  font-family: Helvetica;
+	  text-align: center;
+	  margin: 0;
+	}
+
+	header,
+	nav,
+	section {
+	  border: 1px solid rgba(255,255,255,0.8);
+	  margin-bottom: 10px;
+	  border-radius: 3px;
+	}
+
+	header {
+	  padding: 20px 0;
+	}
+
+	nav, section {
+	  padding: 200px 0;
+	}
+</style>
+<body>
+	<div class="wrapper">
+	  <h1>Adaptive Layout Example</h1>
+	  <header>HEADER</header>
+	  <nav>NAV</nav>
+	  <section>SECTION</section>
+	</div>
+</body>
+</html>
