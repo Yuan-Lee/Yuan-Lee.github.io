@@ -16,13 +16,6 @@ body{
 	flex-direction:column;
 }
 .main-container{display:flex;flex:1;}
-.main-container:before,
-.page-content:before{
-	position: absolute;
-	bottom: 0;top: 0;left:0;right:0;z-index: -2;
-	content: "";max-width: inherit;
-	background-color: #f4f4f4;
-}
 .main-container.container{padding-left: 0;padding-right: 0;}
 .main-container.container:before {box-shadow: 0 0 0 1px rgba(0,0,0,0.1);width: inherit;}
 @media (max-width: 767px) {
