@@ -61,6 +61,7 @@ body{
 .nav-list>li>a:hover,
 .nav-list>li.open,
 .nav-list>li.hover{background-color:#eee;}
+.menu-icon{margin-right: 10px;}
 .arrow{position:absolute;right:10px;top:10px;}
 .submenu{display:none;}
 .submenu > li .arrow{top:10px;}
