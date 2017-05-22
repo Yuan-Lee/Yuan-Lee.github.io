@@ -1,63 +1,52 @@
 (function($){
-	var $navbar_height=$('.navbar').height(),
-		$nav_wrap=$('.js-nav-wrap'),
-		$subNav_modal=$('.subNav-modal'),
-		$subNav_modal_container=$('.subNav-modal-container'),
-		$subNav=$('.subNav'),
-		$sidebar=$('.sidebar'),
-		$sidebar_toggle=$('.js-siderbar-collapse'),
-		$win_height=$(window).height(),
-		timerShow,
-		timerHide;
-	
-
-	function wpScroll(container, height){
-		container.slimscroll({
-			height: height
-		})
+	function Siderbar(){
+		this.navbarHeight=$('.navbar').height()
+		this.navWrap=$('.js-nav-wrap')
+		this.subNavModal=$('.subNav-modal')
+		this.subNavModalContainer=$('.subNav-modal-container')
+		this.subNav=$('.subNav')
+		this.siderbar=$('.sidebar')
+		this.winHeight=$(window).height()
+		this.timerShow=null
+		this.timerHide=null
 	}
 
 	// 左侧导航滚动
-	$(window).resize(function(){
+	Siderbar.prototype.scrollNav=function(){
+		var _this=this;
+		_this.winHeight=$(window).height();
 
-		$win_height=$(window).height();
-		$nav_height=$win_height-$navbar_height*2;
-
-		$nav_wrap.slimscroll({destroy:true})
+		$(_this.navWrap).slimscroll({destroy:true})
 		.css({
 			'height':'auto'
 		});
 
-		wpScroll($nav_wrap, $nav_height);
-
-	}).trigger('resize');
-
-	function subNavScroll(){
-		if($subNav_modal_container.height()>=$win_height-$navbar_height){
-			var $subNav_height=$win_height-$navbar_height;
-			wpScroll($subNav_modal_container, $subNav_height)
-		}
-	}
-
-	function showSubmenu(submenu){
-		$(submenu).stop().slideDown(150).closest('li').addClass('open');
-		$(submenu).prev().find('.arrow').removeClass('fa-angle-right').addClass('fa-angle-down');
-	}
-
-	function hideSubmenu(submenu){
-		$(submenu).stop().slideUp(150).closest('li').removeClass('open');
-		$(submenu).prev().find('.arrow').removeClass('fa-angle-down').addClass('fa-angle-right');
+		$(_this.navWrap).slimscroll({
+			height: _this.winHeight - _this.navbarHeight*2
+		})
 	}
 
 	// 下拉展开导航
-	$('.nav-list').on('click',function(e){
+	Siderbar.prototype.toggleMenu=function(e){
+		
 		e.stopPropagation();
-		function getNode(node){
+		var showSubmenu=function(submenu){
+			$(submenu).stop().slideDown(150).closest('li').addClass('open');
+			$(submenu).prev().find('.arrow').removeClass('fa-angle-right').addClass('fa-angle-down');
+		}
+
+		var hideSubmenu=function(submenu){
+			$(submenu).stop().slideUp(150).closest('li').removeClass('open');
+			$(submenu).prev().find('.arrow').removeClass('fa-angle-down').addClass('fa-angle-right');
+		}
+		
+		var getNode=function(node){
 			return node.nodeName==='A' ? node : getNode(node.parentNode);
 		}
 		var $self=$(getNode(e.target));
+		var _this=this;
 
-		if($sidebar.hasClass('collapsed') || !$self.is('A')) return;
+		if($(_this.siderbar).hasClass('collapsed')) return;
 
 		if($self.hasClass('dropdown-toggle')){
 
@@ -78,52 +67,47 @@
 
 			hideSubmenu( $self.closest('li').siblings().find('.submenu') );
 		}
-	})
-
-	// 二级菜单导航弹框的显示位置
-	function posModal(t, b, h){
-		$subNav_modal.css({
-			'top': t,
-			'bottom': b,
-			'height': h
-		});
 	}
 
-	// 关闭二级菜单导航弹框
-	function closeModal(element){
-		// 移除滚动条
-		$subNav_modal_container
-		.slimscroll({destroy:true})
-		.css({
-			'height':'auto'
-		});
-
-		posModal('auto','auto','auto');
-
-		element.closest('li').removeClass('hover');
-		$('[data-id='+element.data("show")+']').hide().closest($subNav_modal).hide();
-	}
-
-	$('.nav-list a[data-show]').on('mouseenter',function(){
-
-		var $this=$(this),
-			$top=$this.offset().top-$navbar_height,
-			$t_h=$win_height-$navbar_height,
+	Siderbar.prototype.showModal=function(e){
+		var _this=this,
+			$self=$(e.target).closest('a'),
+			$top=$self.offset().top - _this.navbarHeight,
+			$t_h=_this.winHeight - _this.navbarHeight,
 			$m_h=0;
+		console.log(e.type)
+		console.log($self.nodeName)
+		var subNavScroll=function(){
+			if($(_this.subNavModalContainer).height() >= _this.winHeight - _this.navbarHeight){
+				var $subNav_height = _this.winHeight - _this.navbarHeight;
+				
+				$(_this.subNavModalContainer).slimscroll({
+					height: $subNav_height
+				})
+			}
+		};
+		// 二级菜单导航弹框的显示位置
+		var posModal=function(t, b, h){
+			$(_this.subNavModal).css({
+				'top': t,
+				'bottom': b,
+				'height': h
+			});
+			console.log('pos')
+		};
+		$self.closest('li').addClass('hover').siblings().removeClass('hover');
 
-		clearTimeout(timerShow);
- 		timerShow=setTimeout(function(){
+		//if(!$(_this.siderbar).hasClass('collapsed')) return;
+		
+		clearTimeout(_this.timerShow);
+ 		_this.timerShow=setTimeout(function(){
 
  			// 切换hover状态、显示对应的二级菜单导航
- 			$this.closest('li').addClass('hover').siblings().removeClass('hover');
-
-			if(!$sidebar.hasClass('collapsed')) return;
-
-			$('[data-id='+$this.data("show")+']')
+			$('[data-id='+$self.data("show")+']')
 			.show().siblings().hide()
-			.closest($subNav_modal).show();
+			.closest(_this.subNavModal).show();
 
-			$m_h=$subNav_modal.height();	//获取弹出框的高度
+			$m_h=$(_this.subNavModal).height();	//获取弹出框的高度
 
 			if( $t_h <= $m_h ){
 
@@ -143,39 +127,69 @@
 				posModal('auto', 0, 'auto');
 			}
 		},150);
-	}).on('mouseleave',function(){
-		var $in=false,
-			$this=$(this);
+	}
 
-		clearTimeout(timerShow);
-		clearTimeout(timerHide);
+	Siderbar.prototype.hideModal=function(e){
+		var $in=false;
+		var _this=this;
+		var $self=$(e.target).closest('a');
+		// 二级菜单导航弹框的显示位置
+		var posModal=function(t, b, h){
+			$(_this.subNavModal).css({
+				'top': t,
+				'bottom': b,
+				'height': h
+			});
+		};
 
-		$subNav_modal.on('mouseenter',function(){
+		var closeModal=function(element){
+			// 移除滚动条
+			$(_this.subNavModalContainer)
+			.slimscroll({destroy:true})
+			.css({
+				'height':'auto'
+			});
+
+			posModal('auto','auto','auto');
+
+			element.closest('li').removeClass('hover');
+			$('[data-id='+element.data("show")+']').hide().closest(_this.subNavModal).hide();
+		};
+
+		clearTimeout(_this.timerShow);
+		clearTimeout(_this.timerHide);
+
+		$(_this.subNavModal).on('mouseenter',function(){
 			$in=true;
 		}).on('mouseleave',function(){
-			closeModal($this);
+			closeModal($self);
 		})
 		
 		// 避免鼠标未移到二级菜单就关闭
-		timerHide=setTimeout(function(){
+		_this.timerHide=setTimeout(function(){
 			if($in===false){
-				closeModal($this);
+				closeModal($self);
 			}
 		},150)
-	})
+	}
 
 	// 侧边栏展开折叠
-	$sidebar_toggle.on('click',function(){
+	Siderbar.prototype.toggleSiderbar=(function(){
+		var _this=this;
+		function switchsider(){
+			$('.nav-list > li').removeClass('open').find('.submenu').stop().slideUp(150)
 
-		$('.nav-list > li').removeClass('open').find('.submenu').stop().slideUp(150)
-		
-		if($sidebar.hasClass('collapsed')){
-			$(this).find('i').removeClass('icon-indent').addClass('icon-dedent');
-		}else{
-			$(this).find('i').removeClass('icon-dedent').addClass('icon-indent');
-			
+			$(_this.sidebar).toggleClass('collapsed')
 		}
-		$sidebar.toggleClass('collapsed')
+
 		
-	})
+		$('.js-siderbar-collapse').on('click',switchsider)
+	})()
+	
+	var siderbar01 = new Siderbar();
+	
+	$('.nav-list').on('click',siderbar01.toggleMenu)
+	$(window).on('resize',siderbar01.scrollNav).trigger('resize');
+	$('.nav-list a[data-show]').on('mouseenter',siderbar01.showModal).on('mouseleave',siderbar01.hideModal)
+
 })(jQuery)
