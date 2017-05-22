@@ -30,6 +30,7 @@ body{
 .navbar{min-height:46px;margin-bottom:0;}
 .navbar-default{background:#317eeb;}
 .navbar-brand{height:46px;padding:0 10px;font-size:20px;line-height:46px;color:#fff;}
+.navbar-brand img{vertical-align:middle;}
 .navbar-toggle{margin-top:18px;}
 .sidebar {
 	position:relative;

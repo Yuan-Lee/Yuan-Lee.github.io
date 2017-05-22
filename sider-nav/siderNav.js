@@ -5,7 +5,7 @@
 		this.subNavModal=$('.subNav-modal')
 		this.subNavModalContainer=$('.subNav-modal-container')
 		this.subNav=$('.subNav')
-		this.siderbar=$('.sidebar')
+		this.siderbar=$('#sidebar')
 		this.winHeight=$(window).height()
 		this.timerShow=null
 		this.timerHide=null
@@ -39,14 +39,12 @@
 			$(submenu).stop().slideUp(150).closest('li').removeClass('open');
 			$(submenu).prev().find('.arrow').removeClass('fa-angle-down').addClass('fa-angle-right');
 		}
-		
-		var getNode=function(node){
-			return node.nodeName==='A' ? node : getNode(node.parentNode);
-		}
-		var $self=$(getNode(e.target));
-		var _this=this;
+		var $self=$(e.target).closest('a');
 
-		if($(_this.siderbar).hasClass('collapsed')) return;
+		if($(this.siderbar).hasClass('collapsed')){
+			console.log('collapsed')
+			return;
+		} 
 
 		if($self.hasClass('dropdown-toggle')){
 
@@ -70,13 +68,13 @@
 	}
 
 	Siderbar.prototype.showModal=function(e){
+		e.stopPropagation();
 		var _this=this,
 			$self=$(e.target).closest('a'),
 			$top=$self.offset().top - _this.navbarHeight,
 			$t_h=_this.winHeight - _this.navbarHeight,
 			$m_h=0;
-		console.log(e.type)
-		console.log($self.nodeName)
+		console.log($self.nodeName+'( '+e.pageX+':'+e.pageY+')')
 		var subNavScroll=function(){
 			if($(_this.subNavModalContainer).height() >= _this.winHeight - _this.navbarHeight){
 				var $subNav_height = _this.winHeight - _this.navbarHeight;
@@ -95,9 +93,9 @@
 			});
 			console.log('pos')
 		};
-		$self.closest('li').addClass('hover').siblings().removeClass('hover');
 
-		//if(!$(_this.siderbar).hasClass('collapsed')) return;
+		if(!$(_this.siderbar).hasClass('collapsed')) return;
+		$self.closest('li').addClass('hover').siblings().removeClass('hover');
 		
 		clearTimeout(_this.timerShow);
  		_this.timerShow=setTimeout(function(){
@@ -106,7 +104,7 @@
 			$('[data-id='+$self.data("show")+']')
 			.show().siblings().hide()
 			.closest(_this.subNavModal).show();
-
+			console.log('show')
 			$m_h=$(_this.subNavModal).height();	//获取弹出框的高度
 
 			if( $t_h <= $m_h ){
@@ -130,6 +128,7 @@
 	}
 
 	Siderbar.prototype.hideModal=function(e){
+		e.stopPropagation();
 		var $in=false;
 		var _this=this;
 		var $self=$(e.target).closest('a');
@@ -190,6 +189,6 @@
 	
 	$('.nav-list').on('click',siderbar01.toggleMenu)
 	$(window).on('resize',siderbar01.scrollNav).trigger('resize');
-	$('.nav-list a[data-show]').on('mouseenter',siderbar01.showModal).on('mouseleave',siderbar01.hideModal)
+	$('.nav-list').on('mouseenter',siderbar01.showModal).on('mouseleave',siderbar01.hideModal)
 
 })(jQuery)
