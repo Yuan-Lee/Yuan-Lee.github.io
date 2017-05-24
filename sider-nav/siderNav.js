@@ -65,11 +65,11 @@
 		}
 	}
 
-	Siderbar.prototype.showModal=function(e){
+	Siderbar.prototype.showModal=function(el){
 
 		var _=this,
-			$self=$(e.target).closest('a'),
-			$top=$self.offset().top - _.navbarHeight,
+			el=$(el),
+			$top=el.offset().top - _.navbarHeight,
 			$t_h=_.winHeight - _.navbarHeight,
 			$m_h=0;
 		
@@ -91,14 +91,14 @@
 			});
 		};
 
-		$self.closest('li').addClass('hover').siblings().removeClass('hover');
 		if(!$(_.siderbar).hasClass('collapsed')) return;
+		el.closest('li').addClass('hover').siblings().removeClass('hover');
 		
 		clearTimeout(_.timerShow);
  		_.timerShow=setTimeout(function(){
 
  			// 切换hover状态、显示对应的二级菜单导航
-			$('[data-id='+$self.data("show")+']')
+			$('[data-id='+el.data("show")+']')
 			.show().siblings().hide()
 			.closest(_.subNavModal).show();
 			
@@ -121,14 +121,14 @@
 				//并且左侧高度大于二级弹出框的高度
 				posModal('auto', 0, 'auto');
 			}
-		},150);
+		},100);
 	}
 
-	Siderbar.prototype.hideModal=function(e){
+	Siderbar.prototype.hideModal=function(el){
 		
 		var $in=false,
 			_=this,
-			$self=$(e.target).closest('a');
+			el=$(el);
 
 		// 二级菜单导航弹框的显示位置
 		var posModal=function(t, b, h){
@@ -159,15 +159,15 @@
 		_.subNavModal.on('mouseenter',function(){
 			$in=true;
 		}).on('mouseleave',function(){
-			closeModal($self);
+			closeModal(el);
 		})
 		
 		// 避免鼠标未移到二级菜单就关闭
 		_.timerHide=setTimeout(function(){
 			if($in===false){
-				closeModal($self);
+				closeModal(el);
 			}
-		},150)
+		},100)
 	}
 
 	Siderbar.prototype.toggleSiderbar=function(){
@@ -178,16 +178,16 @@
 	}
 
 	Siderbar.prototype.init=function(){
-		var _=this
+		var _=this;
 		
 		$(window).on('resize',_.scrollNav).trigger('resize');
 
-		_.navList.on('click',function(e){
+		_.navList.find('a').on('click',function(e){
 			_.toggleMenu(e);
-		}).on('mouseenter',function(e){
-			_.showModal(e);
-		}).on('mouseleave',function(e){
-			_.hideModal(e);
+		}).hover(function(e){
+			_.showModal(this);
+		},function(e){
+			_.hideModal(this);
 		});
 
 		_.siderbarToggle.on('click',function(e){
