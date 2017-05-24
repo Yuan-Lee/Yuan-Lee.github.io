@@ -1,35 +1,35 @@
 (function($){
-	function Siderbar(){
-		this.navbarHeight=$('.navbar').height()
-		this.navWrap=$('.js-nav-wrap')
-		this.subNavModal=$('.subNav-modal')
-		this.subNavModalContainer=$('.subNav-modal-container')
-		this.subNav=$('.subNav')
-		this.siderbar=$('#sidebar')
+	var Siderbar=function(option){
+		this.navbarHeight=option.navbarHeight
+		this.navWrap=option.navWrap
+		this.navList=option.navList
+		this.subNavModal=option.subNavModal
+		this.subNavModalContainer=option.subNavModalContainer
+		this.subNav=option.subNav
+		this.siderbar=option.siderbar
 		this.winHeight=$(window).height()
 		this.timerShow=null
 		this.timerHide=null
+		this.siderbarToggle=option.siderbarToggle
 	}
 
-	// 左侧导航滚动
 	Siderbar.prototype.scrollNav=function(){
-		var _this=this;
-		_this.winHeight=$(window).height();
+		var _=this;
+		_.winHeight=$(window).height();
 
-		$(_this.navWrap).slimscroll({destroy:true})
+		$(_.navWrap).slimscroll({destroy:true})
 		.css({
 			'height':'auto'
 		});
 
-		$(_this.navWrap).slimscroll({
-			height: _this.winHeight - _this.navbarHeight*2
+		$(_.navWrap).slimscroll({
+			height: _.winHeight - _.navbarHeight*2
 		})
 	}
 
-	// 下拉展开导航
 	Siderbar.prototype.toggleMenu=function(e){
-		
 		e.stopPropagation();
+		var _=this;
 		var showSubmenu=function(submenu){
 			$(submenu).stop().slideDown(150).closest('li').addClass('open');
 			$(submenu).prev().find('.arrow').removeClass('fa-angle-right').addClass('fa-angle-down');
@@ -40,11 +40,9 @@
 			$(submenu).prev().find('.arrow').removeClass('fa-angle-down').addClass('fa-angle-right');
 		}
 		var $self=$(e.target).closest('a');
+		
 
-		if($(this.siderbar).hasClass('collapsed')){
-			console.log('collapsed')
-			return;
-		} 
+		if($(_.siderbar).hasClass('collapsed')) return;
 
 		if($self.hasClass('dropdown-toggle')){
 
@@ -68,44 +66,43 @@
 	}
 
 	Siderbar.prototype.showModal=function(e){
-		e.stopPropagation();
-		var _this=this,
+
+		var _=this,
 			$self=$(e.target).closest('a'),
-			$top=$self.offset().top - _this.navbarHeight,
-			$t_h=_this.winHeight - _this.navbarHeight,
+			$top=$self.offset().top - _.navbarHeight,
+			$t_h=_.winHeight - _.navbarHeight,
 			$m_h=0;
-		console.log($self.nodeName+'( '+e.pageX+':'+e.pageY+')')
+		
 		var subNavScroll=function(){
-			if($(_this.subNavModalContainer).height() >= _this.winHeight - _this.navbarHeight){
-				var $subNav_height = _this.winHeight - _this.navbarHeight;
+			if(_.subNavModalContainer.height() >= _.winHeight - _.navbarHeight){
+				var $subNav_height = _.winHeight - _.navbarHeight;
 				
-				$(_this.subNavModalContainer).slimscroll({
+				_.subNavModalContainer.slimscroll({
 					height: $subNav_height
 				})
 			}
 		};
 		// 二级菜单导航弹框的显示位置
 		var posModal=function(t, b, h){
-			$(_this.subNavModal).css({
+			_.subNavModal.css({
 				'top': t,
 				'bottom': b,
 				'height': h
 			});
-			console.log('pos')
 		};
 
-		if(!$(_this.siderbar).hasClass('collapsed')) return;
 		$self.closest('li').addClass('hover').siblings().removeClass('hover');
+		if(!$(_.siderbar).hasClass('collapsed')) return;
 		
-		clearTimeout(_this.timerShow);
- 		_this.timerShow=setTimeout(function(){
+		clearTimeout(_.timerShow);
+ 		_.timerShow=setTimeout(function(){
 
  			// 切换hover状态、显示对应的二级菜单导航
 			$('[data-id='+$self.data("show")+']')
 			.show().siblings().hide()
-			.closest(_this.subNavModal).show();
-			console.log('show')
-			$m_h=$(_this.subNavModal).height();	//获取弹出框的高度
+			.closest(_.subNavModal).show();
+			
+			$m_h=_.subNavModal.height();	//获取弹出框的高度
 
 			if( $t_h <= $m_h ){
 
@@ -128,13 +125,14 @@
 	}
 
 	Siderbar.prototype.hideModal=function(e){
-		e.stopPropagation();
-		var $in=false;
-		var _this=this;
-		var $self=$(e.target).closest('a');
+		
+		var $in=false,
+			_=this,
+			$self=$(e.target).closest('a');
+
 		// 二级菜单导航弹框的显示位置
 		var posModal=function(t, b, h){
-			$(_this.subNavModal).css({
+			_.subNavModal.css({
 				'top': t,
 				'bottom': b,
 				'height': h
@@ -143,7 +141,7 @@
 
 		var closeModal=function(element){
 			// 移除滚动条
-			$(_this.subNavModalContainer)
+			_.subNavModalContainer
 			.slimscroll({destroy:true})
 			.css({
 				'height':'auto'
@@ -152,43 +150,61 @@
 			posModal('auto','auto','auto');
 
 			element.closest('li').removeClass('hover');
-			$('[data-id='+element.data("show")+']').hide().closest(_this.subNavModal).hide();
+			$('[data-id='+element.data("show")+']').hide().closest(_.subNavModal).hide();
 		};
 
-		clearTimeout(_this.timerShow);
-		clearTimeout(_this.timerHide);
+		clearTimeout(_.timerShow);
+		clearTimeout(_.timerHide);
 
-		$(_this.subNavModal).on('mouseenter',function(){
+		_.subNavModal.on('mouseenter',function(){
 			$in=true;
 		}).on('mouseleave',function(){
 			closeModal($self);
 		})
 		
 		// 避免鼠标未移到二级菜单就关闭
-		_this.timerHide=setTimeout(function(){
+		_.timerHide=setTimeout(function(){
 			if($in===false){
 				closeModal($self);
 			}
 		},150)
 	}
 
-	// 侧边栏展开折叠
-	Siderbar.prototype.toggleSiderbar=(function(){
-		var _this=this;
-		function switchsider(){
-			$('.nav-list > li').removeClass('open').find('.submenu').stop().slideUp(150)
-
-			$(_this.sidebar).toggleClass('collapsed')
-		}
-
+	Siderbar.prototype.toggleSiderbar=function(){
 		
-		$('.js-siderbar-collapse').on('click',switchsider)
-	})()
+		this.navList.find('li').removeClass('open').find('.submenu').stop().slideUp(150)
+
+		this.siderbar.toggleClass('collapsed')
+	}
+
+	Siderbar.prototype.init=function(){
+		var _=this
+		
+		$(window).on('resize',_.scrollNav).trigger('resize');
+
+		_.navList.on('click',function(e){
+			_.toggleMenu(e);
+		}).on('mouseenter',function(e){
+			_.showModal(e);
+		}).on('mouseleave',function(e){
+			_.hideModal(e);
+		});
+
+		_.siderbarToggle.on('click',function(e){
+			_.toggleSiderbar()
+		});
+	}
 	
-	var siderbar01 = new Siderbar();
-	
-	$('.nav-list').on('click',siderbar01.toggleMenu)
-	$(window).on('resize',siderbar01.scrollNav).trigger('resize');
-	$('.nav-list').on('mouseenter',siderbar01.showModal).on('mouseleave',siderbar01.hideModal)
+	var siderbar01 = new Siderbar({
+		navbarHeight: $('.navbar').height(),
+		navWrap: $('.js-nav-wrap'),
+		navList: $('.nav-list'),
+		subNavModal: $('.subNav-modal'),
+		subNavModalContainer: $('.subNav-modal-container'),
+		subNav: $('.subNav'),
+		siderbar: $('#sidebar'),
+		siderbarToggle: $('.js-siderbar-collapse')
+	});
+	siderbar01.init();
 
 })(jQuery)
