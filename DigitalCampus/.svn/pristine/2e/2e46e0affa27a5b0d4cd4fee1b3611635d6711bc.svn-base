@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>数字校园-首页</title>
+
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="../components/font-awesome/css/font-awesome.css" />
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="../components/layer/skin/layer.css">
+		<link rel="stylesheet" href="../components/chosen/chosen.min.css">
+		<link rel="stylesheet" href="../components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css">
+
+		
+		<link rel="stylesheet" href="../css/iconfont.css">
+		<link rel="stylesheet" href="../css/components.css">
+		<link rel="stylesheet" href="../css/page-desktop.css">
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="../css/pages-ie.css" />
+		<![endif]-->
+		<!-- inline styles related to this page -->
+		
+
+		<!-- ace settings handler -->
+		<script src="../assets/js/ace-extra.js"></script>
+
+		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+			<script src="../components/html5shiv/dist/html5shiv.min.js"></script>
+			<script src="../components/respond/dest/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="no-skin">
+		<!-- #section:basics/navbar.layout -->
+		<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+			<script type="text/javascript">
+				try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="navbar-container clearfix" id="navbar-container">
+				
+				<div class="navbar-header">
+					<!-- #section:basics/navbar.layout.brand -->
+					<a href="#" class="navbar-brand">
+						<img class="logo" src="../images/desktop/logo.png" alt="">
+						<span>浙江万朋教育 · 数字校园</span>
+					</a>
+
+					<!-- /section:basics/navbar.layout.brand -->
+				</div>
+				<!-- #section:basics/navbar.dropdown -->
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#" class="js-dropbox-msg js-dropbox-toggle">
+							<i class="wpfont icon-bell"></i>
+							<span class="badge badge-yellow">5</span>
+						</a>
+						<div class="dropbox dropbox-msg">
+							<div class="dropbox-container">
+								<ul class="nav nav-tabs nav-tabs-1" role="tablist">
+									<li role="presentation" class="active"><a href="#msg" role="tab" data-toggle="tab">消息</a></li>
+									<li role="presentation"><a href="#post" role="tab" data-toggle="tab">公告</a></li>
+									<li role="presentation"><a href="#other" role="tab" data-toggle="tab">其他</a></li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="msg">
+										<ul class="msg-list">
+											<li class="msg-item">
+												<i class="msg-icon fa fa-comment"></i>
+												<span class="msg-time">12-15</span>
+												<span class="msg-text">这里可以放下十六个字个字个字个字这里可以放下十六个字个字个字个字</span>
+											</li>
+											<li class="msg-item">
+												<i class="msg-icon wpfont icon-clock-fill"></i>
+												<span class="msg-time">12-15</span>
+												<span class="msg-text">这里可以放下十六个字个字个字个字</span>
+											</li>
+											<li class="msg-item">
+												<i class="msg-icon fa fa-refresh"></i>
+												<span class="msg-time">12-15</span>
+												<span class="msg-text">这里可以放下十六个字个字个字个字</span>
+											</li>
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane" id="post">公告</div>
+									<div role="tabpanel" class="tab-pane" id="other">其他</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="" href="#" data-toggle="dropdown">
+							<i class="wpfont icon-qr-code"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-code">
+							<div class="dropbox-container text-center">
+								<p>手机扫码下载移动OA</p>
+								<img src="../images/desktop/qrcode.png" alt="">
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="js-dropbox-mailList js-dropbox-toggle" href="#">
+							<i class="wpfont icon-directory"></i>
+						</a>
+						<div class="dropbox dropbox-mailList">
+							<div class="dropbox-container">
+								<!-- Tab panes -->
+								<div class="mail-search">
+									<div class="input-icon">
+										<i class="fa fa-search"></i>
+										<input type="text" class="form-control typeahead" placeholder="搜索">
+										<a href="javascript:void(0);" class="mail-search-close"><i class="fa fa-times-circle"></i></a>
+									</div>
+								</div>
+								<div class="mail-search-result">
+									<h5>搜索历史</h5>
+									<ul class="user-list user-list-hover">
+										<li>
+											<div data-toggle="show-user-detail">
+												<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+												<h5 class="user-name">李思甜</h5>
+												<div class="user-content">今天放学别走</div>
+												<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+											</div>
+											<div class="user-detail">
+												<ul class="user-metadata">
+													<li>
+														<i class="fa fa-briefcase"></i>
+														<span class="user-metadata-name">职位</span>
+														<span class="user-metadata-content">班主任</span>
+													</li>
+													<li>
+														<i class="fa fa-phone"></i>
+														<span class="user-metadata-name">电话</span>
+														<span class="user-metadata-content">18758131579</span>
+													</li>
+													<li>
+														<i class="fa fa-qq"></i>
+														<span class="user-metadata-name">QQ</span>
+														<span class="user-metadata-content">401844220</span>
+													</li>
+													<li>
+														<i class="fa fa-envelope"></i>
+														<span class="user-metadata-name">邮箱</span>
+														<span class="user-metadata-content">401844220@qq.com</span>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li>
+											<div data-toggle="show-user-detail">
+												<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+												<h5 class="user-name">李思甜</h5>
+												<div class="user-content">今天放学别走</div>
+												<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+											</div>
+											<div class="user-detail">
+												<ul class="user-metadata">
+													<li>
+														<i class="fa fa-briefcase"></i>
+														<span class="user-metadata-name">职位</span>
+														<span class="user-metadata-content">班主任</span>
+													</li>
+													<li>
+														<i class="fa fa-phone"></i>
+														<span class="user-metadata-name">电话</span>
+														<span class="user-metadata-content">18758131579</span>
+													</li>
+													<li>
+														<i class="fa fa-qq"></i>
+														<span class="user-metadata-name">QQ</span>
+														<span class="user-metadata-content">401844220</span>
+													</li>
+													<li>
+														<i class="fa fa-envelope"></i>
+														<span class="user-metadata-name">邮箱</span>
+														<span class="user-metadata-content">401844220@qq.com</span>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li>
+											<div data-toggle="show-user-detail">
+												<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+												<h5 class="user-name">李思甜</h5>
+												<div class="user-content">今天放学别走</div>
+												<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+											</div>
+											<div class="user-detail">
+												<ul class="user-metadata">
+													<li>
+														<i class="fa fa-briefcase"></i>
+														<span class="user-metadata-name">职位</span>
+														<span class="user-metadata-content">班主任</span>
+													</li>
+													<li>
+														<i class="fa fa-phone"></i>
+														<span class="user-metadata-name">电话</span>
+														<span class="user-metadata-content">18758131579</span>
+													</li>
+													<li>
+														<i class="fa fa-qq"></i>
+														<span class="user-metadata-name">QQ</span>
+														<span class="user-metadata-content">401844220</span>
+													</li>
+													<li>
+														<i class="fa fa-envelope"></i>
+														<span class="user-metadata-name">邮箱</span>
+														<span class="user-metadata-content">401844220@qq.com</span>
+													</li>
+												</ul>
+											</div>
+										</li>
+									</ul>	
+								</div>
+								<div class="mail-list-wrap">
+									<ul class="nav nav-tabs nav-justified nav-mail-list" role="tablist">
+										<li role="presentation" class="active">
+											<a href="#a" role="tab" data-toggle="tab">
+												<i class="fa fa-commenting"></i>
+											</a>
+										</li>
+										<li role="presentation">
+											<a href="#b" role="tab" data-toggle="tab">
+												<i class="fa fa-user"></i>
+											</a>
+										</li>
+									</ul>
+
+									<!-- Tab panes -->
+									<div class="tab-content no-padding">
+										<div role="tabpanel" class="tab-pane active" id="a">
+											<ul class="user-list user-list-hover">
+												<li>
+													<div data-toggle="show-user-detail">
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+														<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+													</div>
+													<div class="user-detail">
+														<ul class="user-metadata">
+															<li>
+																<i class="fa fa-briefcase"></i>
+																<span class="user-metadata-name">职位</span>
+																<span class="user-metadata-content">班主任</span>
+															</li>
+															<li>
+																<i class="fa fa-phone"></i>
+																<span class="user-metadata-name">电话</span>
+																<span class="user-metadata-content">18758131579</span>
+															</li>
+															<li>
+																<i class="fa fa-qq"></i>
+																<span class="user-metadata-name">QQ</span>
+																<span class="user-metadata-content">401844220</span>
+															</li>
+															<li>
+																<i class="fa fa-envelope"></i>
+																<span class="user-metadata-name">邮箱</span>
+																<span class="user-metadata-content">401844220@qq.com</span>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<li>
+													<div data-toggle="show-user-detail">
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+														<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+													</div>
+													<div class="user-detail">
+														<ul class="user-metadata">
+															<li>
+																<i class="fa fa-briefcase"></i>
+																<span class="user-metadata-name">职位</span>
+																<span class="user-metadata-content">班主任</span>
+															</li>
+															<li>
+																<i class="fa fa-phone"></i>
+																<span class="user-metadata-name">电话</span>
+																<span class="user-metadata-content">18758131579</span>
+															</li>
+															<li>
+																<i class="fa fa-qq"></i>
+																<span class="user-metadata-name">QQ</span>
+																<span class="user-metadata-content">401844220</span>
+															</li>
+															<li>
+																<i class="fa fa-envelope"></i>
+																<span class="user-metadata-name">邮箱</span>
+																<span class="user-metadata-content">401844220@qq.com</span>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<li>
+													<div data-toggle="show-user-detail">
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+														<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+													</div>
+													<div class="user-detail">
+														<ul class="user-metadata">
+															<li>
+																<i class="fa fa-briefcase"></i>
+																<span class="user-metadata-name">职位</span>
+																<span class="user-metadata-content">班主任</span>
+															</li>
+															<li>
+																<i class="fa fa-phone"></i>
+																<span class="user-metadata-name">电话</span>
+																<span class="user-metadata-content">18758131579</span>
+															</li>
+															<li>
+																<i class="fa fa-qq"></i>
+																<span class="user-metadata-name">QQ</span>
+																<span class="user-metadata-content">401844220</span>
+															</li>
+															<li>
+																<i class="fa fa-envelope"></i>
+																<span class="user-metadata-name">邮箱</span>
+																<span class="user-metadata-content">401844220@qq.com</span>
+															</li>
+														</ul>
+													</div>
+												</li>
+											</ul>
+
+										</div>
+										<div role="tabpanel" class="tab-pane" id="b">
+											<div class="panel-group" role="tablist" aria-multiselectable="true">
+												<div class="panel panel01">
+													<div class="panel-heading" role="tab">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" href="#m01" aria-expanded="true" aria-controls="m01"><i class="fa fa-caret-right"></i>语文组</a>
+														</h4>
+													</div>
+													<div id="m01" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+														<div class="panel-body">
+															<ul class="user-list user-list-hover">
+																<li>
+																	<div data-toggle="show-user-detail">
+																		<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+																		<h5 class="user-name">李思甜</h5>
+																		<div class="user-content">今天放学别走</div>
+																		<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+																	</div>
+																	<div class="user-detail">
+																		<ul class="user-metadata">
+																			<li>
+																				<i class="fa fa-briefcase"></i>
+																				<span class="user-metadata-name">职位</span>
+																				<span class="user-metadata-content">班主任</span>
+																			</li>
+																			<li>
+																				<i class="fa fa-phone"></i>
+																				<span class="user-metadata-name">电话</span>
+																				<span class="user-metadata-content">18758131579</span>
+																			</li>
+																			<li>
+																				<i class="fa fa-qq"></i>
+																				<span class="user-metadata-name">QQ</span>
+																				<span class="user-metadata-content">401844220</span>
+																			</li>
+																			<li>
+																				<i class="fa fa-envelope"></i>
+																				<span class="user-metadata-name">邮箱</span>
+																				<span class="user-metadata-content">401844220@qq.com</span>
+																			</li>
+																		</ul>
+																	</div>
+																</li>
+																<li>
+																	<div data-toggle="show-user-detail">
+																		<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+																		<h5 class="user-name">李思甜</h5>
+																		<div class="user-content">今天放学别走</div>
+																		<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+																	</div>
+																</li>
+																<li>
+																	<div data-toggle="show-user-detail">
+																		<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+																		<h5 class="user-name">李思甜</h5>
+																		<div class="user-content">今天放学别走</div>
+																		<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="panel panel01">
+													<div class="panel-heading" role="tab">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" href="#m02" aria-expanded="true" aria-controls="m02"><i class="fa fa-caret-right"></i>数学组</a>
+														</h4>
+													</div>
+													<div id="m02" class="panel-collapse collapse" role="tabpanel">
+														<div class="panel-body">
+															<ul class="user-list user-list-hover">
+																<li>
+																	<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+																	<h5 class="user-name">李思甜</h5>
+																	<div class="user-content">今天放学别走</div>
+																	<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+																</li>
+																<li>
+																	<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+																	<h5 class="user-name">李思甜</h5>
+																	<div class="user-content">今天放学别走</div>
+																	<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+																</li>
+																<li>
+																	<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+																	<h5 class="user-name">李思甜</h5>
+																	<div class="user-content">今天放学别走</div>
+																	<div class="user-action"><a href="" class="i fa fa-envelope"></a></div>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+									
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="" href="#" data-toggle="dropdown">
+							<i class="wpfont icon-cog"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-setting">
+							<div class="list-group">
+								<a class="list-group-item" href="index-setting.html">个人设置</a>
+
+								<a class="list-group-item" href="">系统设置</a>
+
+								<a class="list-group-item" href="">安全设置</a>
+
+								<a class="list-group-item" href="">模板设置</a>
+							</div>
+						</div>
+							
+					</li>
+					<li>
+						<a class="js-addModule" href="#">
+							<i class="wpfont icon-module"></i>
+						</a>
+					</li>                     
+					<!-- #section:basics/navbar.user_menu -->
+					<li class="navbar-item-user">
+						<a href="#" class="" data-toggle="dropdown">
+							<img class="nav-user-photo" src="../images/desktop/user-temp.png" alt="Jason's Photo" />
+							<span class="user-info">阮小天</span>
+
+							<i class="wpfont icon-caret-down"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-user">
+							<ul class="list-group">
+								<li class="list-group-item" href="#">小猫 <a class="user-switch" href="">切换</a></li>
+
+								<li class="list-group-item" href="#">小狗 <a class="user-switch" href="">切换</a></li>
+
+								<li class="list-group-item" href="#">小刺猬 <a class="user-switch" href="">切换</a></li>
+
+								<li class="list-group-item text-center" href="#"><a href="">退出</a></a>
+							</ul>
+						</div>
+					</li>
+
+					<!-- /section:basics/navbar.user_menu -->
+				</ul>
+
+				<!-- /section:basics/navbar.dropdown -->
+			</div><!-- /.navbar-container -->
+		</div>
+
+		<!-- /section:basics/navbar.layout -->
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<!-- #section:basics/sidebar -->
+			<div id="sidebar" class="sidebar                  responsive sidebar-fixed">
+				<script type="text/javascript">
+					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+				</script>
+				<div class="sidebar-shortcuts">
+					<button class="btn btn-tohome js-siderbar-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+				</div>
+				<div class="nav-wrap js-nav-wrap">
+					<div class="common-module">
+						<ul class="nav nav-list">
+							<li class="active">
+								<a href="#">
+									<img class="menu-icon" src="../images/icons/app-icon/app-icon01.png" alt="">
+									<span class="menu-text">桌面</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img class="menu-icon" src="../images/icons/app-icon/app-icon02.png" alt="">
+									<span class="menu-text">学科模块管理</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<img class="menu-icon" src="../images/icons/app-icon/app-icon03.png" alt="">
+									<span class="menu-text">课程开设</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<img class="menu-icon" src="../images/icons/app-icon/app-icon04.png" alt="">
+									<span class="menu-text">课程表维护</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<img class="menu-icon" src="../images/icons/app-icon/app-icon05.png" alt="">
+									<span class="menu-text">选修课设置</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<img class="menu-icon" src="../images/icons/app-icon/app-icon06.png" alt="">
+									<span class="menu-text">高考成绩分析</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="nav nav-list">
+						<li>
+							<a href="#" class="dropdown-toggle" data-show="a">
+								<img class="menu-icon" src="../images/icons/app-icon/app-icon07.png" alt="">
+								<span class="menu-text">学科模块管理</span>
+								<b class="arrow fa fa-angle-down"></b>
+							</a>
+							<ul class="submenu">
+								<li class="">
+									<a href="#" class="dropdown-toggle">
+										二级导航
+										<b class="arrow fa fa-angle-down"></b>
+									</a>
+
+									<ul class="submenu">
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="">
+									<a href="#">
+										二级导航
+									</a>
+								</li>
+
+								<li class="">
+									<a href="#">
+										二级导航
+									</a>
+								</li>
+
+								<li class="">
+									<a href="#" class="dropdown-toggle">
+										二级导航
+										<b class="arrow fa fa-angle-down"></b>
+									</a>
+
+									<ul class="submenu">
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#" class="dropdown-toggle" data-show="b">
+								<img class="menu-icon" src="../images/icons/app-icon/app-icon01.png" alt="">
+								<span class="menu-text">课程开设</span>
+								<b class="arrow fa fa-angle-down"></b>
+							</a>
+							
+							<ul class="submenu">
+								<li class="">
+									<a href="#" class="dropdown-toggle">
+										二级导航
+										<b class="arrow fa fa-angle-down"></b>
+									</a>
+
+									<ul class="submenu">
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="">
+									<a href="#">
+										二级导航
+									</a>
+								</li>
+
+								<li class="">
+									<a href="#">
+										二级导航
+									</a>
+								</li>
+
+								<li class="">
+									<a href="#" class="dropdown-toggle">
+										二级导航
+										<b class="arrow fa fa-angle-down"></b>
+									</a>
+
+									<ul class="submenu">
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+										<li class="">
+											<a href="#">
+												三级导航
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#" data-show="c">
+								<img class="menu-icon" src="../images/icons/app-icon/app-icon02.png" alt="">
+								<span class="menu-text">课程表维护</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" data-show="d">
+								<img class="menu-icon" src="../images/icons/app-icon/app-icon03.png" alt="">
+								<span class="menu-text">选修课设置</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" data-show="e">
+								<img class="menu-icon" src="../images/icons/app-icon/app-icon04.png" alt="">
+								<span class="menu-text">教师课程表</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" data-show="f">
+								<img class="menu-icon" src="../images/icons/app-icon/app-icon05.png" alt="">
+								<span class="menu-text">高考成绩分析</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="subNav-modal js-subNav-modal">
+					<div class="subNav-modal-container">
+						<div class="subNav" data-id="a">
+							<h3 class="subNav-name">学科模块管理</h3>
+							<div class="subNav-container">
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="subNav" data-id="b">
+							<h3 class="subNav-name">课程开设</h3>
+							<div class="subNav-container">
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="subNav" data-id="c">
+							<h3 class="subNav-name">课程表维护</h3>
+							<div class="subNav-container">
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置</a></li>
+									</ul>
+								</div>
+								<div class="subNav-item">
+									<h5 class="subNav-item-name">基础信息</h5>
+									<ul class="subNav-list clearfix">
+										<li><a href="">考核时间设置</a></li>
+										<li><a href="">班级设置</a></li>
+										<li><a href="">班干部管理</a></li>
+										<li><a href="">班主任费统计</a></li>
+										<li><a href="">人员权限设置</a></li>
+										<li><a href="">人员权限设置 last</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+				</script>
+			</div>
+
+			<!-- /section:basics/sidebar -->
+			<div class="main-content">
+				<div class="page-tab-wrap show">
+					<div class="btn-tab-scroll left show js-pageTabLeft">
+						<a href="#">
+							<i class="wpfont icon-arrow-left"></i>
+						</a>
+					</div>
+					<div class="page-tabs js-pageTabs">
+						<div class="page-tabs-container js-pageTabsContainer">
+							<a class="js-pageTab active" href="">选修课设置<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护1<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护2<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护3<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护4<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护5<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护6<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护7<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护8<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护9<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护10<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护11<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护12<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护13<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护14<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护15<i class="fa fa-times-circle"></i></a>
+							<a class="js-pageTab" href="">课程表维护16<i class="fa fa-times-circle"></i></a>
+						</div>
+					</div>
+					<div class="btn-tab-scroll right show js-pageTabRight">
+						<a href="#">
+							<i class="wpfont icon-arrow-right"></i>
+						</a>
+					</div>
+				</div>
+				<div class="main-content-inner">
+					<div class="page-content">
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<div class="row">
+									<div class="col-sm-8">
+										<!-- <div class="box box-default">
+											<div class="box-body">
+												<div class="row">
+													<div class="col-sm-4">
+														div.user-info
+													</div>
+													<div class="col-sm-4">
+														<iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=7" width="225" height="90" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+													</div>
+													<div class="col-sm-4"></div>
+												</div>
+											</div>
+										</div> -->
+										<div class="box box-default">
+											<div class="box-header">
+												<h4 class="box-title">应用操作</h4>
+											</div>
+											<div class="box-body">
+												<ul class="app-list clearfix">
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon01.png" alt="" class="app-img">
+															<span class="app-name">新生数据维护</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon02.png" alt="" class="app-img">
+															<span class="app-name">数字化教学</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon03.png" alt="" class="app-img">
+															<span class="app-name">新生数据维护</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon04.png" alt="" class="app-img">
+															<span class="app-name">数字化教学</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon05.png" alt="" class="app-img">
+															<span class="app-name">新生数据维护</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon06.png" alt="" class="app-img">
+															<span class="app-name">数字化教学</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon07.png" alt="" class="app-img">
+															<span class="app-name">新生数据维护</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon01.png" alt="" class="app-img">
+															<span class="app-name">数字化教学</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon02.png" alt="" class="app-img">
+															<span class="app-name">新生数据维护</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon03.png" alt="" class="app-img">
+															<span class="app-name">数字化教学</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon04.png" alt="" class="app-img">
+															<span class="app-name">新生数据维护</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon05.png" alt="" class="app-img">
+															<span class="app-name">数字化教学</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon06.png" alt="" class="app-img">
+															<span class="app-name">新生数据维护</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon07.png" alt="" class="app-img">
+															<span class="app-name">数字化教学</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon01.png" alt="" class="app-img">
+															<span class="app-name">新生数据维护</span>
+														</a>
+													</li>
+													<li class="app">
+														<a href="">
+															<img src="../images/icons/app-icon/app-icon02.png" alt="" class="app-img">
+															<span class="app-name">数字化教学</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="box-tools dropdown">
+												<a class="box-tools-btn" href="javascript:void(0);" data-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+												<ul class="box-tools-menu dropdown-menu">
+													<span class="box-tools-menu-angle"></span>
+													<li><a class="js-box-setting" href="javascript:void(0);">设置</a></li>
+													<li><a class="js-box-remove" href="javascript:void(0);">删除</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="box box-default">
+											<div class="box-header">
+												<h4 class="box-title">年纪人数统计</h4>
+											</div>
+											<div class="box-body">
+												
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="box box-default">
+											<div class="box-header">
+												<h4 class="box-title">新闻</h4>
+											</div>
+											<div class="box-body">
+												<ul class="msg-list">
+													<li class="msg-item">
+														<a href="">
+															<span class="msg-time before">12/15</span>
+															<span class="msg-text">这里可以放下十六个字个字个字个字这里可以放下十六个字个字个字个字</span>
+														</a>
+													</li>
+													<li class="msg-item">
+														<a href="">
+															<span class="msg-time before">12/15</span>
+															<span class="msg-text">这里可以放下十六个字个字个字个字</span>
+														</a>													
+													</li>
+													<li class="msg-item">
+														<a href="">
+															<span class="msg-time before">12/15</span>
+															<span class="msg-text">这里可以放下十六个字个字个字个字</span>
+														</a>
+													</li>
+													<li class="msg-item">
+														<a href="">
+															<span class="msg-label">公告</span>
+															<span class="msg-time">12/15</span>
+															<span class="msg-text">这里可以放下十六个字个字个字个字这里可以放下十六个字个字个字个字</span>
+														</a>
+													</li>
+													<li class="msg-item">
+														<a href="">
+															<span class="msg-label">系统</span>
+															<span class="msg-time">12/15</span>
+															<span class="msg-text">这里可以放下十六个字个字个字个字</span>
+														</a>													
+													</li>
+													<li class="msg-item">
+														<a href="">
+															<span class="msg-label">办公</span>
+															<span class="msg-time">12/15</span>
+															<span class="msg-text">这里可以放下十六个字个字个字个字</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="box box-default">
+											<div class="box-header">
+												<h4 class="box-title">排行榜</h4>
+											</div>
+											<div class="box-body">
+												<ul class="user-list user-list-hover user-list-bordered">
+													<li>
+														<span class="user-sort"><img src="../images/desktop/sort-first.png" alt=""></span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+													<li>
+														<span class="user-sort"><img src="../images/desktop/sort-second.png" alt=""></span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+													<li>
+														<span class="user-sort"><img src="../images/desktop/sort-third.png" alt=""></span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+													<li>
+														<span class="user-sort">4</span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+													<li>
+														<span class="user-sort">5</span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+													<li>
+														<span class="user-sort">6</span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+													<li>
+														<span class="user-sort">7</span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+													<li>
+														<span class="user-sort">8</span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+													<li>
+														<span class="user-sort">9</span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+													<li>
+														<span class="user-sort">10</span>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<div class="user-content">今天放学别走</div>
+													</li>
+												</ul>
+												<div class="box-more"><a href="">更多&gt;</a></div>
+											</div>
+											<div class="box-tools dropdown">
+												<a class="box-tools-btn" href="javascript:void(0);" data-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+												<ul class="box-tools-menu dropdown-menu">
+													<span class="box-tools-menu-angle"></span>
+													<li><a class="js-box-setting" href="javascript:void(0);">设置</a></li>
+													<li><a class="js-box-remove" href="javascript:void(0);">删除</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="box box-default">
+											<div class="box-header">
+												<h4 class="box-title">生日提醒</h4>
+											</div>
+											<div class="box-body">
+												<ul class="user-list user-list-bordered">
+													<li>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<span class="user-tips">将在4天后生日</span>
+														<div class="user-content"><a href="">发生日贺卡</a><a href="">发名姓片</a></div>
+													</li>
+													<li>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<span class="user-tips">将在4天后生日</span>
+														<div class="user-content"><a href="">发生日贺卡</a><a href="">发名姓片</a></div>
+													</li>
+													<li>
+														<img src="../images/desktop/user-temp.png" alt="" class="user-avatar">
+														<h5 class="user-name">李思甜</h5>
+														<span class="user-tips">将在4天后生日</span>
+														<div class="user-content"><a href="">发生日贺卡</a><a href="">发名姓片</a></div>
+													</li>
+												</ul>
+											</div>
+											<div class="box-tools dropdown">
+												<a class="box-tools-btn" href="javascript:void(0);" data-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+												<ul class="box-tools-menu dropdown-menu">
+													<span class="box-tools-menu-angle"></span>
+													<li><a class="js-box-setting" href="javascript:void(0);">设置</a></li>
+													<li><a class="js-box-remove" href="javascript:void(0);">删除</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="fa fa-angle-double-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- S 常用操作设置 -->
+		<div class="common-module-setting">
+			<div class="box box-2">
+				<div class="box-header">
+					<h4 class="box-title">已添加操作<small>（最多6个）</small></h4>
+				</div>
+				<div class="box-body">
+					<ul class="app-list clearfix">
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-remove">
+								<i class="wpfont icon-minus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon01.png" alt="" class="app-img">
+							<h5 class="app-name">新生数据维护</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-remove">
+								<i class="wpfont icon-minus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon02.png" alt="" class="app-img">
+							<h5 class="app-name">数字化教学</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-remove">
+								<i class="wpfont icon-minus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon01.png" alt="" class="app-img">
+							<h5 class="app-name">新生数据维护</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-remove">
+								<i class="wpfont icon-minus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon02.png" alt="" class="app-img">
+							<h5 class="app-name">数字化教学</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-remove">
+								<i class="wpfont icon-minus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon01.png" alt="" class="app-img">
+							<h5 class="app-name">新生数据维护</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-remove">
+								<i class="wpfont icon-minus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon01.png" alt="" class="app-img">
+							<h5 class="app-name">新生数据维护</h5>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="box box-2">
+				<div class="box-header">
+					<h4 class="box-title">其他操作</h4>
+					<div class="box-tools">
+						<div class="input-group">
+							<input type="text" class="form-control input-sm" placeholder="请输入关键字搜索">
+							<span class="input-group-addon"><i class="fa fa-search"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="box-body">
+					<ul class="module-classify clearfix">
+						<li class="active"><a href="">全部</a></li>
+						<li><a href="">前台业务</a></li>
+						<li><a href="">学籍管理</a></li>
+						<li><a href="">教务教学管理</a></li>
+						<li><a href="">人事计划</a></li>
+						<li><a href="">人事计划</a></li>
+					</ul>
+					<ul class="app-list clearfix">
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-add">
+								<i class="wpfont icon-plus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon01.png" alt="" class="app-img">
+							<h5 class="app-name">新生数据维护</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-add">
+								<i class="wpfont icon-plus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon02.png" alt="" class="app-img">
+							<h5 class="app-name">数字化教学</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-add">
+								<i class="wpfont icon-plus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon01.png" alt="" class="app-img">
+							<h5 class="app-name">新生数据维护</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-add">
+								<i class="wpfont icon-plus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon02.png" alt="" class="app-img">
+							<h5 class="app-name">数字化教学</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-add">
+								<i class="wpfont icon-plus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon01.png" alt="" class="app-img">
+							<h5 class="app-name">新生数据维护</h5>
+						</li>
+						<li class="app edited">
+							<a href="" class="app-btn app-btn-add">
+								<i class="wpfont icon-plus-round-fill"></i>
+							</a>
+							<img src="../images/icons/app-icon/icon01.png" alt="" class="app-img">
+							<h5 class="app-name">新生数据维护</h5>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- E 常用操作设置 -->
+
+		<!-- S 模块设置弹出框 -->
+		<div class="layer layer-boxSetting">
+			<div class="layer-container">
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#set01" role="tab" data-toggle="tab">内容设置</a></li>
+					<li role="presentation"><a href="#set02" role="tab" data-toggle="tab">排序设置</a></li>
+				</ul>
+				<div class="tab-content">
+					<div id="set01" class="tab-pane active" role="tabpanel">
+						<form action="" class="form-horizontal" role="form">
+							<div class="form-group">
+								<div class="col-sm-2 control-label no-padding">各模块显示：</div>
+								<div class="col-sm-8">
+									<input class="form-control number pull-left" type="number">
+									<span class="control-tips pull-left">&emsp;条信息</span></div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-2 control-label no-padding"></div>
+								<div class="col-sm-8"></div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-2 control-label no-padding"></div>
+								<div class="col-sm-8"></div>
+							</div>
+						</form>
+					</div>
+					<div id="set02" class="tab-pane" role="tabpanel">
+						<form action="" class="form-horizontal" role="form">
+							<div class="form-group">
+								<div class="col-sm-2 control-label no-padding">布局选择：</div>
+								<div class="col-sm-8">
+									<ul class="layout-list clearfix">
+										<li data-action="select" class="selected">
+											<span class="layout-img layout-twoToOne-inLeft"></span>
+											<h5 class="layout-name">左侧显示</h5>
+										</li>
+										<li data-action="select">
+											<span class="layout-img layout-twoToOne-inRight"></span>
+											<h5 class="layout-name">右侧显示</h5>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-2 control-label no-padding">排序：</div>
+								<div class="col-sm-8">
+									<input class="form-control number pull-left" type="number" value="4" range>
+									<span class="control-tips pull-left">&emsp;当前模块显示为右侧第4排</span>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-2 control-label no-padding">高度：</div>
+								<div class="col-sm-8">
+									<input class="form-control number" type="text">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!-- E 模块设置弹出框 -->
+
+		<!-- S 添加模块弹出框 -->
+		<div class="layer layer-addModule">
+			<div class="layer-container">
+				<div class="module-select-wrap clearfix">
+					<div class="module-nav">
+						<ul>
+							<li>
+								<a href="#01">布局选择</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">基础模块 <i class="fa fa-angle-down"></i></a>
+								<ul class="module-style-list clearfix">
+									<li data-action="select">
+										<a href="#02">
+											<i class="fa fa-calendar"></i>
+											<h6>默认样式</h6>
+										</a>
+									</li>
+									<li data-action="select">
+										<a href="#03">
+											<i class="fa fa-calendar"></i>
+											<h6>默认样式</h6>
+										</a>
+									</li>
+									<li data-action="select">
+										<a href="#04">
+											<i class="fa fa-calendar"></i>
+											<h6>默认样式</h6>
+										</a>
+									</li>
+									<li data-action="select">
+										<a href="#05">
+											<i class="fa fa-calendar"></i>
+											<h6>默认样式</h6>
+										</a>
+									</li>
+									<li data-action="select">
+										<a href="#06">
+											<i class="fa fa-calendar"></i>
+											<h6>默认样式</h6>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:void(0);">图表模块 <i class="fa fa-angle-down"></i></a>
+								<ul class="module-style-list clearfix">
+									<li>
+										<a href="">
+											<i class="fa fa-calendar"></i>
+											<h6>默认样式</h6>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-calendar"></i>
+											<h6>默认样式</h6>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-calendar"></i>
+											<h6>默认样式</h6>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<i class="fa fa-calendar"></i>
+											<h6>默认样式</h6>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="module-preview">
+						<h5>预览</h5>
+						<div class="module-preview-content">
+							<div id="01" class="module-preview-item">
+								<ul class="layout-list clearfix">
+									<li data-action="select" class="selected">
+										<span class="layout-img layout-twoToOne-inLeft"></span>
+										<h5 class="layout-name">左侧显示</h5>
+									</li>
+									<li data-action="select">
+										<span class="layout-img layout-twoToOne-inRight"></span>
+										<h5 class="layout-name">右侧显示</h5>
+									</li>
+								</ul>
+							</div>
+							<div id="02" class="module-preview-item">
+								<img src="../images/desktop/banner01.png" alt="">
+							</div>
+							<div id="03" class="module-preview-item">
+								<img src="../images/desktop/qrcode.png" alt="">
+							</div>
+							<div id="04" class="module-preview-item">
+								4
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- E 添加模块弹出框 -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script src="../components/jquery/dist/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script src="../components/jquery.1x/dist/jquery.js"></script>
+		<![endif]-->
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='../components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"+"<"+"/script>");
+		</script>
+		<script src="../components/bootstrap/dist/js/bootstrap.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="../components/layer/layer.js"></script>
+		<script src="../components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+		<script src="../components/chosen/chosen.jquery.min.js"></script>
+		<script src="../components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+		<script src="../components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+		<script src="../components/typeahead.js/dist/typeahead.jquery.min.js"></script>
+
+		<!-- ace scripts -->
+		<script src="../assets/js/src/ace.ajax-content.js"></script>  		<!-- 异步加载js -->
+
+		<!-- inline scripts related to this page -->
+		<script src="../js/desktop.js"></script>
+		<script>
+			$(function(){
+
+				// 设置模块
+				$('.js-box-setting').on('click',function(){
+					layer.open({
+						type: 1,
+						shade: .5,
+						title: ['设置','font-size:16px'],
+						area: ['940px','640px'],
+						btn:['确定','取消'],
+						content: $('.layer-boxSetting')
+					})
+				})
+
+				// 删除模块
+				$('.js-box-remove').on('click',function(){
+					var that=$(this);
+					layer.confirm('确定删除该模块吗？',{
+						title:['提示','font-size:16px;'],
+						btn:['确定','取消'],
+						yes: function(index){
+							that.closest('.box').remove();
+							layer.close(index);
+						}
+					})
+				})
+
+				// 添加模块
+				$('.js-addModule').on('click',function(){
+					layer.open({
+						type: 1,
+						shade: .5,
+						title: ['添加模块','font-size:16px'],
+						area: ['940px','600px'],
+						btn:['确定','取消'],
+						content: $('.layer-addModule')
+					})
+				})
+
+				// 日期选择
+				$('.date-picker').datepicker({
+					language: 'zh-CN',
+					autoclose: true,
+					todayHighlight: true,
+					format: 'yyyy-mm-dd'
+				})
+				//show datepicker when clicking on the icon
+				.next().on('click', function(){
+					$(this).prev().focus();
+				});
+
+				// 模糊查询
+				var substringMatcher = function(strs) {
+				    return function findMatches(q, cb) {
+				    	var matches, substringRegex;
+
+				    	// an array that will be populated with substring matches
+				    	matches = [];
+
+				    	// regex used to determine if a string contains the substring `q`
+				    	substrRegex = new RegExp(q, 'i');
+
+				    	// iterate through the pool of strings and for any string that
+				    	// contains the substring `q`, add it to the `matches` array
+				    	$.each(strs, function(i, str) {
+					        if (substrRegex.test(str)) {
+					        	matches.push(str);
+					        }
+				    	});
+
+				    	cb(matches);
+				    };
+				};
+
+				var states = ['小猫', 'Alaska', 'Arizona', 'Arkansas', 'California',
+					'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii',
+				    'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
+				    'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
+				    'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+				    'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
+				    'Ohio', 'Oklahoma', 'Oregon', '河豚', 'Rhode Island',
+				    'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
+				    'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
+				];
+
+				$('.typeahead').typeahead({
+				    hint: true,
+				    highlight: true,
+				    minLength: 1
+				},{
+				    name: 'states',
+				    source: substringMatcher(states)
+				});
+			})
+		</script>
+	</body>
+</html>

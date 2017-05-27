@@ -1,0 +1,1462 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>小题知识点分析</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/小题知识点分析/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/小题知识点分析/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Shape) -->
+      <div id="u0" class="ax_shape">
+        <img id="u0_img" class="img " src="images/小题知识点分析/u0.png"/>
+        <!-- Unnamed () -->
+        <div id="u1" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2" class="ax_shape">
+        <img id="u2_img" class="img " src="images/小题知识点分析/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u3" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4" class="ax_shape">
+        <img id="u4_img" class="img " src="images/小题知识点分析/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u5" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (成绩分析导航) -->
+
+      <!-- Unnamed (Shape) -->
+      <div id="u7" class="ax_shape">
+        <img id="u7_img" class="img " src="images/学生个体横向分析_成绩分布_/u5.png"/>
+        <!-- Unnamed () -->
+        <div id="u8" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u9" class="ax_image">
+        <img id="u9_img" class="img " src="images/学年学期设置/u3.png"/>
+        <!-- Unnamed () -->
+        <div id="u10" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u11" class="ax_shape">
+        <img id="u11_img" class="img " src="images/学年学期设置/u19.png"/>
+        <!-- Unnamed () -->
+        <div id="u12" class="text">
+          <p><span>&nbsp; &nbsp; </span><span>教</span><span>务信息管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u13" class="ax_shape">
+        <img id="u13_img" class="img " src="images/学年学期设置/u19.png"/>
+        <!-- Unnamed () -->
+        <div id="u14" class="text">
+          <p><span>&nbsp; &nbsp; </span><span>考</span><span>试成绩管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u15" class="ax_shape">
+        <img id="u15_img" class="img " src="images/学年学期设置/教务导航_u7.png"/>
+        <!-- Unnamed () -->
+        <div id="u16" class="text">
+          <p><span>&nbsp; &nbsp; </span><span>成</span><span>绩分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u17" class="ax_connector">
+        <img id="u17_seg0" class="img " src="images/学年学期设置/u27_seg0.png" alt="u17_seg0"/>
+        <img id="u17_seg1" class="img " src="images/学年学期设置/u27_seg1.png" alt="u17_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u18" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 成2 (Shape) -->
+      <div id="u19" class="ax_shape" data-label="成2">
+        <img id="u19_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u20" class="text">
+          <p><span>班</span><span>级整体分析</span></p>
+        </div>
+      </div>
+
+      <!-- 成1 (Shape) -->
+      <div id="u21" class="ax_shape" data-label="成1">
+        <img id="u21_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u22" class="text">
+          <p><span>学</span><span>生个体分析</span></p>
+        </div>
+      </div>
+
+      <!-- 成3 (Shape) -->
+      <div id="u23" class="ax_shape" data-label="成3">
+        <img id="u23_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u24" class="text">
+          <p><span>教</span><span>学质量分析</span></p>
+        </div>
+      </div>
+
+      <!-- 成4 (Shape) -->
+      <div id="u25" class="ax_shape" data-label="成4">
+        <img id="u25_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u26" class="text">
+          <p><span>小题知识点分析</span></p>
+        </div>
+      </div>
+
+      <!-- 成5 (Shape) -->
+      <div id="u27" class="ax_shape" data-label="成5">
+        <img id="u27_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u28" class="text">
+          <p><span>新高考选考分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u29" class="ax_connector">
+        <img id="u29_seg0" class="img " src="images/学生个体横向分析_成绩分布_/u27_seg0.png" alt="u29_seg0"/>
+        <img id="u29_seg1" class="img " src="images/学生个体横向分析_成绩分布_/u27_seg1.png" alt="u29_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u30" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 成11 (Shape) -->
+      <div id="u31" class="ax_shape" data-label="成11">
+        <img id="u31_img" class="img " src="images/学生个体横向分析_成绩分布_/成11_u29.png"/>
+        <!-- Unnamed () -->
+        <div id="u32" class="text">
+          <p><span>横</span><span>向分析</span></p>
+        </div>
+      </div>
+
+      <!-- 成12 (Shape) -->
+      <div id="u33" class="ax_shape" data-label="成12">
+        <img id="u33_img" class="img " src="images/学生个体横向分析_成绩分布_/成11_u29.png"/>
+        <!-- Unnamed () -->
+        <div id="u34" class="text">
+          <p><span>纵</span><span>向分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u35" class="ax_shape">
+        <img id="u35_img" class="img " src="images/小题知识点分析/u35.png"/>
+        <!-- Unnamed () -->
+        <div id="u36" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u37" class="ax_paragraph">
+        <img id="u37_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u38" class="text">
+          <p><span>学</span><span>年：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u39" class="ax_shape">
+        <img id="u39_img" class="img " src="images/考试信息设置/u61.png"/>
+        <!-- Unnamed () -->
+        <div id="u40" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u41" class="ax_shape">
+        <img id="u41_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u42" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u43" class="ax_paragraph">
+        <img id="u43_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u44" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u45" class="ax_paragraph">
+        <img id="u45_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u46" class="text">
+          <p><span>学</span><span>期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u47" class="ax_shape">
+        <img id="u47_img" class="img " src="images/任课信息导入/u194.png"/>
+        <!-- Unnamed () -->
+        <div id="u48" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u49" class="ax_shape">
+        <img id="u49_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u50" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u51" class="ax_paragraph">
+        <img id="u51_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u52" class="text">
+          <p><span>请选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u53" class="ax_paragraph">
+        <img id="u53_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u54" class="text">
+          <p><span>考试名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u55" class="ax_shape">
+        <img id="u55_img" class="img " src="images/考试信息设置/u85.png"/>
+        <!-- Unnamed () -->
+        <div id="u56" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u57" class="ax_shape">
+        <img id="u57_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u58" class="text">
+          <p><span>查</span><span>询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u59" class="ax_shape">
+        <img id="u59_img" class="img " src="images/班级整体分析（平均分报表）/u113.png"/>
+        <!-- Unnamed () -->
+        <div id="u60" class="text">
+          <p><span>题</span><span>号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u61" class="ax_shape">
+        <img id="u61_img" class="img " src="images/小题知识点分析/u61.png"/>
+        <!-- Unnamed () -->
+        <div id="u62" class="text">
+          <p><span>题目分数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u63" class="ax_shape">
+        <img id="u63_img" class="img " src="images/小题知识点分析/u63.png"/>
+        <!-- Unnamed () -->
+        <div id="u64" class="text">
+          <p><span>平均分</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u65" class="ax_shape">
+        <img id="u65_img" class="img " src="images/小题知识点分析/u63.png"/>
+        <!-- Unnamed () -->
+        <div id="u66" class="text">
+          <p><span>错</span><span>误率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u67" class="ax_shape">
+        <img id="u67_img" class="img " src="images/小题知识点分析/u67.png"/>
+        <!-- Unnamed () -->
+        <div id="u68" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u69" class="ax_shape">
+        <img id="u69_img" class="img " src="images/小题知识点分析/u69.png"/>
+        <!-- Unnamed () -->
+        <div id="u70" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u71" class="ax_shape">
+        <img id="u71_img" class="img " src="images/小题知识点分析/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u72" class="text">
+          <p><span>3.6</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u73" class="ax_shape">
+        <img id="u73_img" class="img " src="images/小题知识点分析/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u74" class="text">
+          <p><span>25.0%</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u75" class="ax_shape">
+        <img id="u75_img" class="img " src="images/小题知识点分析/u75.png"/>
+        <!-- Unnamed () -->
+        <div id="u76" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u77" class="ax_shape">
+        <img id="u77_img" class="img " src="images/小题知识点分析/u77.png"/>
+        <!-- Unnamed () -->
+        <div id="u78" class="text">
+          <p><span>1</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u79" class="ax_shape">
+        <img id="u79_img" class="img " src="images/小题知识点分析/u79.png"/>
+        <!-- Unnamed () -->
+        <div id="u80" class="text">
+          <p><span>5</span><span>.8</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u81" class="ax_shape">
+        <img id="u81_img" class="img " src="images/小题知识点分析/u79.png"/>
+        <!-- Unnamed () -->
+        <div id="u82" class="text">
+          <p><span>6</span><span>3.8%</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u83" class="ax_shape">
+        <img id="u83_img" class="img " src="images/小题知识点分析/u83.png"/>
+        <!-- Unnamed () -->
+        <div id="u84" class="text">
+          <p><span>题型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u85" class="ax_shape">
+        <img id="u85_img" class="img " src="images/小题知识点分析/u85.png"/>
+        <!-- Unnamed () -->
+        <div id="u86" class="text">
+          <p><span>选</span><span>择题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u87" class="ax_shape">
+        <img id="u87_img" class="img " src="images/小题知识点分析/u87.png"/>
+        <!-- Unnamed () -->
+        <div id="u88" class="text">
+          <p><span>非</span><span>选择题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u89" class="ax_paragraph">
+        <img id="u89_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u90" class="text">
+          <p><span>年级：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u91" class="ax_shape">
+        <img id="u91_img" class="img " src="images/任课信息导入/u194.png"/>
+        <!-- Unnamed () -->
+        <div id="u92" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u93" class="ax_shape">
+        <img id="u93_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u94" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u95" class="ax_paragraph">
+        <img id="u95_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u96" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u97" class="ax_paragraph">
+        <img id="u97_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u98" class="text">
+          <p><span>班</span><span>级：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u99" class="ax_shape">
+        <img id="u99_img" class="img " src="images/任课信息导入/u194.png"/>
+        <!-- Unnamed () -->
+        <div id="u100" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u101" class="ax_shape">
+        <img id="u101_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u102" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u103" class="ax_paragraph">
+        <img id="u103_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u104" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u105" class="ax_shape">
+        <img id="u105_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u106" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u107" class="ax_paragraph">
+        <img id="u107_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u108" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u109" class="ax_shape">
+        <img id="u109_img" class="img " src="images/考试信息设置/u243.png"/>
+        <!-- Unnamed () -->
+        <div id="u110" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u111" class="ax_vertical_line">
+        <img id="u111_start" class="img " src="resources/images/transparent.gif" alt="u111_start"/>
+        <img id="u111_end" class="img " src="resources/images/transparent.gif" alt="u111_end"/>
+        <img id="u111_line" class="img " src="images/考试信息设置/u245_line.png" alt="u111_line"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u112" class="ax_shape">
+        <img id="u112_img" class="img " src="images/考试信息设置/u246.png"/>
+        <!-- Unnamed () -->
+        <div id="u113" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u114" class="ax_paragraph">
+        <img id="u114_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u115" class="text">
+          <p><span>相</span><span>似结果</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u116" class="ax_paragraph">
+        <img id="u116_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u117" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u118" class="ax_paragraph">
+        <img id="u118_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u119" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u120" class="ax_paragraph">
+        <img id="u120_img" class="img " src="images/考试信息设置/u254.png"/>
+        <!-- Unnamed () -->
+        <div id="u121" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u122" class="ax_paragraph">
+        <img id="u122_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u123" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u124" class="ax_paragraph">
+        <img id="u124_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u125" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u126" class="ax_paragraph">
+        <img id="u126_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u127" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u128" class="ax_paragraph">
+        <img id="u128_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u129" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u130" class="ax_paragraph">
+        <img id="u130_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u131" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u132" class="ax_paragraph">
+        <img id="u132_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u133" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u134" class="ax_paragraph">
+        <img id="u134_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u135" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u136" class="ax_paragraph">
+        <img id="u136_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u137" class="text">
+          <p><span>考</span><span>试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u138" class="ax_shape">
+        <img id="u138_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u139" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u140" class="ax_image">
+        <img id="u140_img" class="img " src="images/考试信息设置/u274.png"/>
+        <!-- Unnamed () -->
+        <div id="u141" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u142" class="ax_paragraph">
+        <img id="u142_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u143" class="text">
+          <p><span>筛</span><span>选考试名称：交互方式——模糊搜索+下拉框</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u144" class="ax_paragraph">
+        <img id="u144_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u145" class="text">
+          <p><span>&#149; 可</span><span>以选中某个结果</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u146" class="ax_connector">
+        <img id="u146_seg0" class="img " src="images/小题知识点分析/u146_seg0.png" alt="u146_seg0"/>
+        <img id="u146_seg1" class="img " src="images/小题知识点分析/u146_seg1.png" alt="u146_seg1"/>
+        <img id="u146_seg2" class="img " src="images/录分人员管理/u111_seg2.png" alt="u146_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u147" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u148" class="ax_image">
+        <img id="u148_img" class="img " src="images/小题知识点分析/u148.png"/>
+        <!-- Unnamed () -->
+        <div id="u149" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u150" class="ax_image">
+        <img id="u150_img" class="img " src="images/小题知识点分析/u150.png"/>
+        <!-- Unnamed () -->
+        <div id="u151" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u152" class="ax_shape">
+        <img id="u152_img" class="img " src="images/小题知识点分析/u152.png"/>
+        <!-- Unnamed () -->
+        <div id="u153" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u154" class="ax_paragraph">
+        <img id="u154_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u155" class="text">
+          <p><span>&#149; </span><span>鼠标移入时，变为放大镜</span></p><p><span>&nbsp; 样式，点击可以弹出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u156" class="ax_image">
+        <img id="u156_img" class="img " src="images/小题知识点分析/u156.png"/>
+        <!-- Unnamed () -->
+        <div id="u157" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u158" class="ax_image">
+        <img id="u158_img" class="img " src="images/小题知识点分析/u158.png"/>
+        <!-- Unnamed () -->
+        <div id="u159" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u160" class="ax_image">
+        <img id="u160_img" class="img " src="images/小题知识点分析/u160.png"/>
+        <!-- Unnamed () -->
+        <div id="u161" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u162" class="ax_image">
+        <img id="u162_img" class="img " src="images/小题知识点分析/u162.png"/>
+        <!-- Unnamed () -->
+        <div id="u163" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u164" class="ax_shape">
+        <img id="u164_img" class="img " src="images/小题知识点分析/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u165" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u166" class="ax_shape">
+        <img id="u166_img" class="img " src="images/小题知识点分析/u166.png"/>
+        <!-- Unnamed () -->
+        <div id="u167" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u168" class="ax_paragraph">
+        <img id="u168_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u169" class="text">
+          <p><span>答</span><span>题正确人数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u170" class="ax_paragraph">
+        <img id="u170_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u171" class="text">
+          <p><span>答</span><span>题</span><span>错误</span><span>人数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u172" class="ax_paragraph">
+        <img id="u172_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u173" class="text">
+          <p><span>1</span><span>8人</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u174" class="ax_paragraph">
+        <img id="u174_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u175" class="text">
+          <p><span>3</span><span>5人</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u176" class="ax_shape">
+        <img id="u176_img" class="img " src="images/小题知识点分析/u176.png"/>
+        <!-- Unnamed () -->
+        <div id="u177" class="text">
+          <p><span>错</span><span>误学生名单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u178" class="ax_shape">
+        <img id="u178_img" class="img " src="images/小题知识点分析/u178.png"/>
+        <!-- Unnamed () -->
+        <div id="u179" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u180" class="ax_shape">
+        <img id="u180_img" class="img " src="images/小题知识点分析/u180.png"/>
+        <!-- Unnamed () -->
+        <div id="u181" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u182" class="ax_shape">
+        <img id="u182_img" class="img " src="images/年级设置/u77.png"/>
+        <!-- Unnamed () -->
+        <div id="u183" class="text">
+          <p><span>图</span><span>表分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u184" class="ax_shape">
+        <img id="u184_img" class="img " src="images/班级设置/u199.png"/>
+        <!-- Unnamed () -->
+        <div id="u185" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u186" class="ax_shape">
+        <img id="u186_img" class="img " src="images/按学生个人录入/u75.png"/>
+        <!-- Unnamed () -->
+        <div id="u187" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u188" class="ax_image">
+        <img id="u188_img" class="img " src="images/小题知识点分析/u188.png"/>
+        <!-- Unnamed () -->
+        <div id="u189" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u190" class="ax_image">
+        <img id="u190_img" class="img " src="images/小题知识点分析/u190.png"/>
+        <!-- Unnamed () -->
+        <div id="u191" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u192" class="ax_image">
+        <img id="u192_img" class="img " src="images/小题知识点分析/u192.png"/>
+        <!-- Unnamed () -->
+        <div id="u193" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u194" class="ax_image">
+        <img id="u194_img" class="img " src="images/小题知识点分析/u194.png"/>
+        <!-- Unnamed () -->
+        <div id="u195" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u196" class="ax_image">
+        <img id="u196_img" class="img " src="images/小题知识点分析/u196.png"/>
+        <!-- Unnamed () -->
+        <div id="u197" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u198" class="ax_paragraph">
+        <img id="u198_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u199" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">, </span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">, </span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">，王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u200" class="ax_shape">
+        <img id="u200_img" class="img " src="images/小题知识点分析/u200.png"/>
+        <!-- Unnamed () -->
+        <div id="u201" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u202" class="ax_shape">
+        <img id="u202_img" class="img " src="images/小题知识点分析/u202.png"/>
+        <!-- Unnamed () -->
+        <div id="u203" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u204" class="ax_paragraph">
+        <img id="u204_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u205" class="text">
+          <p><span>王芳，</span><span>王芳，王芳，王芳，王芳，</span><span>王芳，王芳，王芳，王芳，王芳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u206" class="ax_paragraph">
+        <img id="u206_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u207" class="text">
+          <p><span>图</span><span>表分析：交互方式——弹出层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u208" class="ax_paragraph">
+        <img id="u208_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u209" class="text">
+          <p><span>&#149; 饼</span><span>图：适用对象——选择题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u210" class="ax_shape">
+        <img id="u210_img" class="img " src="images/小题知识点分析/u210.png"/>
+        <!-- Unnamed () -->
+        <div id="u211" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u212" class="ax_shape">
+        <img id="u212_img" class="img " src="images/小题知识点分析/u210.png"/>
+        <!-- Unnamed () -->
+        <div id="u213" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u214" class="ax_shape">
+        <img id="u214_img" class="img " src="images/小题知识点分析/u210.png"/>
+        <!-- Unnamed () -->
+        <div id="u215" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u216" class="ax_shape">
+        <img id="u216_img" class="img " src="images/小题知识点分析/u210.png"/>
+        <!-- Unnamed () -->
+        <div id="u217" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u218" class="ax_paragraph">
+        <img id="u218_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u219" class="text">
+          <p><span>&#149; 上</span><span>一题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u220" class="ax_paragraph">
+        <img id="u220_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u221" class="text">
+          <p><span>&#149; 下</span><span>一题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u222" class="ax_shape">
+        <img id="u222_img" class="img " src="images/小题知识点分析/u222.png"/>
+        <!-- Unnamed () -->
+        <div id="u223" class="text">
+          <p><span>得分</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u224" class="ax_paragraph">
+        <img id="u224_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u225" class="text">
+          <p><span>&#149; 正态分布图：适用对象——非选择题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u226" class="ax_shape">
+        <img id="u226_img" class="img " src="images/小题知识点分析/u226.png"/>
+        <!-- Unnamed () -->
+        <div id="u227" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u228" class="ax_paragraph">
+        <img id="u228_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u229" class="text">
+          <p><span>2</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u230" class="ax_paragraph">
+        <img id="u230_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u231" class="text">
+          <p><span>1</span><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u232" class="ax_paragraph">
+        <img id="u232_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u233" class="text">
+          <p><span>1</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u234" class="ax_paragraph">
+        <img id="u234_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u235" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u236" class="ax_shape">
+        <img id="u236_img" class="img " src="images/小题知识点分析/u210.png"/>
+        <!-- Unnamed () -->
+        <div id="u237" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u238" class="ax_shape">
+        <img id="u238_img" class="img " src="images/小题知识点分析/u210.png"/>
+        <!-- Unnamed () -->
+        <div id="u239" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u240" class="ax_shape">
+        <img id="u240_img" class="img " src="images/小题知识点分析/u210.png"/>
+        <!-- Unnamed () -->
+        <div id="u241" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u242" class="ax_shape">
+        <img id="u242_img" class="img " src="images/小题知识点分析/u210.png"/>
+        <!-- Unnamed () -->
+        <div id="u243" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u244" class="ax_paragraph">
+        <img id="u244_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u245" class="text">
+          <p><span style="color:#999999;">题号：</span><span style="color:#333333;">10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u246" class="ax_paragraph">
+        <img id="u246_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u247" class="text">
+          <p><span style="color:#999999;">题型：</span><span style="color:#333333;">选择题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u248" class="ax_paragraph">
+        <img id="u248_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u249" class="text">
+          <p><span style="color:#999999;">题号：</span><span style="color:#333333;">1</span><span style="color:#333333;">1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u250" class="ax_paragraph">
+        <img id="u250_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u251" class="text">
+          <p><span style="color:#999999;">题型：</span><span style="color:#333333;">非</span><span style="color:#333333;">选择题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u252" class="ax_connector">
+        <img id="u252_seg0" class="img " src="images/小题知识点分析/u252_seg0.png" alt="u252_seg0"/>
+        <img id="u252_seg1" class="img " src="images/小题知识点分析/u252_seg1.png" alt="u252_seg1"/>
+        <img id="u252_seg2" class="img " src="images/小题知识点分析/u252_seg2.png" alt="u252_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u253" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u254" class="ax_vertical_line">
+        <img id="u254_start" class="img " src="resources/images/transparent.gif" alt="u254_start"/>
+        <img id="u254_end" class="img " src="resources/images/transparent.gif" alt="u254_end"/>
+        <img id="u254_line" class="img " src="images/小题知识点分析/u254_line.png" alt="u254_line"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u255" class="ax_shape">
+        <img id="u255_img" class="img " src="images/小题知识点分析/u255.png"/>
+        <!-- Unnamed () -->
+        <div id="u256" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u257" class="ax_shape">
+        <img id="u257_img" class="img " src="images/小题知识点分析/u257.png"/>
+        <!-- Unnamed () -->
+        <div id="u258" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u259" class="ax_paragraph">
+        <img id="u259_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u260" class="text">
+          <p style="font-size:14px;"><span style="font-size:14px;color:#FFFFFF;">得</span><span style="font-size:14px;color:#FFFFFF;">分：3.5</span><span style="font-size:12px;color:#CCCCCC;">分</span></p><p style="font-size:14px;"><span style="font-size:14px;color:#FFFFFF;">人数：3</span><span style="font-size:12px;color:#CCCCCC;">人</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u261" class="ax_vertical_line">
+        <img id="u261_start" class="img " src="resources/images/transparent.gif" alt="u261_start"/>
+        <img id="u261_end" class="img " src="resources/images/transparent.gif" alt="u261_end"/>
+        <img id="u261_line" class="img " src="images/小题知识点分析/u254_line.png" alt="u261_line"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u262" class="ax_shape">
+        <img id="u262_img" class="img " src="images/小题知识点分析/u255.png"/>
+        <!-- Unnamed () -->
+        <div id="u263" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u264" class="ax_shape">
+        <img id="u264_img" class="img " src="images/小题知识点分析/u257.png"/>
+        <!-- Unnamed () -->
+        <div id="u265" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u266" class="ax_paragraph">
+        <img id="u266_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u267" class="text">
+          <p style="font-size:14px;"><span style="font-size:14px;color:#FFFFFF;">得</span><span style="font-size:14px;color:#FFFFFF;">分：</span><span style="font-size:14px;color:#FFFFFF;">10</span><span style="font-size:12px;color:#CCCCCC;">分</span></p><p style="font-size:14px;"><span style="font-size:14px;color:#FFFFFF;">人数：</span><span style="font-size:14px;color:#FFFFFF;">1</span><span style="font-size:12px;color:#CCCCCC;">人</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u268" class="ax_shape">
+        <img id="u268_img" class="img " src="images/小题知识点分析/u268.png"/>
+        <!-- Unnamed () -->
+        <div id="u269" class="text">
+          <p><span>关</span><span>闭</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u270" class="ax_shape">
+        <img id="u270_img" class="img " src="images/小题知识点分析/u268.png"/>
+        <!-- Unnamed () -->
+        <div id="u271" class="text">
+          <p><span>关</span><span>闭</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u272" class="ax_image">
+        <img id="u272_img" class="img " src="images/小题知识点分析/u272.png"/>
+        <!-- Unnamed () -->
+        <div id="u273" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u274" class="ax_shape">
+        <img id="u274_img" class="img " src="images/新增学生信息/u143.png"/>
+        <!-- Unnamed () -->
+        <div id="u275" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u276" class="ax_shape">
+        <img id="u276_img" class="img " src="images/新增学生信息/u145.png"/>
+        <!-- Unnamed () -->
+        <div id="u277" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u278" class="ax_paragraph">
+        <img id="u278_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u279" class="text">
+          <p><span>&#149; 超</span><span>过一屏后，</span></p><p><span>&nbsp; </span><span>显示返回顶部按钮</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u280" class="ax_shape">
+        <img id="u280_img" class="img " src="images/录分人员管理/u63.png"/>
+        <!-- Unnamed () -->
+        <div id="u281" class="text">
+          <p><span>语</span><span>文</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u282" class="ax_shape">
+        <img id="u282_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u283" class="text">
+          <p><span>数学</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u284" class="ax_shape">
+        <img id="u284_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u285" class="text">
+          <p><span>外</span><span>语</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u286" class="ax_shape">
+        <img id="u286_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u287" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u288" class="ax_paragraph">
+        <img id="u288_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u289" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">, </span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳，</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">王</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">芳</span><span style="font-family:'微软雅黑 Bold', '微软雅黑';font-weight:700;">，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">, </span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳，</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">，王</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">芳</span><span style="font-family:'微软雅黑 Regular', '微软雅黑';font-weight:400;">...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u290" class="ax_paragraph">
+        <img id="u290_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u291" class="text">
+          <p><span>重点线上学生：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u292" class="ax_paragraph">
+        <img id="u292_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u293" class="text">
+          <p><span>王芳，</span><span>王芳，王芳，王芳，王芳，</span><span>王芳，王芳，王芳，王芳，王芳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u294" class="ax_paragraph">
+        <img id="u294_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u295" class="text">
+          <p><span>非重点线学生：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u296" class="ax_paragraph">
+        <img id="u296_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u297" class="text">
+          <p><span>错</span><span>误学生名单：区分重点线学生和非重点线学生</span></p><p><span>&#149; cell（单元格）内区分：重点线学生打标记——UI决定</span></p><p><span>&#149; 鼠标移入时：按重点线和非重点线，分别显示学生</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u298" class="ax_paragraph">
+        <img id="u298_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u299" class="text">
+          <p><span>语</span><span>文分数线：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u300" class="ax_shape">
+        <img id="u300_img" class="img " src="images/学生个体横向分析_成绩分布_/u134.png"/>
+        <!-- Unnamed () -->
+        <div id="u301" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u302" class="ax_shape">
+        <img id="u302_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u303" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u304" class="ax_paragraph">
+        <img id="u304_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u305" class="text">
+          <p><span>重</span><span>点线</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u306" class="ax_connector">
+        <img id="u306_seg0" class="img " src="images/考试信息设置/u276_seg0.png" alt="u306_seg0"/>
+        <img id="u306_seg1" class="img " src="images/小题知识点分析/u306_seg1.png" alt="u306_seg1"/>
+        <img id="u306_seg2" class="img " src="images/小题知识点分析/u306_seg2.png" alt="u306_seg2"/>
+        <img id="u306_seg3" class="img " src="images/小题知识点分析/u306_seg3.png" alt="u306_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u307" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u308" class="ax_paragraph">
+        <img id="u308_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u309" class="text">
+          <p><span>“***上学生”“非***学生”：</span></p><p><span>具体文案，根据用户的选项来</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

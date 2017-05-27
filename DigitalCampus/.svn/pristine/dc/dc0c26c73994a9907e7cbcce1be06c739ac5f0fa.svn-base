@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>成绩分析管理</title>
+
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="../components/font-awesome/css/font-awesome.css" />
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="../components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css">
+		<link rel="stylesheet" href="../components/layer/skin/layer.css">
+		<link rel="stylesheet" href="../components/chosen/chosen.css">
+
+		<!-- ace styles -->
+		<link rel="stylesheet" href="../assets/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="../assets/css/ace-part2.css" class="ace-main-stylesheet" />
+		<![endif]-->
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="../assets/css/ace-ie.css" />
+		<![endif]-->
+		<link rel="stylesheet" href="../css/pages.css">
+		<!-- inline styles related to this page -->
+		
+
+		<!-- ace settings handler -->
+		<script src="../assets/js/ace-extra.js"></script>
+
+		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+			<script src="../components/html5shiv/dist/html5shiv.min.js"></script>
+			<script src="../components/respond/dest/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- #section:basics/navbar.layout -->
+		<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+			<script type="text/javascript">
+				try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="navbar-container" id="navbar-container">
+				<!-- #section:basics/sidebar.mobile.toggle -->
+				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+					<span class="sr-only">Toggle sidebar</span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+				</button>
+
+				<!-- /section:basics/sidebar.mobile.toggle -->
+				<div class="navbar-header pull-left">
+					<!-- #section:basics/navbar.layout.brand -->
+					<a href="#" class="navbar-brand">
+						<small>教务管理</small>
+					</a>
+
+					<!-- /section:basics/navbar.layout.brand -->
+
+					<!-- #section:basics/navbar.toggle -->
+
+					<!-- /section:basics/navbar.toggle -->
+				</div>
+
+				<!-- #section:basics/navbar.dropdown -->
+				<div class="navbar-buttons navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						<li>
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-tasks"></i>
+							</a>
+						</li>
+
+						<li>
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-question-circle"></i>
+							</a>
+						</li>
+
+						<li>
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-envelope icon-animated-vertical"></i>
+								<span class="badge badge-important">5</span>
+							</a>
+						</li>
+
+						<!-- #section:basics/navbar.user_menu -->
+						<li>
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="../assets/avatars/user.jpg" alt="Jason's Photo" />
+								<span class="user-info">
+									<small>Welcome,</small>
+									Jason
+								</span>
+
+								<i class="ace-icon fa fa-caret-down"></i>
+							</a>
+
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="#">
+										<i class="ace-icon fa fa-cog"></i>
+										Settings
+									</a>
+								</li>
+
+								<li>
+									<a href="profile.html">
+										<i class="ace-icon fa fa-user"></i>
+										Profile
+									</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="#">
+										<i class="ace-icon fa fa-power-off"></i>
+										Logout
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<!-- /section:basics/navbar.user_menu -->
+					</ul>
+				</div>
+
+				<!-- /section:basics/navbar.dropdown -->
+			</div><!-- /.navbar-container -->
+		</div>
+
+		<!-- /section:basics/navbar.layout -->
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<!-- #section:basics/sidebar -->
+			<div id="sidebar" class="sidebar                  responsive sidebar-fixed">
+				<script type="text/javascript">
+					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+				</script>
+
+				<ul class="nav nav-list">
+					<li class="">
+						<a href="index.html" class="dropdown-toggle">
+							<i class="menu-icon"></i>
+							<span class="menu-text">教务管理</span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li>
+								<a href="">学年学期设置</a>
+								<div class="arrow"></div>
+							</li>
+							<li>
+								<a href="">年级班级设置</a>
+								<div class="arrow"></div>
+							</li>
+							<li>
+								<a href="">学科课程设置</a>
+								<div class="arrow"></div>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon"></i>
+							<span class="menu-text">
+								考试管理
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="#" class="dropdown-toggle">
+									学科模块管理
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									课程开设
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									任课信息导入
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									课程表维护
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									选修课设置
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									教师课程表
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									年级总课表
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									教师总课表
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="#" class="dropdown-toggle">
+									全校总课表
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon"></i>
+							<span class="menu-text"> 成绩管理 </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="">
+									考试信息设置
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									考试科目设置
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon"></i>
+							<span class="menu-text"> 成绩查询 </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="">
+									学生个体分析
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									班级整体分析
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									教学质量分析
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									Wysiwyg &amp; Markdown
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="">
+									Dropzone File Upload
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="" class="dropdown-toggle">
+							<i class="menu-icon"></i>
+							<span class="menu-text"> 成绩分析 </span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li>
+								<a href="">学生个体分析</a>
+								<div class="arrow"></div>
+							</li>
+							<li>
+								<a href="">班级整体分析</a>
+								<div class="arrow"></div>
+							</li>
+							<li>
+								<a href="">教学质量分析</a>
+								<div class="arrow"></div>
+							</li>
+						</ul>
+
+					</li>
+
+					<li class="">
+						<a href="" class="dropdown-toggle">
+							<i class="menu-icon"></i>
+							<span class="menu-text">
+								高考成绩分析
+							</span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li>
+								<a href=""></a>
+								<div class="arrow"></div>
+							</li>
+							<li>
+								<a href=""></a>
+								<div class="arrow"></div>
+							</li>
+							<li>
+								<a href=""></a>
+								<div class="arrow"></div>
+							</li>
+						</ul>
+
+					</li>
+				</ul><!-- /.nav-list -->
+
+				<!-- #section:basics/sidebar.layout.minimize -->
+				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+				</div>
+
+				<!-- /section:basics/sidebar.layout.minimize -->
+				<script type="text/javascript">
+					try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+				</script>
+			</div>
+
+			<!-- /section:basics/sidebar -->
+			<div class="main-content">
+				<div class="main-content-inner">
+					<!-- #section:basics/content.breadcrumbs -->
+					<div class="breadcrumbs  breadcrumbs-fixed" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="ace-icon fa fa-home home-icon"></i>
+								<a href="#">Home</a>
+							</li>
+
+							<li>
+								<a href="#">Other Pages</a>
+							</li>
+							<li class="active">Blank Page</li>
+						</ul><!-- /.breadcrumb -->
+						
+					</div>
+
+					<!-- /section:basics/content.breadcrumbs -->
+					<div class="page-content">
+						
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+									<div class="win-box">
+										<div class="win-header">
+											<h4 class="win-title">通用信息设置</h4>
+										</div>
+										<div class="win-body">
+											<div class="filter">
+												<div class="filter-item block">
+													<label for="" class="filter-name">考试名称：</label>
+													<div class="filter-content">
+														<select class="form-control">
+															<option value="">请选择学年</option>
+															<option value="2016">2016</option>
+															<option value="2015">2015</option>
+															<option value="2014">2014</option>
+															<option value="2013">2013</option>
+															<option value="2012">2012</option>
+														</select>
+														<select class="form-control">
+															<option value="">请选择学期</option>
+															<option value="2016">2016</option>
+															<option value="2015">2015</option>
+															<option value="2014">2014</option>
+															<option value="2013">2013</option>
+															<option value="2012">2012</option>
+														</select>
+														<select class="form-control">
+															<option value="">请选择考试名称</option>
+															<option value="2016">2016</option>
+															<option value="2015">2015</option>
+															<option value="2014">2014</option>
+															<option value="2013">2013</option>
+															<option value="2012">2012</option>
+														</select>
+													</div>
+												</div>
+												<div class="filter-item block">
+													<label for="" class="filter-name">考试时间：</label>
+													<div class="filter-content">
+														<div class="input-group">
+															<input class="form-control date-picker" type="text">
+															<span class="input-group-addon">
+																<i class="fa fa-calendar bigger-110"></i>
+															</span>
+														</div>
+													</div>
+												</div>
+												<div class="filter-item block">
+													<label for="" class="filter-name">考试对象：</label>
+													<div class="filter-content">
+														<select class="form-control">
+															<option value="">请选择年级</option>
+															<option value="2016">2016</option>
+															<option value="2015">2015</option>
+															<option value="2014">2014</option>
+															<option value="2013">2013</option>
+															<option value="2012">2012</option>
+														</select>
+														<button class="btn btn-darkblue pull-left" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">选择班级 <span class="fa fa-caret-down"></span></button>
+														<div class="row">
+															<div class="col-xs-12">
+																<div id="collapseExample" class="collapse widget-box">
+																	<div class="widget-body">
+																		<div class="widget-main">
+																			<label>
+																				<input name="form-field-checkbox" type="checkbox" checked class="ace">
+																				<span class="lbl"> 全选</span>
+																			</label>
+																			<h5>行政班</h5>
+																			<div class="label-select multiselect">
+																				<span class="label-select-item active">初1(01)班</span>
+																				<span class="label-select-item active">初1(02)班</span>
+																				<span class="label-select-item active">初1(02)班</span>
+																				<span class="label-select-item active">初1(02)班</span>
+																				<span class="label-select-item active">初1(02)班</span>
+																				<span class="label-select-item active">初1(02)班</span>
+																				<span class="label-select-item active">初1(02)班</span>
+																				<span class="label-select-item active">初1(02)班</span>
+																			</div>
+																			<h5>教学班</h5>
+																			<div class="label-select multiselect">
+																				<span class="label-select-item active">初1(01)班</span>
+																				<span class="label-select-item active">初1(02)班</span>
+																				<span class="label-select-item active">初1(02)班</span>
+																				<span class="label-select-item disabled">初1(02)班</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- 科目及分数设置开始 -->
+									<div class="win-box">
+										<div class="win-header">
+											<h4 class="win-title">
+												科目及分数设置
+												<button class="btn btn-sm btn-lightblue js-layer-01">复用之前的考试设置</button>
+											</h4>
+										</div>
+										<div class="win-body">
+											<div class="add-exam clearfix">
+												<div class="widget-box add-exam-item" style="height:505px;">
+													<div class="widget-body">
+														<div class="widget-main padding-12">
+															<a href="" class="add-exam-close"><i class="fa fa-times-circle"></i></a>
+															<div class="filter">
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">请选择考试科目</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">笔试</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">分制</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="选择考试时间">
+																</div>
+																<div class="filter-item">
+																	<select multiple="" class="form-control width-85 chosen-select" data-placeholder="选择行政班">
+																		<option value=""></option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<select  multiple="" class="form-control width-85 chosen-select" data-placeholder="选择教学班">
+																		<option value=""></option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入选考总分（不能为空）">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入学考总分">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入客观题分数">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入主观题分数">
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">是否锁定成绩</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="widget-box add-exam-item" style="height:505px;">
+													<div class="widget-body">
+														<div class="widget-main padding-12">
+															<a href="" class="add-exam-close"><i class="fa fa-times-circle"></i></a>
+															<div class="filter">
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">请选择考试科目</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">笔试</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">分制</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="选择考试时间">
+																</div>
+																<div class="filter-item">
+																	<select multiple="" class="form-control width-85 chosen-select" data-placeholder="选择行政班">
+																		<option value=""></option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																	<a href="javascript:;" data-toggle="tooltip" data-placement="top" title="复制前一个设置的班级"><i class="fa fa-copy"></i></a>
+																</div>
+																<div class="filter-item">
+																	<select  multiple="" class="form-control width-85 chosen-select" data-placeholder="选择教学班">
+																		<option value=""></option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																	<a href="javascript:;" data-toggle="tooltip" data-placement="top" title="复制前一个设置的班级"><i class="fa fa-copy"></i></a>
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入选考总分（不能为空）">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入学考总分">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入客观题分数">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入主观题分数">
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">是否锁定成绩</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="widget-box add-exam-item" style="height:505px;">
+													<div class="widget-body">
+														<div class="widget-main padding-12">
+															<a href="" class="add-exam-close"><i class="fa fa-times-circle"></i></a>
+															<div class="filter">
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">请选择考试科目</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">笔试</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">分制</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="选择考试时间">
+																</div>
+																<div class="filter-item">
+																	<select multiple="" class="form-control width-85 chosen-select" data-placeholder="选择行政班">
+																		<option value=""></option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																	<a href="javascript:;" data-toggle="tooltip" data-placement="top" title="复制前一个设置的班级"><i class="fa fa-copy"></i></a>
+																</div>
+																<div class="filter-item">
+																	<select  multiple="" class="form-control width-85 chosen-select" data-placeholder="选择教学班">
+																		<option value=""></option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																	<a href="javascript:;" data-toggle="tooltip" data-placement="top" title="复制前一个设置的班级"><i class="fa fa-copy"></i></a>
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入选考总分（不能为空）">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入学考总分">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入客观题分数">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入主观题分数">
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">是否锁定成绩</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="widget-box add-exam-item" style="height:505px;">
+													<div class="widget-body">
+														<div class="widget-main padding-12">
+															<a href="" class="add-exam-close"><i class="fa fa-times-circle"></i></a>
+															<div class="filter">
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">请选择考试科目</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">笔试</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">分制</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="选择考试时间">
+																</div>
+																<div class="filter-item">
+																	<select multiple="" class="form-control width-85 chosen-select" data-placeholder="选择行政班">
+																		<option value=""></option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																	<a href="javascript:;" data-toggle="tooltip" data-placement="top" title="复制前一个设置的班级"><i class="fa fa-copy"></i></a>
+																</div>
+																<div class="filter-item">
+																	<select  multiple="" class="form-control width-85 chosen-select" data-placeholder="选择教学班">
+																		<option value=""></option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																	<a href="javascript:;" data-toggle="tooltip" data-placement="top" title="复制前一个设置的班级"><i class="fa fa-copy"></i></a>
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入选考总分（不能为空）">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入学考总分">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入客观题分数">
+																</div>
+																<div class="filter-item">
+																	<input type="text" class="form-control" placeholder="请输入主观题分数">
+																</div>
+																<div class="filter-item">
+																	<select class="form-control">
+																		<option value="">是否锁定成绩</option>
+																		<option value="2016">2016</option>
+																		<option value="2015">2015</option>
+																		<option value="2014">2014</option>
+																		<option value="2013">2013</option>
+																		<option value="2012">2012</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="widget-box widget-box-lightblue add-exam-item" style="height:505px;">
+													<a class="add-exam-btn" href="javascript:void(0);">
+														<i class="fa fa-plus fa-3x"></i>
+														<p>新增科目及分数</p>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div><!-- 科目及分数设置结束 -->
+									<div class="page-btns">
+										<button class="btn btn-darkblue">确定</button>
+										<button class="btn btn-darkblue">取消</button>
+									</div>
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- 弹出层开始 -->
+		<div class="layer">
+			<div class="layer-header">
+				<h4 class="layer-title">选择复用对象</h4>
+			</div>
+			<div class="layer-body">
+				<div class="filter clearfix">
+					<div class="filter-item block">
+						<label for="" class="filter-name">学&emsp;&emsp;年：</label>
+						<div class="filter-content">
+							<select class="form-control">
+								<option value="">请选择</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								<option value="2014">2014</option>
+								<option value="2013">2013</option>
+								<option value="2012">2012</option>
+							</select>
+						</div>
+					</div>
+					<div class="filter-item block">
+						<label for="" class="filter-name">学&emsp;&emsp;期：</label>
+						<div class="filter-content">
+							<select class="form-control">
+								<option value="">请选择</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								<option value="2014">2014</option>
+								<option value="2013">2013</option>
+								<option value="2012">2012</option>
+							</select>
+						</div>
+					</div>
+					<div class="filter-item block">
+						<label for="" class="filter-name">考试名称：</label>
+						<div class="filter-content">
+							<select class="form-control">
+								<option value="">请选择</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								<option value="2014">2014</option>
+								<option value="2013">2013</option>
+								<option value="2012">2012</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="layer-footer">
+				<button type="button" class="btn btn-darkblue" data-dismiss="layer">确定</button>
+				<button type="button" class="btn btn-darkblue">取消</button>
+			</div>
+		</div><!-- 弹出层结束 -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script src="../components/jquery/dist/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script src="../components/jquery.1x/dist/jquery.js"></script>
+		<![endif]-->
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='../components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"+"<"+"/script>");
+		</script>
+		<script src="../components/bootstrap/dist/js/bootstrap.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="../components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+		<script src="../components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+		<script src="../components/layer/layer.js"></script>
+		<script src="../components/chosen/chosen.jquery.js"></script>
+
+		<!-- ace scripts -->
+		<script src="../assets/js/src/elements.scroller.js"></script>		<!-- 滚动条插件 -->
+		<script src="../assets/js/src/elements.fileinput.js"></script>		<!-- 上传文件插件 -->
+		<script src="../assets/js/src/ace.js"></script>						<!-- ace主体js -->
+		<script src="../assets/js/src/ace.basics.js"></script>				<!-- 侧边导航及其他一些修复功能js -->
+		<script src="../assets/js/src/ace.scrolltop.js"></script>   		<!-- 回到顶部按钮js -->
+		<script src="../assets/js/src/ace.ajax-content.js"></script>  		<!-- 异步加载js -->
+		<script src="../assets/js/src/ace.sidebar.js"></script>				<!-- 侧边导航js -->
+		<script src="../assets/js/src/ace.sidebar-scroll-1.js"></script>	<!-- 侧边导航滚动js -->
+		<script src="../assets/js/src/ace.submenu-hover.js"></script>		<!-- 菜单滑过js -->
+		<script src="../assets/js/src/ace.widget-box.js"></script>     		<!-- 小窗口组件功能js -->
+		<!-- <script src="../assets/js/src/ace.settings.js"></script> -->     		<!-- ace设置功能js -->
+		<!-- <script src="../assets/js/src/ace.settings-skin.js"></script> --> 		<!-- 皮肤设置js -->
+		
+		<script src="../js/myscript.js"></script>
+		<!-- inline scripts related to this page -->
+		<script>
+			$(function(){
+				$('.date-picker').datepicker({
+					language: 'zh-CN',
+					autoclose: true,
+					todayHighlight: true,
+					format: 'yyyy-mm-dd'
+				})
+				//show datepicker when clicking on the icon
+				.next().on(ace.click_event, function(){
+					$(this).prev().focus();
+				});
+
+				$('.js-layer-01').on('click',function(){
+					layer.open({
+						type: 1,
+						title: false,
+						shade: 0,
+						closeBtn: 1,
+						move: '.layer-header',
+						content: $('.layer')
+					});
+				})
+			})
+		</script>
+		
+	</body>
+</html>

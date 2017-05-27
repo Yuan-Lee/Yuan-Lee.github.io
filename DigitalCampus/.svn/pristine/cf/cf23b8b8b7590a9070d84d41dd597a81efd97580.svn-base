@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>超管-系统激活</title>
+
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="../components/font-awesome/css/font-awesome.css" />
+
+		<link rel="stylesheet" href="../css/components.css">
+		<link rel="stylesheet" href="../css/basic-data.css">
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="../css/pages-ie.css" />
+		<![endif]-->
+		<!-- inline styles related to this page -->
+
+		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+			<script src="../components/html5shiv/dist/html5shiv.min.js"></script>
+			<script src="../components/respond/dest/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="super">
+		<div class="header">
+			<div class="container">
+				<a href="#" class="navbar-brand">万朋平台配置助手</a>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="container">
+				<div class="box box-default">
+					<div class="box-body">
+						<ul id="breadcrumb" class="clearfix">
+							<li class="active"><span>重设密码</span></li>
+							<li class="active"><span>参数设置</span></li>
+							<li class="active"><span>系统激活</span></li>
+						</ul>
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding" for="form-field-1">*&nbsp;顶级单位名称</label>
+
+								<div class="col-sm-5">
+									<input type="text" id="form-field-1" value="" placeholder="" class="form-control">
+									<span class="control-disabled">参数说明</span>
+								</div>
+								<div class="col-sm-5 control-tips"></div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding" for="form-field-2">*&nbsp;顶级单位行政区划</label>
+
+								<div class="col-sm-5">
+									<div class="multi-select">
+										<div class="multi-select-text">
+											<input type="text" class="form-control" />
+											<i class="fa fa-caret-down"></i>
+										</div>
+									</div>
+									<span class="control-disabled">参数说明</span>
+								</div>
+								<div class="col-sm-5 control-tips"></div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding" for="form-field-3">*&nbsp;输入序列号</label>
+
+								<div class="col-sm-5">
+									<textarea id="form-field-3" placeholder="" class="form-control" style="height: 200px;">mfg1rmGwoOSjCzNC++55hTHSoTzPv+tuFaYou/9dHy1RXSY5FSXjCzNC++55hTHSoTzPv+tuFaNYou/9dHy1RXSY5FSXpOXQReRZNS64OXQReRZNS64mfg1rmGwoOSzNC++55hTHSoFYou/9dHy1SY5FSXpOXQRemfg1rmGwoOSjCzNC++55hTHSoTzPv+tuFaYou/9dHy1RXSY5FSXpmfg1rmGwoOSjCzNC++55hTHSoTzPv+tuFaNYou/9dHy1RXSY5FSXpOXQReRZNS64OXQReRZNS64mfg1rmGwoOSjCzNC++55hTHSoTzv+tuFaNYou/9dHy1RXSY5FSXpOXQReRZNS64</textarea>
+									<span class="control-disabled">当前序列号有效时间至2017年2月22日</span>
+								</div>
+								<div class="col-sm-5 control-tips"></div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding" for="form-field-3"></label>
+
+								<div class="col-sm-5">
+									<button class="btn btn-blue js-veri">验证序列号</button>
+								</div>
+								<div class="col-sm-5 control-tips"></div>
+							</div>
+							
+							<div class="verification-wrap">
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding" for="form-field-4">*&nbsp;顶级单位账号</label>
+	
+									<div class="col-sm-5">
+										<input type="text" id="form-field-4" value="" placeholder="" class="form-control">
+										<span class="control-disabled">参数说明</span>
+									</div>
+									<div class="col-sm-5 control-tips"></div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding" for="form-field-5">*&nbsp;顶级单位密码</label>
+									<div class="col-sm-5">
+										<span class="input-icon" id="eyeChange">
+											<input type="password" id="form-field-9" value="" placeholder="请输入密码" class="form-control">
+											<i class="ace-icon fa fa-eye-slash"></i>
+										</span>
+										<span class="control-disabled">密码只能以数字或字母开头，密码长度不得少于6位</span>
+									</div>
+									<div class="col-sm-5 control-tips"></div>
+								</div>
+								<table class="table table-striped table-middle">
+									<thead>
+										<tr>
+											<th class="text-center">应用名称</th>
+											<th class="text-center">域名/内网网址/sereld</th>
+											<th class="text-center">首页/协议/端口/serberkey</th>
+											<th class="text-center">上下文或/eisu</th>
+											<th class="text-center">操作</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="text-center">
+												<p><img src="../images/base/temp/2.png" width="64" height="64" /></p>
+												<p class="base-app-title">问卷调查</p>
+											</td>
+											<td>
+												<div class="filter-item block">
+													<span class="filter-name">域&emsp;&emsp;名：</span>
+													<div class="filter-content">
+														<input type="text" name="" id="" class="form-control" />
+													</div>
+												</div>
+												<div class="filter-item block">
+													<span class="filter-name">内网地址：</span>
+													<div class="filter-content">
+														<input type="text" name="" id="" class="form-control" />
+													</div>
+												</div>
+												<div class="filter-item block">servrld：93401</div>
+											</td>
+											<td>
+												<div class="filter-item block">
+													<span class="filter-name">首页：</span>
+													<div class="filter-content">
+														<input type="text" name="" id="" class="form-control" />
+													</div>
+												</div>
+												<div class="clearfix">
+													<div class="filter-item">
+														<span class="filter-name">协议：</span>
+														<div class="filter-content">
+															<input type="text" name="" id="" class="form-control" />
+														</div>
+													</div>
+													<div class="filter-item">
+														<span class="filter-name">端口：</span>
+														<div class="filter-content">
+															<input type="text" name="" id="" class="form-control" />
+														</div>
+													</div>
+												</div>
+												<div class="filter-item block">serberkey：javax.servlet.ServletExcepti</div>
+											</td>
+											<td>
+												<div class="filter-item block">
+													<span class="filter-name">协议：</span>
+													<div class="filter-content">
+														<input type="text" name="" id="" class="form-control" />
+													</div>
+												</div>
+											</td>
+											<td class="text-center">
+												<button class="btn btn-blue">更新</button>
+											</td>
+										</tr>
+										<tr>
+											<td class="text-center">
+												<p><img src="../images/base/temp/2.png" width="64" height="64" /></p>
+												<p class="base-app-title">问卷调查</p>
+											</td>
+											<td>
+												<div class="filter-item block">
+													<span class="filter-name">域&emsp;&emsp;名：</span>
+													<div class="filter-content">
+														<input type="text" name="" id="" class="form-control" />
+													</div>
+												</div>
+												<div class="filter-item block">
+													<span class="filter-name">内网地址：</span>
+													<div class="filter-content">
+														<input type="text" name="" id="" class="form-control" />
+													</div>
+												</div>
+												<div class="filter-item block">servrld：93401</div>
+											</td>
+											<td>
+												<div class="filter-item block">
+													<span class="filter-name">首页：</span>
+													<div class="filter-content">
+														<input type="text" name="" id="" class="form-control" />
+													</div>
+												</div>
+												<div class="clearfix">
+													<div class="filter-item">
+														<span class="filter-name">协议：</span>
+														<div class="filter-content">
+															<input type="text" name="" id="" class="form-control" />
+														</div>
+													</div>
+													<div class="filter-item">
+														<span class="filter-name">端口：</span>
+														<div class="filter-content">
+															<input type="text" name="" id="" class="form-control" />
+														</div>
+													</div>
+												</div>
+												<div class="filter-item block">serberkey：javax.servlet.ServletExcepti</div>
+											</td>
+											<td>
+												<div class="filter-item block">
+													<span class="filter-name">协议：</span>
+													<div class="filter-content">
+														<input type="text" name="" id="" class="form-control" />
+													</div>
+												</div>
+											</td>
+											<td class="text-center">
+												<button class="btn btn-blue">更新</button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								
+								<div class="text-right">
+									<a class="btn btn-white" href="超管-参数设置.html">上一步</a>
+									<a class="btn btn-blue" href="javascript:void(0);">提交配置</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="container">
+				<div class="footer-body">
+					<p>浙江万朋教育科技股份有限公司版权所有 备案号:浙ICP备05070430号</p>
+				</div>
+			</div>
+		</div>
+
+		<!--[if !IE]> -->
+		<script src="../components/jquery/dist/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script src="../components/jquery.1x/dist/jquery.js"></script>
+		<![endif]-->
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='../components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"+"<"+"/script>");
+		</script>
+		<script src="../components/bootstrap/dist/js/bootstrap.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="../components/layer/layer.js"></script>
+		<script src="../js/jquery.MultiSelect.js"></script>
+
+		<!-- inline scripts related to this page -->
+		<script>
+			$(function(){
+				$('#eyeChange i.fa').click(function(){
+					if ($(this).hasClass('fa-eye-slash')) {
+						$(this).removeClass('fa-eye-slash').addClass('fa-eye');
+						$(this).prev('input').attr('type','text');
+					} else{
+						$(this).removeClass('fa-eye').addClass('fa-eye-slash');
+						$(this).prev('input').attr('type','password');
+					}
+				});
+				$('.js-veri').click(function(){
+					layer.msg('加载中', {
+					  icon: 16,
+					  shade: 0.01
+					});
+				});
+			})
+		</script>
+	</body>
+</html>

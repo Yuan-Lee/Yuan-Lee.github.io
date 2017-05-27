@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>开发者-单点登录</title>
+
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="../components/font-awesome/css/font-awesome.css" />
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="../components/layer/skin/layer.css">
+		<link rel="stylesheet" href="../components/chosen/chosen.min.css">
+		<link rel="stylesheet" href="../components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css">
+		<link rel="stylesheet" href="../components/highlight/styles/monokai-sublime-custom.css">
+
+		
+		<link rel="stylesheet" href="../css/iconfont.css">
+		<link rel="stylesheet" href="../css/components.css">
+		<link rel="stylesheet" href="../css/page-desktop.css">
+		<link rel="stylesheet" href="../css/pages.css">
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="../css/pages-ie.css" />
+		<![endif]-->
+		<!-- inline styles related to this page -->
+		
+
+		<!-- ace settings handler -->
+		<script src="../assets/js/ace-extra.js"></script>
+
+		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+			<script src="../components/html5shiv/dist/html5shiv.min.js"></script>
+			<script src="../components/respond/dest/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="no-skin">
+		<!-- #section:basics/navbar.layout -->
+		<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+			<script type="text/javascript">
+				try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="navbar-container clearfix" id="navbar-container">
+				
+				<div class="navbar-header">
+					<!-- #section:basics/navbar.layout.brand -->
+					<a href="#" class="navbar-brand">
+						<img class="logo" src="../images/logo.png" alt="">
+						<span>浙江万朋教育 · 数字校园</span>
+					</a>
+
+					<!-- /section:basics/navbar.layout.brand -->
+				</div>
+				<!-- #section:basics/navbar.dropdown -->
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#" class="js-dropbox-msg js-dropbox-toggle">
+							<i class="wpfont icon-bell"></i>
+							<span class="badge badge-yellow">5</span>
+						</a>
+						<div class="dropbox dropbox-msg">
+							<div class="drapbox-container">
+								<ul class="nav nav-tabs nav-tabs-1" role="tablist">
+									<li role="presentation" class="active"><a href="#msg" role="tab" data-toggle="tab">消息</a></li>
+									<li role="presentation"><a href="#post" role="tab" data-toggle="tab">公告</a></li>
+									<li role="presentation"><a href="#other" role="tab" data-toggle="tab">其他</a></li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="msg">
+										<ul class="msg-list">
+											<li class="msg-item">
+												<i class="msg-icon fa fa-comment"></i>
+												<span class="msg-text">这里可以放下十六个字个字个字个字这里可以放下十六个字个字个字个字</span>
+												<span class="msg-time">12-15</span>
+											</li>
+											<li class="msg-item">
+												<i class="msg-icon wpfont icon-clock-fill"></i>
+												<span class="msg-text">这里可以放下十六个字个字个字个字</span>
+												<span class="msg-time">12-15</span>
+											</li>
+											<li class="msg-item">
+												<i class="msg-icon fa fa-refresh"></i>
+												<span class="msg-text">这里可以放下十六个字个字个字个字</span>
+												<span class="msg-time">12-15</span>
+											</li>
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane" id="post">公告</div>
+									<div role="tabpanel" class="tab-pane" id="other">其他</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="js-dropbox-mailList js-dropbox-toggle" href="#">
+							<i class="wpfont icon-directory"></i>
+						</a>
+						<div class="dropbox dropbox-mailList">
+							<div class="dropbox-container">
+								<ul class="nav nav-tabs nav-tabs-1" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#tabpanel-mail" role="tab" data-toggle="tab">通讯录</a>
+									</li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="tabpanel-mail">
+										<div class="mail-search">
+											<div class="input-group">
+											  <input type="text" class="form-control">
+											  <span class="input-group-addon"><i class="fa fa-search"></i></span>
+											</div>
+											<div class="mail-search-result">
+												<ul class="mail-list">
+													<li>
+														<span>阮小天</span>
+														<div class="mail-list-btns">
+															<a href="javascript:void(0);"><i class="fa fa-file-text"></i></a>
+															<a href="javascript:void(0);"><i class="fa fa-envelope"></i></a>
+														</div>
+													</li>
+													<li>
+														<span>阮小天</span>
+														<div class="mail-list-btns">
+															<a href="javascript:void(0);"><i class="fa fa-file-text"></i></a>
+															<a href="javascript:void(0);"><i class="fa fa-envelope"></i></a>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<ul class="nav nav-tabs nav-justified nav-tabs-1 nav-mail-list" role="tablist">
+											<li role="presentation" class="active">
+												<a href="#a" role="tab" data-toggle="tab">
+													<i class="fa fa-users"></i>
+												</a>
+											</li>
+											<li role="presentation">
+												<a href="#b" role="tab" data-toggle="tab">
+													<i class="fa fa-sitemap"></i>
+												</a>
+											</li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div role="tabpanel" class="tab-pane active" id="a">
+												<div class="panel-group" role="tablist" aria-multiselectable="true">
+													<div class="panel panel01">
+														<div class="panel-heading" role="tab">
+															<h4 class="panel-title">
+																<a data-toggle="collapse" href="#m01" aria-expanded="true" aria-controls="m01"><i class="fa fa-caret-right"></i>最近联系人</a>
+															</h4>
+														</div>
+														<div id="m01" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+															<div class="panel-body">
+																<ul class="mail-list">
+																	<li>
+																		<span>阮小天</span>
+																		<div class="mail-list-btns">
+																			<a href="javascript:void(0);"><i class="fa fa-file-text"></i></a>
+																			<a href="javascript:void(0);"><i class="fa fa-envelope"></i></a>
+																		</div>
+																	</li>
+																	<li>
+																		<span>阮小天</span>
+																		<div class="mail-list-btns">
+																			<a href="javascript:void(0);"><i class="fa fa-file-text"></i></a>
+																			<a href="javascript:void(0);"><i class="fa fa-envelope"></i></a>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel01">
+														<div class="panel-heading" role="tab">
+															<h4 class="panel-title">
+																<a data-toggle="collapse" href="#m02" aria-expanded="true" aria-controls="m02"><i class="fa fa-caret-right"></i>数学组</a>
+															</h4>
+														</div>
+														<div id="m02" class="panel-collapse collapse" role="tabpanel">
+															<div class="panel-body">
+																<ul class="mail-list">
+																	<li>
+																		<span>阮小天</span>
+																		<div class="mail-list-btns">
+																			<a href="javascript:void(0);"><i class="fa fa-file-text"></i></a>
+																			<a href="javascript:void(0);"><i class="fa fa-envelope"></i></a>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+
+											</div>
+											<div role="tabpanel" class="tab-pane" id="b">公告</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="js-dropbox-code js-dropbox-toggle" href="#">
+							<i class="wpfont icon-qr-code"></i>
+						</a>
+						<div class="dropbox dropbox-code">
+							<div class="dropbox-container text-center">
+								<p>手机扫码下载移动OA</p>
+								<img src="../images/qrcode.png" alt="">
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="js-dropbox-setting js-dropbox-toggle" href="#">
+							<i class="wpfont icon-cog-fill"></i>
+						</a>
+						<div class="dropbox dropbox-setting">
+							<div class="list-group">
+								<a class="list-group-item" href="#">统计图</a>
+
+								<a class="list-group-item js-common-module-set" href="#">设置常用操作</a>
+
+								<a class="list-group-item" href="#">备用功能链接二</a>
+
+								<a class="list-group-item" href="#">备用功能链接三</a>
+							</div>
+						</div>
+							
+					</li>                   
+					<!-- #section:basics/navbar.user_menu -->
+					<li class="navbar-item-user">
+						<a href="#" class="js-dropbox-user js-dropbox-toggle">
+							<img class="nav-user-photo" src="../images/user.png" alt="Jason's Photo" />
+							<span class="user-info">阮小天</span>
+
+							<i class="wpfont icon-caret-down"></i>
+						</a>
+						<div class="dropbox dropbox-user">
+							<div class="drapbox-container">
+								<div class="user-card">
+									<a class="user-card-img" href="#">
+										<img src="../images/user-photo.png" alt="...">
+									</a>
+									<div class="user-card-body">
+										<a class="user-sign-in" href="javascript:void(0);">签到</a>
+										<h4 class="user-card-name">阮小天</h4>
+										<p class="user-login-lastTime">上次登录时间：2016-02-24 14:35</p>
+									</div>
+								</div>
+								<div class="user-role-list">
+									<table class="table table-noborder">
+										<tbody>
+											<tr>
+												<td>阮小天ruanxiaort</td>
+												<td>教师</td>
+												<td><a href="">切换</a></td>
+											</tr>
+											<tr>
+												<td>ruanxiaort</td>
+												<td>学生</td>
+												<td><a href="">切换</a></td>
+											</tr>
+											<tr>
+												<td>阮小天</td>
+												<td>家长</td>
+												<td><a href="">切换</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="btn-group btn-group-justified dropbox-user-btns">
+									<div class="btn-group">
+										<a class="btn btn-link js-user-setting">个人设置</a>
+									</div>
+									<div class="btn-group">
+										<a class="btn btn-link">退出</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<!-- /section:basics/navbar.user_menu -->
+				</ul>
+
+				<!-- /section:basics/navbar.dropdown -->
+			</div><!-- /.navbar-container -->
+		</div>
+
+		<!-- /section:basics/navbar.layout -->
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<!-- #section:basics/sidebar -->
+			<div id="sidebar" class="sidebar                  responsive sidebar-fixed">
+				<script type="text/javascript">
+					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+				</script>
+				<div class="sidebar-shortcuts">
+					<button class="btn btn-block btn-tohome">
+						<i class="wpfont icon-home-fill"></i>
+						<span class="btn-tohome-text">主页</span>
+					</button>
+				</div>
+				<div class="nav-wrap js-nav-wrap">
+					<ul class="nav nav-list">
+						<li class="active">
+							<a href="开发者-应用管理.html" data-show="a">
+								<img class="menu-icon" src="../images/icons/app-icon/icon07-sm.png" alt="">
+								<span class="menu-text">应用管理</span>
+							</a>
+								
+						</li>
+
+						<li>
+							<a href="开发者-数据管理.html" data-show="b">
+								<img class="menu-icon" src="../images/icons/app-icon/icon08-sm.png" alt="">
+								<span class="menu-text">数据管理</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="开发者-开发者信息.html" data-show="c">
+								<img class="menu-icon" src="../images/icons/app-icon/icon01-sm.png" alt="">
+								<span class="menu-text">开发者信息</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="开发者-单点登录.html" data-show="d">
+								<img class="menu-icon" src="../images/icons/app-icon/icon02-sm.png" alt="">
+								<span class="menu-text">单点登录</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="subNav-modal js-subNav-modal">
+					<div class="subNav-modal-container">
+						
+					</div>
+				</div>
+				<!-- #section:basics/sidebar.layout.minimize -->
+				<div class="sidebar-toggle sidebar-collapse js-siderbar-collapse" id="sidebar-collapse">
+					<i class="wpfont icon-angle-double-left"></i>
+				</div>
+
+				<!-- /section:basics/sidebar.layout.minimize -->
+				<script type="text/javascript">
+					try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+				</script>
+			</div>
+
+			<!-- /section:basics/sidebar -->
+			<div class="main-content">
+				<div class="page-tab-wrap clearfix">
+					<a class="btn-tab-scroll left js-pageTabLeft" href="#">
+						<i class="wpfont icon-arrow-left"></i>
+					</a>
+					<div class="page-tabs js-pageTabs">
+						<div class="page-tabs-container js-pageTabsContainer">
+							<a class="js-pageTab active" href="">7选3排课系统<i class="wpfont icon-close"></i></a>
+						</div>
+					</div>
+					<a class="btn-tab-scroll right js-pageTabRight" href="#">
+						<i class="wpfont icon-arrow-right"></i>
+					</a>
+				</div>
+				<div class="main-content-inner">
+					<div class="page-content">
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<div class="box box-default">
+									<div class="box-body">
+										<ul class="nav nav-tabs" role="tablist">
+											<li role="presentation" class="active">
+												<a href="#aa" role="tab" data-toggle="tab">
+													网站接入
+												</a>
+											</li>
+											<li role="presentation">
+												<a href="#bb" role="tab" data-toggle="tab">
+													移动应用
+												</a>
+											</li>
+										</ul>
+										<div class="tab-content">
+											<div role="tabpanel" class="tab-pane active" id="aa">
+												<ul class="base-fixed-menu">
+													<li class="base-fixed-menu-tier1 active"><a href="#tabpanel1-item1"><i class="fa fa-circle"></i>总体描述</a></li>
+													<li class="base-fixed-menu-tier1"><a href="#tabpanel1-item2"><i class="fa fa-circle"></i>术语</a></li>
+													<li class="base-fixed-menu-tier2"><a href="#tabpanel1-item3"><i class="fa fa-circle"></i>应用场景</a></li>
+													<li class="base-fixed-menu-tier3"><a href="#tabpanel1-item3"><i class="fa fa-circle"></i>登录</a></li>
+													<li class="base-fixed-menu-tier3"><a href="#tabpanel1-item4"><i class="fa fa-circle"></i>退出</a></li>
+												</ul>
+												<div class="row">
+													<div class="col-xs-9">
+														<div class="base-item" id="tabpanel1-item1">
+															<h2>总体描述</h2>
+															<p class="lead">Passport是万朋基于CAS（Central Authentication Service）结构自主研发的统一认证平台，接入的子系统登录/退出都需要通过passport平台来完成。</p>
+														</div>
+														<div class="base-item" id="tabpanel1-item2">
+															<h2>术语</h2>
+															<table class="table">
+																<tbody>
+																	<tr class="table-first">
+																		<th class="table-title" width="200">术语</th>
+																		<th>解释</th>
+																	</tr>
+																	<tr>
+																		<th class="table-title">URLEncode</th>
+																		<td>将URL中的字符串参数进行编码，中文和一些特殊字符会被替换，采用UTF-8进行编码。比如：username=万朋，URLEncode后为username=%E4%B8%87%E6%9C%8B</td>
+																	</tr>
+																	<tr>
+																		<th class="table-title">MD5</th>
+																		<td>消息摘要算法5，结果用16进制的字符串表示。比如：winupon经过MD5后为8d6654f977b88f4cb44c230b0fe16426  <b>注：MD5结果均为小写</b></td>
+																	</tr>
+																	<tr>
+																		<th class="table-title">WSDL</th>
+																		<td>webservice 描述语言</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<div class="base-item" id="tabpanel1-item3">
+															<h2>应用场景</h2>
+															<h3>登录</h3>
+															<p><img src="../images/base/temp/1.png" alt="" /></p>
+															<ul class="base-li-group">
+																<li class="base-li">• 用户登录门户平台，在个人桌面点击第三方应用图标或文字(超链接)(地址由第三方应用提供)</li>
+																<li class="base-li">• 重定向到第三方应用提供的地址</li>
+																<li class="base-li">• 第三方应用判断当前会话是否是已登录状态，未登录时需要引导需要登录的用户至如下地址</li>
+															</ul>
+															<code class="base-hljs">http://passport.dgjy.net/login?server=10&url=http%3A%2F%2Fmember.dgjy.net%2F&context=&root=1&auth=c743d7c1cb7f114caa0c5d707250f410</code>
+															<ul>
+																<li class="base-li">• Passport判断用户是否登录成功，登录成功时继续引导用户至如下地址</li>
+															</ul>
+															<code class="base-hljs">http://passport.dgjy.net/login?server=10&url=http%3A%2F%2Fmember.dgjy.net%2F&context=&root=1&auth=c743d7c1cb7f114caa0c5d707250f410</code>
+															<ul>
+																<li class="base-li">• 第三方应用得到票据（ticket）后，再调用passport如下接口获取登录用户基本信息</li>
+															</ul>
+															<code class="base-hljs">http://passport.dgjy.net/login?server=10&url=http%3A%2F%2Fmember.dgjy.net%2F&context=&root=1&auth=c743d7c1cb7f114caa0c5d707250f410</code>
+														</div>
+														<div class="base-item">
+															<h4>返回内容</h4>
+															<h4>JSON</h4>
+															<pre><code>
+{
+    "account":{
+        "fixedType":2,
+        "id":"402880CE5190258C0151903F88F7000D",
+        "properties":{
+
+        },
+        "realName":"admin",
+        "sex":1,
+        "username":"640022admin"
+    },
+    "message":"success",
+    "success":1
+}
+															</code></pre>
+															<p class="base-warn">注意：第三方应用保存ticket与用户会话对应关系，接收退出请求时根据ticket销毁对应的会话信息</p>
+														</div>
+														<div class="base-item" id="tabpanel1-item4">
+															<h3>退出</h3>
+															<p><img src="../images/base/temp/1.png" alt="" /></p>
+														</div>
+													</div>
+												</div>
+						  					</div>
+											<div role="tabpanel" class="tab-pane" id="bb">
+												<ul class="base-fixed-menu">
+													<li class="base-fixed-menu-tier1 active"><a href="#tabpanel1-item2"><i class="fa fa-circle"></i>总体描述</a></li>
+													<li class="base-fixed-menu-tier1"><a href="#tabpanel2-item2"><i class="fa fa-circle"></i>应用场景</a></li>
+													<li class="base-fixed-menu-tier2"><a href="#tabpanel2-item3"><i class="fa fa-circle"></i>JSON</a></li>
+												</ul>
+												<div class="row">
+													<div class="col-xs-9">
+														<div class="base-item" id="tabpanel2-item1">
+															<h2>总体描述</h2>
+															<p class="lead">目前仅提供登录接口</p>
+														</div>
+														<div class="base-item" id="tabpanel2-item2">
+															<h2>应用场景</h2>
+															<p><img src="../images/base/temp/1.png" alt="" /></p>
+															<h4>登录接口</h4>
+															<code class="base-hljs">http://passport.dgjy.net/login?server=10&url=http%3A%2F%2Fmember.dgjy.net%2F&context=&root=1&auth=c743d7c1cb7f114caa0c5d707250f410</code>
+														</div>
+														<div class="base-item" id="tabpanel2-item3">
+															<h4>返回结果</h4>
+															<h3>JSON</h3>
+															<pre><code>
+{
+    "account":{
+        "fixedType":2,
+        "id":"402880CE5190258C0151903F88F7000D",
+        "properties":{
+
+        },
+        "realName":"admin",
+        "sex":1,
+        "username":"640022admin"
+    },
+    "message":"success",
+    "success":1
+}
+															</code></pre>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+
+		</div><!-- /.main-container -->
+
+
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script src="../components/jquery/dist/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script src="../components/jquery.1x/dist/jquery.js"></script>
+		<![endif]-->
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='../components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"+"<"+"/script>");
+		</script>
+		<script src="../components/bootstrap/dist/js/bootstrap.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="../components/layer/layer.js"></script>
+		<script src="../components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+		<script src="../components/chosen/chosen.jquery.min.js"></script>
+		<script src="../components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+		<script src="../components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+
+		<!-- ace scripts -->
+		<script src="../assets/js/src/ace.ajax-content.js"></script>  		<!-- 异步加载js -->
+		
+		<!--代码高亮-->
+		<script src="../components/highlight/highlight.min.js"></script>
+		<script type="text/javascript">
+			hljs.initHighlightingOnLoad();
+		</script>
+
+		<!-- inline scripts related to this page -->
+		<script src="../js/myscript.js"></script>
+		<script>
+			$(function(){
+				$('.base-fixed-menu li').click(function(){
+					$(this).addClass('active').siblings('li').removeClass('active');
+				});
+			})
+		</script>
+	</body>
+</html>

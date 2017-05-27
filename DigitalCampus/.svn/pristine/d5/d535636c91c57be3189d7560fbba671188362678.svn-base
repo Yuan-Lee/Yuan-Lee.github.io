@@ -1,0 +1,5536 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>班级设置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/班级设置/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/班级设置/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Shape) -->
+      <div id="u0" class="ax_shape">
+        <img id="u0_img" class="img " src="images/班级设置/u0.png"/>
+        <!-- Unnamed () -->
+        <div id="u1" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2" class="ax_shape">
+        <img id="u2_img" class="img " src="images/班级设置/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u3" class="text">
+          <p><span>任</span><span>课教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4" class="ax_shape">
+        <img id="u4_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u5" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u6" class="ax_shape">
+        <img id="u6_img" class="img " src="images/班级设置/u6.png"/>
+        <!-- Unnamed () -->
+        <div id="u7" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u8" class="ax_shape">
+        <img id="u8_img" class="img " src="images/班级设置/u8.png"/>
+        <!-- Unnamed () -->
+        <div id="u9" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u10" class="ax_shape">
+        <img id="u10_img" class="img " src="images/年级设置/u177.png"/>
+        <!-- Unnamed () -->
+        <div id="u11" class="text">
+          <p><span>班</span><span>级名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u12" class="ax_shape">
+        <img id="u12_img" class="img " src="images/年级设置/u77.png"/>
+        <!-- Unnamed () -->
+        <div id="u13" class="text">
+          <p><span>班</span><span>级类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u14" class="ax_shape">
+        <img id="u14_img" class="img " src="images/年级设置/u77.png"/>
+        <!-- Unnamed () -->
+        <div id="u15" class="text">
+          <p><span>学</span><span>生数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u16" class="ax_shape">
+        <img id="u16_img" class="img " src="images/年级设置/u177.png"/>
+        <!-- Unnamed () -->
+        <div id="u17" class="text">
+          <p><span>入</span><span>学学年</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u18" class="ax_shape">
+        <img id="u18_img" class="img " src="images/年级设置/u177.png"/>
+        <!-- Unnamed () -->
+        <div id="u19" class="text">
+          <p><span>所</span><span>在年级</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u20" class="ax_shape">
+        <img id="u20_img" class="img " src="images/年级设置/u177.png"/>
+        <!-- Unnamed () -->
+        <div id="u21" class="text">
+          <p><span>操</span><span>作</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u22" class="ax_shape">
+        <img id="u22_img" class="img " src="images/年级设置/u183.png"/>
+        <!-- Unnamed () -->
+        <div id="u23" class="text">
+          <p><span>初</span><span>一01班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u24" class="ax_shape">
+        <img id="u24_img" class="img " src="images/年级设置/u83.png"/>
+        <!-- Unnamed () -->
+        <div id="u25" class="text">
+          <p><span>普</span><span>通版</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u26" class="ax_shape">
+        <img id="u26_img" class="img " src="images/年级设置/u83.png"/>
+        <!-- Unnamed () -->
+        <div id="u27" class="text">
+          <p><span>5</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u28" class="ax_shape">
+        <img id="u28_img" class="img " src="images/年级设置/u183.png"/>
+        <!-- Unnamed () -->
+        <div id="u29" class="text">
+          <p><span>2</span><span>015-2016学年</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u30" class="ax_shape">
+        <img id="u30_img" class="img " src="images/年级设置/u183.png"/>
+        <!-- Unnamed () -->
+        <div id="u31" class="text">
+          <p><span>初</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u32" class="ax_shape">
+        <img id="u32_img" class="img " src="images/年级设置/u183.png"/>
+        <!-- Unnamed () -->
+        <div id="u33" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u34" class="ax_shape">
+        <img id="u34_img" class="img " src="images/年级设置/u189.png"/>
+        <!-- Unnamed () -->
+        <div id="u35" class="text">
+          <p><span>初</span><span>一01班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u36" class="ax_shape">
+        <img id="u36_img" class="img " src="images/年级设置/u85.png"/>
+        <!-- Unnamed () -->
+        <div id="u37" class="text">
+          <p><span>平</span><span>行班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u38" class="ax_shape">
+        <img id="u38_img" class="img " src="images/年级设置/u85.png"/>
+        <!-- Unnamed () -->
+        <div id="u39" class="text">
+          <p><span>5</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u40" class="ax_shape">
+        <img id="u40_img" class="img " src="images/年级设置/u189.png"/>
+        <!-- Unnamed () -->
+        <div id="u41" class="text">
+          <p><span>2</span><span>015-2016学年</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u42" class="ax_shape">
+        <img id="u42_img" class="img " src="images/年级设置/u189.png"/>
+        <!-- Unnamed () -->
+        <div id="u43" class="text">
+          <p><span>初</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u44" class="ax_shape">
+        <img id="u44_img" class="img " src="images/年级设置/u189.png"/>
+        <!-- Unnamed () -->
+        <div id="u45" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u46" class="ax_shape">
+        <img id="u46_img" class="img " src="images/年级设置/u183.png"/>
+        <!-- Unnamed () -->
+        <div id="u47" class="text">
+          <p><span>初</span><span>一01班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u48" class="ax_shape">
+        <img id="u48_img" class="img " src="images/年级设置/u83.png"/>
+        <!-- Unnamed () -->
+        <div id="u49" class="text">
+          <p><span>自</span><span>定义班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u50" class="ax_shape">
+        <img id="u50_img" class="img " src="images/年级设置/u83.png"/>
+        <!-- Unnamed () -->
+        <div id="u51" class="text">
+          <p><span>5</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u52" class="ax_shape">
+        <img id="u52_img" class="img " src="images/年级设置/u183.png"/>
+        <!-- Unnamed () -->
+        <div id="u53" class="text">
+          <p><span>2</span><span>015-2016学年</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u54" class="ax_shape">
+        <img id="u54_img" class="img " src="images/年级设置/u183.png"/>
+        <!-- Unnamed () -->
+        <div id="u55" class="text">
+          <p><span>初</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u56" class="ax_shape">
+        <img id="u56_img" class="img " src="images/年级设置/u183.png"/>
+        <!-- Unnamed () -->
+        <div id="u57" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u58" class="ax_shape">
+        <img id="u58_img" class="img " src="images/班级设置/u58.png"/>
+        <!-- Unnamed () -->
+        <div id="u59" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u60" class="ax_shape">
+        <img id="u60_img" class="img " src="images/年级设置/u189.png"/>
+        <!-- Unnamed () -->
+        <div id="u61" class="text">
+          <p><span>初</span><span>一01班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u62" class="ax_shape">
+        <img id="u62_img" class="img " src="images/年级设置/u85.png"/>
+        <!-- Unnamed () -->
+        <div id="u63" class="text">
+          <p><span>平</span><span>行班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u64" class="ax_shape">
+        <img id="u64_img" class="img " src="images/年级设置/u85.png"/>
+        <!-- Unnamed () -->
+        <div id="u65" class="text">
+          <p><span>5</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u66" class="ax_shape">
+        <img id="u66_img" class="img " src="images/年级设置/u189.png"/>
+        <!-- Unnamed () -->
+        <div id="u67" class="text">
+          <p><span>2</span><span>015-2016学年</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u68" class="ax_shape">
+        <img id="u68_img" class="img " src="images/年级设置/u189.png"/>
+        <!-- Unnamed () -->
+        <div id="u69" class="text">
+          <p><span>初</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u70" class="ax_shape">
+        <img id="u70_img" class="img " src="images/年级设置/u189.png"/>
+        <!-- Unnamed () -->
+        <div id="u71" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u72" class="ax_shape">
+        <img id="u72_img" class="img " src="images/班级设置/u72.png"/>
+        <!-- Unnamed () -->
+        <div id="u73" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u74" class="ax_shape">
+        <img id="u74_img" class="img " src="images/班级设置/u74.png"/>
+        <!-- Unnamed () -->
+        <div id="u75" class="text">
+          <p><span>&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u76" class="ax_shape">
+        <img id="u76_img" class="img " src="images/班级设置/u76.png"/>
+        <!-- Unnamed () -->
+        <div id="u77" class="text">
+          <p><span>&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u78" class="ax_paragraph">
+        <img id="u78_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u79" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u80" class="ax_paragraph">
+        <img id="u80_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u81" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u82" class="ax_paragraph">
+        <img id="u82_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u83" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u84" class="ax_paragraph">
+        <img id="u84_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u85" class="text">
+          <p><span>4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u86" class="ax_paragraph">
+        <img id="u86_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u87" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u88" class="ax_paragraph">
+        <img id="u88_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u89" class="text">
+          <p><span>6</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u90" class="ax_paragraph">
+        <img id="u90_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u91" class="text">
+          <p><span>7</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u92" class="ax_paragraph">
+        <img id="u92_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u93" class="text">
+          <p><span>.</span><span>..</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u94" class="ax_shape">
+        <img id="u94_img" class="img " src="images/年级设置/u77.png"/>
+        <!-- Unnamed () -->
+        <div id="u95" class="text">
+          <p><span>教</span><span>学类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u96" class="ax_shape">
+        <img id="u96_img" class="img " src="images/年级设置/u83.png"/>
+        <!-- Unnamed () -->
+        <div id="u97" class="text">
+          <p><span>行</span><span>政班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u98" class="ax_shape">
+        <img id="u98_img" class="img " src="images/年级设置/u85.png"/>
+        <!-- Unnamed () -->
+        <div id="u99" class="text">
+          <p><span>教</span><span>学班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u100" class="ax_shape">
+        <img id="u100_img" class="img " src="images/年级设置/u83.png"/>
+        <!-- Unnamed () -->
+        <div id="u101" class="text">
+          <p><span>行</span><span>政班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u102" class="ax_shape">
+        <img id="u102_img" class="img " src="images/年级设置/u85.png"/>
+        <!-- Unnamed () -->
+        <div id="u103" class="text">
+          <p><span>教</span><span>学班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u104" class="ax_paragraph">
+        <img id="u104_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u105" class="text">
+          <p><span>编</span><span>辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u106" class="ax_paragraph">
+        <img id="u106_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u107" class="text">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u108" class="ax_paragraph">
+        <img id="u108_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u109" class="text">
+          <p><span>编</span><span>辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u110" class="ax_paragraph">
+        <img id="u110_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u111" class="text">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u112" class="ax_paragraph">
+        <img id="u112_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u113" class="text">
+          <p><span>编</span><span>辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u114" class="ax_paragraph">
+        <img id="u114_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u115" class="text">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u116" class="ax_paragraph">
+        <img id="u116_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u117" class="text">
+          <p><span>编</span><span>辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u118" class="ax_paragraph">
+        <img id="u118_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u119" class="text">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u120" class="ax_shape">
+        <img id="u120_img" class="img " src="images/班级设置/u120.png"/>
+        <!-- Unnamed () -->
+        <div id="u121" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u122" class="ax_shape">
+        <img id="u122_img" class="img " src="images/班级设置/u122.png"/>
+        <!-- Unnamed () -->
+        <div id="u123" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u124" class="ax_shape">
+        <img id="u124_img" class="img " src="images/班级设置/u124.png"/>
+        <!-- Unnamed () -->
+        <div id="u125" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u126" class="ax_shape">
+        <img id="u126_img" class="img " src="images/班级设置/u126.png"/>
+        <!-- Unnamed () -->
+        <div id="u127" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u128" class="ax_shape">
+        <img id="u128_img" class="img " src="images/班级设置/u126.png"/>
+        <!-- Unnamed () -->
+        <div id="u129" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u130" class="ax_paragraph">
+        <img id="u130_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u131" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u132" class="ax_paragraph">
+        <img id="u132_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u133" class="text">
+          <p><span>所</span><span>在</span><span>年级</span><span>：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u134" class="ax_paragraph">
+        <img id="u134_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u135" class="text">
+          <p><span>班</span><span>级名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u136" class="ax_paragraph">
+        <img id="u136_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u137" class="text">
+          <p><span>新</span><span>增行政班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u138" class="ax_shape">
+        <img id="u138_img" class="img " src="images/学年学期设置/u63.png"/>
+        <!-- Unnamed () -->
+        <div id="u139" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u140" class="ax_shape">
+        <img id="u140_img" class="img " src="images/班级设置/u140.png"/>
+        <!-- Unnamed () -->
+        <div id="u141" class="text">
+          <p><span>确</span><span>定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u142" class="ax_shape">
+        <img id="u142_img" class="img " src="images/班级设置/u140.png"/>
+        <!-- Unnamed () -->
+        <div id="u143" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u144" class="ax_paragraph">
+        <img id="u144_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u145" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u146" class="ax_shape">
+        <img id="u146_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u147" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u148" class="ax_shape">
+        <img id="u148_img" class="img " src="images/班级设置/u148.png"/>
+        <!-- Unnamed () -->
+        <div id="u149" class="text">
+          <p><span>&nbsp;</span><span>2</span><span>015-2016学年</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u150" class="ax_paragraph">
+        <img id="u150_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u151" class="text">
+          <p><span>入</span><span>学学年：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u152" class="ax_radio_button">
+        <label for="u152_input">
+          <!-- Unnamed () -->
+          <div id="u153" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u152_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u154" class="ax_radio_button">
+        <label for="u154_input">
+          <!-- Unnamed () -->
+          <div id="u155" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u154_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u156" class="ax_radio_button">
+        <label for="u156_input">
+          <!-- Unnamed () -->
+          <div id="u157" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u156_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u158" class="ax_radio_button">
+        <label for="u158_input">
+          <!-- Unnamed () -->
+          <div id="u159" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u158_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u160" class="ax_radio_button">
+        <label for="u160_input">
+          <!-- Unnamed () -->
+          <div id="u161" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u160_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u162" class="ax_radio_button">
+        <label for="u162_input">
+          <!-- Unnamed () -->
+          <div id="u163" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u162_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u164" class="ax_shape">
+        <img id="u164_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u165" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u166" class="ax_paragraph">
+        <img id="u166_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u167" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u168" class="ax_paragraph">
+        <img id="u168_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u169" class="text">
+          <p><span>班</span><span>级类型：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u170" class="ax_text_field">
+        <input id="u170_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u171" class="ax_paragraph">
+        <img id="u171_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u172" class="text">
+          <p><span>*</span><span>提</span><span>示信息</span><span>（</span><span>校验信息</span><span>）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u173" class="ax_paragraph">
+        <img id="u173_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u174" class="text">
+          <p><span>班</span><span>级名称：</span></p><p><span>&#149; 提示信息：该班级名称已经存在</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u175" class="ax_paragraph">
+        <img id="u175_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u176" class="text">
+          <p><span>班</span><span>级类型：</span></p><p><span>其他：默认值为“其他”，选中该项时，获取焦点，用户用户自定义</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u177" class="ax_paragraph">
+        <img id="u177_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u178" class="text">
+          <p><span>&#149; 新</span><span>增</span><span>行政班</span><span>/编辑</span><span>行政班</span><span>：交互方式——弹出层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u179" class="ax_paragraph">
+        <img id="u179_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u180" class="text">
+          <p><span>所</span><span>在</span><span>年级</span><span>：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u181" class="ax_shape">
+        <img id="u181_img" class="img " src="images/学年学期设置/u45.png"/>
+        <!-- Unnamed () -->
+        <div id="u182" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u183" class="ax_shape">
+        <img id="u183_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u184" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u185" class="ax_paragraph">
+        <img id="u185_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u186" class="text">
+          <p><span>小</span><span>学一年级</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u187" class="ax_shape">
+        <img id="u187_img" class="img " src="images/年级设置/u77.png"/>
+        <!-- Unnamed () -->
+        <div id="u188" class="text">
+          <p><span>序</span><span>号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u189" class="ax_shape">
+        <img id="u189_img" class="img " src="images/年级设置/u77.png"/>
+        <!-- Unnamed () -->
+        <div id="u190" class="text">
+          <p><span>班级名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u191" class="ax_shape">
+        <img id="u191_img" class="img " src="images/班级设置/u191.png"/>
+        <!-- Unnamed () -->
+        <div id="u192" class="text">
+          <p><span>班</span><span>级类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u193" class="ax_shape">
+        <img id="u193_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u194" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u195" class="ax_shape">
+        <img id="u195_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u196" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u197" class="ax_paragraph">
+        <img id="u197_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u198" class="text">
+          <p><span>班</span><span>级数量：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u199" class="ax_shape">
+        <img id="u199_img" class="img " src="images/年级设置/u91.png"/>
+        <!-- Unnamed () -->
+        <div id="u200" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u201" class="ax_shape">
+        <img id="u201_img" class="img " src="images/年级设置/u91.png"/>
+        <!-- Unnamed () -->
+        <div id="u202" class="text">
+          <p><span>1</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u203" class="ax_shape">
+        <img id="u203_img" class="img " src="images/年级设置/u91.png"/>
+        <!-- Unnamed () -->
+        <div id="u204" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u205" class="ax_image">
+        <img id="u205_img" class="img " src="images/年级设置/u97.png"/>
+        <!-- Unnamed () -->
+        <div id="u206" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u207" class="ax_image">
+        <img id="u207_img" class="img " src="images/年级设置/u99.png"/>
+        <!-- Unnamed () -->
+        <div id="u208" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u209" class="ax_shape">
+        <img id="u209_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u210" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u211" class="ax_shape">
+        <img id="u211_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u212" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u213" class="ax_shape">
+        <img id="u213_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u214" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u215" class="ax_shape">
+        <img id="u215_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u216" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u217" class="ax_shape">
+        <img id="u217_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u218" class="text">
+          <p><span>4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u219" class="ax_shape">
+        <img id="u219_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u220" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u221" class="ax_shape">
+        <img id="u221_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u222" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u223" class="ax_shape">
+        <img id="u223_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u224" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u225" class="ax_shape">
+        <img id="u225_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u226" class="text">
+          <p><span>6</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u227" class="ax_shape">
+        <img id="u227_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u228" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u229" class="ax_shape">
+        <img id="u229_img" class="img " src="images/班级设置/u229.png"/>
+        <!-- Unnamed () -->
+        <div id="u230" class="text">
+          <p><span>操</span><span>作</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u231" class="ax_shape">
+        <img id="u231_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u232" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u233" class="ax_shape">
+        <img id="u233_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u234" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u235" class="ax_shape">
+        <img id="u235_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u236" class="text">
+          <p><span>7</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u237" class="ax_shape">
+        <img id="u237_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u238" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u239" class="ax_shape">
+        <img id="u239_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u240" class="text">
+          <p><span>8</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u241" class="ax_shape">
+        <img id="u241_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u242" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u243" class="ax_shape">
+        <img id="u243_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u244" class="text">
+          <p><span>9</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u245" class="ax_shape">
+        <img id="u245_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u246" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u247" class="ax_shape">
+        <img id="u247_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u248" class="text">
+          <p><span>1</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u249" class="ax_shape">
+        <img id="u249_img" class="img " src="images/班级设置/u193.png"/>
+        <!-- Unnamed () -->
+        <div id="u250" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u251" class="ax_text_field">
+        <input id="u251_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u252" class="ax_paragraph">
+        <img id="u252_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u253" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u254" class="ax_text_field">
+        <input id="u254_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u255" class="ax_paragraph">
+        <img id="u255_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u256" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u257" class="ax_text_field">
+        <input id="u257_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u258" class="ax_paragraph">
+        <img id="u258_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u259" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u260" class="ax_text_field">
+        <input id="u260_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u261" class="ax_paragraph">
+        <img id="u261_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u262" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u263" class="ax_text_field">
+        <input id="u263_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u264" class="ax_paragraph">
+        <img id="u264_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u265" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u266" class="ax_text_field">
+        <input id="u266_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u267" class="ax_paragraph">
+        <img id="u267_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u268" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u269" class="ax_text_field">
+        <input id="u269_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u270" class="ax_paragraph">
+        <img id="u270_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u271" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u272" class="ax_text_field">
+        <input id="u272_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u273" class="ax_paragraph">
+        <img id="u273_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u274" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u275" class="ax_text_field">
+        <input id="u275_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u276" class="ax_paragraph">
+        <img id="u276_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u277" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u278" class="ax_text_field">
+        <input id="u278_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u279" class="ax_paragraph">
+        <img id="u279_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u280" class="text">
+          <p><span>小</span><span>一</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u281" class="ax_shape">
+        <img id="u281_img" class="img " src="images/班级设置/u281.png"/>
+        <!-- Unnamed () -->
+        <div id="u282" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u283" class="ax_shape">
+        <img id="u283_img" class="img " src="images/学年学期设置/u63.png"/>
+        <!-- Unnamed () -->
+        <div id="u284" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u285" class="ax_paragraph">
+        <img id="u285_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u286" class="text">
+          <p><span>批</span><span>量新增</span><span>行政班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u287" class="ax_shape">
+        <img id="u287_img" class="img " src="images/班级设置/u287.png"/>
+        <!-- Unnamed () -->
+        <div id="u288" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u289" class="ax_shape">
+        <img id="u289_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u290" class="text">
+          <p><span>确</span><span>定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u291" class="ax_shape">
+        <img id="u291_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u292" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u293" class="ax_shape">
+        <img id="u293_img" class="img " src="images/学年学期设置/u33.png"/>
+        <!-- Unnamed () -->
+        <div id="u294" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (教务导航) -->
+
+      <!-- Unnamed (Image) -->
+      <div id="u296" class="ax_image">
+        <img id="u296_img" class="img " src="images/学年学期设置/u3.png"/>
+        <!-- Unnamed () -->
+        <div id="u297" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u298" class="ax_shape">
+        <img id="u298_img" class="img " src="images/学年学期设置/u5.png"/>
+        <!-- Unnamed () -->
+        <div id="u299" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 教务导航 (Shape) -->
+      <div id="u300" class="ax_shape" data-label="教务导航">
+        <img id="u300_img" class="img " src="images/学年学期设置/教务导航_u7.png"/>
+        <!-- Unnamed () -->
+        <div id="u301" class="text">
+          <p><span>&nbsp; &nbsp; </span><span>教</span><span>务信息管理</span></p>
+        </div>
+      </div>
+
+      <!-- 教1 (Shape) -->
+      <div id="u302" class="ax_shape" data-label="教1">
+        <img id="u302_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u303" class="text">
+          <p><span>年</span><span>级班级设置</span></p>
+        </div>
+      </div>
+
+      <!-- 教2 (Shape) -->
+      <div id="u304" class="ax_shape" data-label="教2">
+        <img id="u304_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u305" class="text">
+          <p><span>学</span><span>科课程设置</span></p>
+        </div>
+      </div>
+
+      <!-- 教3 (Shape) -->
+      <div id="u306" class="ax_shape" data-label="教3">
+        <img id="u306_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u307" class="text">
+          <p><span>任课信息设置</span></p>
+        </div>
+      </div>
+
+      <!-- 教4 (Shape) -->
+      <div id="u308" class="ax_shape" data-label="教4">
+        <img id="u308_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u309" class="text">
+          <p><span>教</span><span>师管理</span></p>
+        </div>
+      </div>
+
+      <!-- 教5 (Shape) -->
+      <div id="u310" class="ax_shape" data-label="教5">
+        <img id="u310_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u311" class="text">
+          <p><span>学生管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u312" class="ax_shape">
+        <img id="u312_img" class="img " src="images/学年学期设置/u19.png"/>
+        <!-- Unnamed () -->
+        <div id="u313" class="text">
+          <p><span>&nbsp; &nbsp; </span><span>考</span><span>试成绩管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u314" class="ax_shape">
+        <img id="u314_img" class="img " src="images/学年学期设置/u19.png"/>
+        <!-- Unnamed () -->
+        <div id="u315" class="text">
+          <p><span>&nbsp; &nbsp; </span><span>成</span><span>绩分析</span></p>
+        </div>
+      </div>
+
+      <!-- 教5-1 (Shape) -->
+      <div id="u316" class="ax_shape" data-label="教5-1">
+        <img id="u316_img" class="img " src="images/学年学期设置/_5-1_u23.png"/>
+        <!-- Unnamed () -->
+        <div id="u317" class="text">
+          <p><span>行</span><span>政班管理</span></p>
+        </div>
+      </div>
+
+      <!-- 教5-2 (Shape) -->
+      <div id="u318" class="ax_shape" data-label="教5-2">
+        <img id="u318_img" class="img " src="images/学年学期设置/_5-1_u23.png"/>
+        <!-- Unnamed () -->
+        <div id="u319" class="text">
+          <p><span>教</span><span>学班管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u320" class="ax_connector">
+        <img id="u320_seg0" class="img " src="images/学年学期设置/u27_seg0.png" alt="u320_seg0"/>
+        <img id="u320_seg1" class="img " src="images/学年学期设置/u27_seg1.png" alt="u320_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u321" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u322" class="ax_connector">
+        <img id="u322_seg0" class="img " src="images/学年学期设置/u29_seg0.png" alt="u322_seg0"/>
+        <img id="u322_seg1" class="img " src="images/学年学期设置/u29_seg1.png" alt="u322_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u323" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 学年学期设置 (Shape) -->
+      <div id="u324" class="ax_shape" data-label="学年学期设置">
+        <img id="u324_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u325" class="text">
+          <p><span>学</span><span>年学期设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u326" class="ax_paragraph">
+        <img id="u326_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u327" class="text">
+          <p><span>入</span><span>学学年：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u328" class="ax_shape">
+        <img id="u328_img" class="img " src="images/学年学期设置/u37.png"/>
+        <!-- Unnamed () -->
+        <div id="u329" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u330" class="ax_shape">
+        <img id="u330_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u331" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u332" class="ax_paragraph">
+        <img id="u332_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u333" class="text">
+          <p><span>2</span><span>015-2016学年</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u334" class="ax_paragraph">
+        <img id="u334_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u335" class="text">
+          <p><span>学</span><span>期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u336" class="ax_shape">
+        <img id="u336_img" class="img " src="images/学年学期设置/u45.png"/>
+        <!-- Unnamed () -->
+        <div id="u337" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u338" class="ax_shape">
+        <img id="u338_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u339" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u340" class="ax_paragraph">
+        <img id="u340_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u341" class="text">
+          <p><span>第一学期</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u342" class="ax_paragraph">
+        <img id="u342_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u343" class="text">
+          <p><span>年级：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u344" class="ax_shape">
+        <img id="u344_img" class="img " src="images/年级设置/u57.png"/>
+        <!-- Unnamed () -->
+        <div id="u345" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u346" class="ax_shape">
+        <img id="u346_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u347" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u348" class="ax_paragraph">
+        <img id="u348_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u349" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u350" class="ax_shape">
+        <img id="u350_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u351" class="text">
+          <p><span>查</span><span>询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u352" class="ax_shape">
+        <img id="u352_img" class="img " src="images/年级设置/u169.png"/>
+        <!-- Unnamed () -->
+        <div id="u353" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u354" class="ax_paragraph">
+        <img id="u354_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u355" class="text">
+          <p><span>班</span><span>级：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u356" class="ax_shape">
+        <img id="u356_img" class="img " src="images/年级设置/u57.png"/>
+        <!-- Unnamed () -->
+        <div id="u357" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u358" class="ax_paragraph">
+        <img id="u358_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u359" class="text">
+          <p><span>[</span><span>+新增</span><span>行政班</span><span>]</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u360" class="ax_paragraph">
+        <img id="u360_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u361" class="text">
+          <p><span>[</span><span>+</span><span>批量</span><span>新增</span><span>行政班</span><span>]</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u362" class="ax_connector">
+        <img id="u362_seg0" class="img " src="images/年级设置/u175_seg0.png" alt="u362_seg0"/>
+        <!-- Unnamed () -->
+        <div id="u363" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u364" class="ax_paragraph">
+        <img id="u364_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u365" class="text">
+          <p><span>&#149; </span><span>批量</span><span>新</span><span>增</span><span>行政班</span><span>：交互方式——弹出层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u366" class="ax_radio_button">
+        <label for="u366_input">
+          <!-- Unnamed () -->
+          <div id="u367" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u366_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u368" class="ax_radio_button">
+        <label for="u368_input">
+          <!-- Unnamed () -->
+          <div id="u369" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u368_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u370" class="ax_radio_button">
+        <label for="u370_input">
+          <!-- Unnamed () -->
+          <div id="u371" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u370_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u372" class="ax_radio_button">
+        <label for="u372_input">
+          <!-- Unnamed () -->
+          <div id="u373" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u372_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u374" class="ax_radio_button">
+        <label for="u374_input">
+          <!-- Unnamed () -->
+          <div id="u375" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u374_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u376" class="ax_radio_button">
+        <label for="u376_input">
+          <!-- Unnamed () -->
+          <div id="u377" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u376_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u378" class="ax_shape">
+        <img id="u378_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u379" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u380" class="ax_paragraph">
+        <img id="u380_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u381" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u382" class="ax_shape">
+        <img id="u382_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u383" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u384" class="ax_shape">
+        <img id="u384_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u385" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u386" class="ax_radio_button">
+        <label for="u386_input">
+          <!-- Unnamed () -->
+          <div id="u387" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u386_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u388" class="ax_radio_button">
+        <label for="u388_input">
+          <!-- Unnamed () -->
+          <div id="u389" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u388_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u390" class="ax_radio_button">
+        <label for="u390_input">
+          <!-- Unnamed () -->
+          <div id="u391" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u390_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u392" class="ax_radio_button">
+        <label for="u392_input">
+          <!-- Unnamed () -->
+          <div id="u393" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u392_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u394" class="ax_radio_button">
+        <label for="u394_input">
+          <!-- Unnamed () -->
+          <div id="u395" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u394_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u396" class="ax_radio_button">
+        <label for="u396_input">
+          <!-- Unnamed () -->
+          <div id="u397" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u396_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u398" class="ax_shape">
+        <img id="u398_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u399" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u400" class="ax_paragraph">
+        <img id="u400_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u401" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u402" class="ax_shape">
+        <img id="u402_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u403" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u404" class="ax_shape">
+        <img id="u404_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u405" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u406" class="ax_radio_button">
+        <label for="u406_input">
+          <!-- Unnamed () -->
+          <div id="u407" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u406_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u408" class="ax_radio_button">
+        <label for="u408_input">
+          <!-- Unnamed () -->
+          <div id="u409" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u408_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u410" class="ax_radio_button">
+        <label for="u410_input">
+          <!-- Unnamed () -->
+          <div id="u411" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u410_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u412" class="ax_radio_button">
+        <label for="u412_input">
+          <!-- Unnamed () -->
+          <div id="u413" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u412_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u414" class="ax_radio_button">
+        <label for="u414_input">
+          <!-- Unnamed () -->
+          <div id="u415" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u414_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u416" class="ax_radio_button">
+        <label for="u416_input">
+          <!-- Unnamed () -->
+          <div id="u417" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u416_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u418" class="ax_shape">
+        <img id="u418_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u419" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u420" class="ax_paragraph">
+        <img id="u420_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u421" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u422" class="ax_shape">
+        <img id="u422_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u423" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u424" class="ax_shape">
+        <img id="u424_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u425" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u426" class="ax_radio_button">
+        <label for="u426_input">
+          <!-- Unnamed () -->
+          <div id="u427" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u426_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u428" class="ax_radio_button">
+        <label for="u428_input">
+          <!-- Unnamed () -->
+          <div id="u429" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u428_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u430" class="ax_radio_button">
+        <label for="u430_input">
+          <!-- Unnamed () -->
+          <div id="u431" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u430_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u432" class="ax_radio_button">
+        <label for="u432_input">
+          <!-- Unnamed () -->
+          <div id="u433" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u432_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u434" class="ax_radio_button">
+        <label for="u434_input">
+          <!-- Unnamed () -->
+          <div id="u435" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u434_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u436" class="ax_radio_button">
+        <label for="u436_input">
+          <!-- Unnamed () -->
+          <div id="u437" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u436_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u438" class="ax_shape">
+        <img id="u438_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u439" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u440" class="ax_paragraph">
+        <img id="u440_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u441" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u442" class="ax_shape">
+        <img id="u442_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u443" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u444" class="ax_shape">
+        <img id="u444_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u445" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u446" class="ax_radio_button">
+        <label for="u446_input">
+          <!-- Unnamed () -->
+          <div id="u447" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u446_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u448" class="ax_radio_button">
+        <label for="u448_input">
+          <!-- Unnamed () -->
+          <div id="u449" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u448_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u450" class="ax_radio_button">
+        <label for="u450_input">
+          <!-- Unnamed () -->
+          <div id="u451" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u450_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u452" class="ax_radio_button">
+        <label for="u452_input">
+          <!-- Unnamed () -->
+          <div id="u453" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u452_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u454" class="ax_radio_button">
+        <label for="u454_input">
+          <!-- Unnamed () -->
+          <div id="u455" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u454_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u456" class="ax_radio_button">
+        <label for="u456_input">
+          <!-- Unnamed () -->
+          <div id="u457" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u456_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u458" class="ax_shape">
+        <img id="u458_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u459" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u460" class="ax_paragraph">
+        <img id="u460_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u461" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u462" class="ax_shape">
+        <img id="u462_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u463" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u464" class="ax_shape">
+        <img id="u464_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u465" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u466" class="ax_radio_button">
+        <label for="u466_input">
+          <!-- Unnamed () -->
+          <div id="u467" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u466_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u468" class="ax_radio_button">
+        <label for="u468_input">
+          <!-- Unnamed () -->
+          <div id="u469" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u468_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u470" class="ax_radio_button">
+        <label for="u470_input">
+          <!-- Unnamed () -->
+          <div id="u471" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u470_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u472" class="ax_radio_button">
+        <label for="u472_input">
+          <!-- Unnamed () -->
+          <div id="u473" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u472_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u474" class="ax_radio_button">
+        <label for="u474_input">
+          <!-- Unnamed () -->
+          <div id="u475" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u474_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u476" class="ax_radio_button">
+        <label for="u476_input">
+          <!-- Unnamed () -->
+          <div id="u477" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u476_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u478" class="ax_shape">
+        <img id="u478_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u479" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u480" class="ax_paragraph">
+        <img id="u480_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u481" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u482" class="ax_shape">
+        <img id="u482_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u483" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u484" class="ax_shape">
+        <img id="u484_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u485" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u486" class="ax_radio_button">
+        <label for="u486_input">
+          <!-- Unnamed () -->
+          <div id="u487" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u486_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u488" class="ax_radio_button">
+        <label for="u488_input">
+          <!-- Unnamed () -->
+          <div id="u489" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u488_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u490" class="ax_radio_button">
+        <label for="u490_input">
+          <!-- Unnamed () -->
+          <div id="u491" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u490_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u492" class="ax_radio_button">
+        <label for="u492_input">
+          <!-- Unnamed () -->
+          <div id="u493" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u492_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u494" class="ax_radio_button">
+        <label for="u494_input">
+          <!-- Unnamed () -->
+          <div id="u495" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u494_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u496" class="ax_radio_button">
+        <label for="u496_input">
+          <!-- Unnamed () -->
+          <div id="u497" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u496_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u498" class="ax_shape">
+        <img id="u498_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u499" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u500" class="ax_paragraph">
+        <img id="u500_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u501" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u502" class="ax_shape">
+        <img id="u502_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u503" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u504" class="ax_shape">
+        <img id="u504_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u505" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u506" class="ax_radio_button">
+        <label for="u506_input">
+          <!-- Unnamed () -->
+          <div id="u507" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u506_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u508" class="ax_radio_button">
+        <label for="u508_input">
+          <!-- Unnamed () -->
+          <div id="u509" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u508_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u510" class="ax_radio_button">
+        <label for="u510_input">
+          <!-- Unnamed () -->
+          <div id="u511" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u510_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u512" class="ax_radio_button">
+        <label for="u512_input">
+          <!-- Unnamed () -->
+          <div id="u513" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u512_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u514" class="ax_radio_button">
+        <label for="u514_input">
+          <!-- Unnamed () -->
+          <div id="u515" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u514_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u516" class="ax_radio_button">
+        <label for="u516_input">
+          <!-- Unnamed () -->
+          <div id="u517" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u516_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u518" class="ax_shape">
+        <img id="u518_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u519" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u520" class="ax_paragraph">
+        <img id="u520_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u521" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u522" class="ax_shape">
+        <img id="u522_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u523" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u524" class="ax_shape">
+        <img id="u524_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u525" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u526" class="ax_radio_button">
+        <label for="u526_input">
+          <!-- Unnamed () -->
+          <div id="u527" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u526_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u528" class="ax_radio_button">
+        <label for="u528_input">
+          <!-- Unnamed () -->
+          <div id="u529" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u528_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u530" class="ax_radio_button">
+        <label for="u530_input">
+          <!-- Unnamed () -->
+          <div id="u531" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u530_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u532" class="ax_radio_button">
+        <label for="u532_input">
+          <!-- Unnamed () -->
+          <div id="u533" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u532_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u534" class="ax_radio_button">
+        <label for="u534_input">
+          <!-- Unnamed () -->
+          <div id="u535" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u534_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u536" class="ax_radio_button">
+        <label for="u536_input">
+          <!-- Unnamed () -->
+          <div id="u537" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u536_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u538" class="ax_shape">
+        <img id="u538_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u539" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u540" class="ax_paragraph">
+        <img id="u540_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u541" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u542" class="ax_shape">
+        <img id="u542_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u543" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u544" class="ax_shape">
+        <img id="u544_img" class="img " src="images/班级设置/u233.png"/>
+        <!-- Unnamed () -->
+        <div id="u545" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u546" class="ax_radio_button">
+        <label for="u546_input">
+          <!-- Unnamed () -->
+          <div id="u547" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u546_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u548" class="ax_radio_button">
+        <label for="u548_input">
+          <!-- Unnamed () -->
+          <div id="u549" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u548_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u550" class="ax_radio_button">
+        <label for="u550_input">
+          <!-- Unnamed () -->
+          <div id="u551" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u550_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u552" class="ax_radio_button">
+        <label for="u552_input">
+          <!-- Unnamed () -->
+          <div id="u553" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u552_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u554" class="ax_radio_button">
+        <label for="u554_input">
+          <!-- Unnamed () -->
+          <div id="u555" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u554_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u556" class="ax_radio_button">
+        <label for="u556_input">
+          <!-- Unnamed () -->
+          <div id="u557" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u556_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u558" class="ax_shape">
+        <img id="u558_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u559" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u560" class="ax_paragraph">
+        <img id="u560_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u561" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u562" class="ax_image">
+        <img id="u562_img" class="img " src="images/班级设置/u562.png"/>
+        <!-- Unnamed () -->
+        <div id="u563" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u564" class="ax_image">
+        <img id="u564_img" class="img " src="images/班级设置/u564.png"/>
+        <!-- Unnamed () -->
+        <div id="u565" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u566" class="ax_image">
+        <img id="u566_img" class="img " src="images/班级设置/u566.png"/>
+        <!-- Unnamed () -->
+        <div id="u567" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u568" class="ax_connector">
+        <img id="u568_seg0" class="img " src="images/班级设置/u568_seg0.png" alt="u568_seg0"/>
+        <img id="u568_seg1" class="img " src="images/班级设置/u568_seg1.png" alt="u568_seg1"/>
+        <img id="u568_seg2" class="img " src="images/班级设置/u568_seg2.png" alt="u568_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u569" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u570" class="ax_radio_button">
+        <label for="u570_input">
+          <!-- Unnamed () -->
+          <div id="u571" class="text">
+            <p><span>年级设置</span></p>
+          </div>
+        </label>
+        <input id="u570_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u572" class="ax_radio_button">
+        <label for="u572_input">
+          <!-- Unnamed () -->
+          <div id="u573" class="text">
+            <p><span>班</span><span>级设置</span></p>
+          </div>
+        </label>
+        <input id="u572_input" type="radio" value="radio" name="ss" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u574" class="ax_checkbox">
+        <label for="u574_input">
+          <!-- Unnamed () -->
+          <div id="u575" class="text">
+            <p><span>全</span><span>选</span></p>
+          </div>
+        </label>
+        <input id="u574_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u576" class="ax_shape">
+        <img id="u576_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u577" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u578" class="ax_checkbox">
+        <label for="u578_input">
+          <!-- Unnamed () -->
+          <div id="u579" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u578_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u580" class="ax_checkbox">
+        <label for="u580_input">
+          <!-- Unnamed () -->
+          <div id="u581" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u580_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u582" class="ax_checkbox">
+        <label for="u582_input">
+          <!-- Unnamed () -->
+          <div id="u583" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u582_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u584" class="ax_checkbox">
+        <label for="u584_input">
+          <!-- Unnamed () -->
+          <div id="u585" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u584_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u586" class="ax_paragraph">
+        <img id="u586_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u587" class="text">
+          <p><span>[</span><span>+新增</span><span>教学</span><span>班</span><span>]</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u588" class="ax_paragraph">
+        <img id="u588_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u589" class="text">
+          <p><span>[</span><span>+</span><span>批量</span><span>新增</span><span>教学</span><span>班</span><span>]</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u590" class="ax_paragraph">
+        <img id="u590_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u591" class="text">
+          <p><span>所</span><span>在</span><span>年级</span><span>：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u592" class="ax_shape">
+        <img id="u592_img" class="img " src="images/学年学期设置/u45.png"/>
+        <!-- Unnamed () -->
+        <div id="u593" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u594" class="ax_shape">
+        <img id="u594_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u595" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u596" class="ax_paragraph">
+        <img id="u596_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u597" class="text">
+          <p><span>小</span><span>学一年级</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u598" class="ax_shape">
+        <img id="u598_img" class="img " src="images/班级设置/u598.png"/>
+        <!-- Unnamed () -->
+        <div id="u599" class="text">
+          <p><span>序</span><span>号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u600" class="ax_shape">
+        <img id="u600_img" class="img " src="images/班级设置/u600.png"/>
+        <!-- Unnamed () -->
+        <div id="u601" class="text">
+          <p><span>班级名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u602" class="ax_shape">
+        <img id="u602_img" class="img " src="images/班级设置/u602.png"/>
+        <!-- Unnamed () -->
+        <div id="u603" class="text">
+          <p><span>班</span><span>级类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u604" class="ax_shape">
+        <img id="u604_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u605" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u606" class="ax_shape">
+        <img id="u606_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u607" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u608" class="ax_paragraph">
+        <img id="u608_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u609" class="text">
+          <p><span>班</span><span>级数量：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u610" class="ax_shape">
+        <img id="u610_img" class="img " src="images/年级设置/u91.png"/>
+        <!-- Unnamed () -->
+        <div id="u611" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u612" class="ax_shape">
+        <img id="u612_img" class="img " src="images/年级设置/u91.png"/>
+        <!-- Unnamed () -->
+        <div id="u613" class="text">
+          <p><span>1</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u614" class="ax_shape">
+        <img id="u614_img" class="img " src="images/年级设置/u91.png"/>
+        <!-- Unnamed () -->
+        <div id="u615" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u616" class="ax_image">
+        <img id="u616_img" class="img " src="images/年级设置/u97.png"/>
+        <!-- Unnamed () -->
+        <div id="u617" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u618" class="ax_image">
+        <img id="u618_img" class="img " src="images/年级设置/u99.png"/>
+        <!-- Unnamed () -->
+        <div id="u619" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u620" class="ax_shape">
+        <img id="u620_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u621" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u622" class="ax_shape">
+        <img id="u622_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u623" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u624" class="ax_shape">
+        <img id="u624_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u625" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u626" class="ax_shape">
+        <img id="u626_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u627" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u628" class="ax_shape">
+        <img id="u628_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u629" class="text">
+          <p><span>4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u630" class="ax_shape">
+        <img id="u630_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u631" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u632" class="ax_shape">
+        <img id="u632_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u633" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u634" class="ax_shape">
+        <img id="u634_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u635" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u636" class="ax_shape">
+        <img id="u636_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u637" class="text">
+          <p><span>6</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u638" class="ax_shape">
+        <img id="u638_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u639" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u640" class="ax_shape">
+        <img id="u640_img" class="img " src="images/班级设置/u229.png"/>
+        <!-- Unnamed () -->
+        <div id="u641" class="text">
+          <p><span>操</span><span>作</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u642" class="ax_shape">
+        <img id="u642_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u643" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u644" class="ax_shape">
+        <img id="u644_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u645" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u646" class="ax_shape">
+        <img id="u646_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u647" class="text">
+          <p><span>7</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u648" class="ax_shape">
+        <img id="u648_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u649" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u650" class="ax_shape">
+        <img id="u650_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u651" class="text">
+          <p><span>8</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u652" class="ax_shape">
+        <img id="u652_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u653" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u654" class="ax_shape">
+        <img id="u654_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u655" class="text">
+          <p><span>9</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u656" class="ax_shape">
+        <img id="u656_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u657" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u658" class="ax_shape">
+        <img id="u658_img" class="img " src="images/班级设置/u604.png"/>
+        <!-- Unnamed () -->
+        <div id="u659" class="text">
+          <p><span>1</span><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u660" class="ax_shape">
+        <img id="u660_img" class="img " src="images/班级设置/u606.png"/>
+        <!-- Unnamed () -->
+        <div id="u661" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u662" class="ax_shape">
+        <img id="u662_img" class="img " src="images/班级设置/u662.png"/>
+        <!-- Unnamed () -->
+        <div id="u663" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u664" class="ax_shape">
+        <img id="u664_img" class="img " src="images/学年学期设置/u63.png"/>
+        <!-- Unnamed () -->
+        <div id="u665" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u666" class="ax_paragraph">
+        <img id="u666_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u667" class="text">
+          <p><span>批</span><span>量新增</span><span>教学班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u668" class="ax_shape">
+        <img id="u668_img" class="img " src="images/班级设置/u668.png"/>
+        <!-- Unnamed () -->
+        <div id="u669" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u670" class="ax_shape">
+        <img id="u670_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u671" class="text">
+          <p><span>确</span><span>定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u672" class="ax_shape">
+        <img id="u672_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u673" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u674" class="ax_paragraph">
+        <img id="u674_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u675" class="text">
+          <p><span>&#149; </span><span>批量</span><span>新</span><span>增</span><span>教学班</span><span>：交互方式——弹出层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u676" class="ax_radio_button">
+        <label for="u676_input">
+          <!-- Unnamed () -->
+          <div id="u677" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u676_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u678" class="ax_radio_button">
+        <label for="u678_input">
+          <!-- Unnamed () -->
+          <div id="u679" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u678_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u680" class="ax_radio_button">
+        <label for="u680_input">
+          <!-- Unnamed () -->
+          <div id="u681" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u680_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u682" class="ax_radio_button">
+        <label for="u682_input">
+          <!-- Unnamed () -->
+          <div id="u683" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u682_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u684" class="ax_radio_button">
+        <label for="u684_input">
+          <!-- Unnamed () -->
+          <div id="u685" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u684_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u686" class="ax_radio_button">
+        <label for="u686_input">
+          <!-- Unnamed () -->
+          <div id="u687" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u686_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u688" class="ax_shape">
+        <img id="u688_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u689" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u690" class="ax_paragraph">
+        <img id="u690_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u691" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u692" class="ax_shape">
+        <img id="u692_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u693" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u694" class="ax_shape">
+        <img id="u694_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u695" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u696" class="ax_radio_button">
+        <label for="u696_input">
+          <!-- Unnamed () -->
+          <div id="u697" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u696_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u698" class="ax_radio_button">
+        <label for="u698_input">
+          <!-- Unnamed () -->
+          <div id="u699" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u698_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u700" class="ax_radio_button">
+        <label for="u700_input">
+          <!-- Unnamed () -->
+          <div id="u701" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u700_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u702" class="ax_radio_button">
+        <label for="u702_input">
+          <!-- Unnamed () -->
+          <div id="u703" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u702_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u704" class="ax_radio_button">
+        <label for="u704_input">
+          <!-- Unnamed () -->
+          <div id="u705" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u704_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u706" class="ax_radio_button">
+        <label for="u706_input">
+          <!-- Unnamed () -->
+          <div id="u707" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u706_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u708" class="ax_shape">
+        <img id="u708_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u709" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u710" class="ax_paragraph">
+        <img id="u710_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u711" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u712" class="ax_shape">
+        <img id="u712_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u713" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u714" class="ax_shape">
+        <img id="u714_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u715" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u716" class="ax_radio_button">
+        <label for="u716_input">
+          <!-- Unnamed () -->
+          <div id="u717" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u716_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u718" class="ax_radio_button">
+        <label for="u718_input">
+          <!-- Unnamed () -->
+          <div id="u719" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u718_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u720" class="ax_radio_button">
+        <label for="u720_input">
+          <!-- Unnamed () -->
+          <div id="u721" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u720_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u722" class="ax_radio_button">
+        <label for="u722_input">
+          <!-- Unnamed () -->
+          <div id="u723" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u722_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u724" class="ax_radio_button">
+        <label for="u724_input">
+          <!-- Unnamed () -->
+          <div id="u725" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u724_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u726" class="ax_radio_button">
+        <label for="u726_input">
+          <!-- Unnamed () -->
+          <div id="u727" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u726_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u728" class="ax_shape">
+        <img id="u728_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u729" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u730" class="ax_paragraph">
+        <img id="u730_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u731" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u732" class="ax_shape">
+        <img id="u732_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u733" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u734" class="ax_shape">
+        <img id="u734_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u735" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u736" class="ax_radio_button">
+        <label for="u736_input">
+          <!-- Unnamed () -->
+          <div id="u737" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u736_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u738" class="ax_radio_button">
+        <label for="u738_input">
+          <!-- Unnamed () -->
+          <div id="u739" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u738_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u740" class="ax_radio_button">
+        <label for="u740_input">
+          <!-- Unnamed () -->
+          <div id="u741" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u740_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u742" class="ax_radio_button">
+        <label for="u742_input">
+          <!-- Unnamed () -->
+          <div id="u743" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u742_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u744" class="ax_radio_button">
+        <label for="u744_input">
+          <!-- Unnamed () -->
+          <div id="u745" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u744_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u746" class="ax_radio_button">
+        <label for="u746_input">
+          <!-- Unnamed () -->
+          <div id="u747" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u746_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u748" class="ax_shape">
+        <img id="u748_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u749" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u750" class="ax_paragraph">
+        <img id="u750_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u751" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u752" class="ax_shape">
+        <img id="u752_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u753" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u754" class="ax_shape">
+        <img id="u754_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u755" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u756" class="ax_radio_button">
+        <label for="u756_input">
+          <!-- Unnamed () -->
+          <div id="u757" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u756_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u758" class="ax_radio_button">
+        <label for="u758_input">
+          <!-- Unnamed () -->
+          <div id="u759" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u758_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u760" class="ax_radio_button">
+        <label for="u760_input">
+          <!-- Unnamed () -->
+          <div id="u761" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u760_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u762" class="ax_radio_button">
+        <label for="u762_input">
+          <!-- Unnamed () -->
+          <div id="u763" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u762_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u764" class="ax_radio_button">
+        <label for="u764_input">
+          <!-- Unnamed () -->
+          <div id="u765" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u764_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u766" class="ax_radio_button">
+        <label for="u766_input">
+          <!-- Unnamed () -->
+          <div id="u767" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u766_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u768" class="ax_shape">
+        <img id="u768_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u769" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u770" class="ax_paragraph">
+        <img id="u770_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u771" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u772" class="ax_shape">
+        <img id="u772_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u773" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u774" class="ax_shape">
+        <img id="u774_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u775" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u776" class="ax_radio_button">
+        <label for="u776_input">
+          <!-- Unnamed () -->
+          <div id="u777" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u776_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u778" class="ax_radio_button">
+        <label for="u778_input">
+          <!-- Unnamed () -->
+          <div id="u779" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u778_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u780" class="ax_radio_button">
+        <label for="u780_input">
+          <!-- Unnamed () -->
+          <div id="u781" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u780_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u782" class="ax_radio_button">
+        <label for="u782_input">
+          <!-- Unnamed () -->
+          <div id="u783" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u782_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u784" class="ax_radio_button">
+        <label for="u784_input">
+          <!-- Unnamed () -->
+          <div id="u785" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u784_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u786" class="ax_radio_button">
+        <label for="u786_input">
+          <!-- Unnamed () -->
+          <div id="u787" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u786_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u788" class="ax_shape">
+        <img id="u788_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u789" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u790" class="ax_paragraph">
+        <img id="u790_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u791" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u792" class="ax_shape">
+        <img id="u792_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u793" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u794" class="ax_shape">
+        <img id="u794_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u795" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u796" class="ax_radio_button">
+        <label for="u796_input">
+          <!-- Unnamed () -->
+          <div id="u797" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u796_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u798" class="ax_radio_button">
+        <label for="u798_input">
+          <!-- Unnamed () -->
+          <div id="u799" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u798_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u800" class="ax_radio_button">
+        <label for="u800_input">
+          <!-- Unnamed () -->
+          <div id="u801" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u800_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u802" class="ax_radio_button">
+        <label for="u802_input">
+          <!-- Unnamed () -->
+          <div id="u803" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u802_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u804" class="ax_radio_button">
+        <label for="u804_input">
+          <!-- Unnamed () -->
+          <div id="u805" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u804_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u806" class="ax_radio_button">
+        <label for="u806_input">
+          <!-- Unnamed () -->
+          <div id="u807" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u806_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u808" class="ax_shape">
+        <img id="u808_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u809" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u810" class="ax_paragraph">
+        <img id="u810_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u811" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u812" class="ax_shape">
+        <img id="u812_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u813" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u814" class="ax_shape">
+        <img id="u814_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u815" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u816" class="ax_radio_button">
+        <label for="u816_input">
+          <!-- Unnamed () -->
+          <div id="u817" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u816_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u818" class="ax_radio_button">
+        <label for="u818_input">
+          <!-- Unnamed () -->
+          <div id="u819" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u818_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u820" class="ax_radio_button">
+        <label for="u820_input">
+          <!-- Unnamed () -->
+          <div id="u821" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u820_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u822" class="ax_radio_button">
+        <label for="u822_input">
+          <!-- Unnamed () -->
+          <div id="u823" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u822_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u824" class="ax_radio_button">
+        <label for="u824_input">
+          <!-- Unnamed () -->
+          <div id="u825" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u824_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u826" class="ax_radio_button">
+        <label for="u826_input">
+          <!-- Unnamed () -->
+          <div id="u827" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u826_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u828" class="ax_shape">
+        <img id="u828_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u829" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u830" class="ax_paragraph">
+        <img id="u830_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u831" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u832" class="ax_shape">
+        <img id="u832_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u833" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u834" class="ax_shape">
+        <img id="u834_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u835" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u836" class="ax_radio_button">
+        <label for="u836_input">
+          <!-- Unnamed () -->
+          <div id="u837" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u836_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u838" class="ax_radio_button">
+        <label for="u838_input">
+          <!-- Unnamed () -->
+          <div id="u839" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u838_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u840" class="ax_radio_button">
+        <label for="u840_input">
+          <!-- Unnamed () -->
+          <div id="u841" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u840_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u842" class="ax_radio_button">
+        <label for="u842_input">
+          <!-- Unnamed () -->
+          <div id="u843" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u842_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u844" class="ax_radio_button">
+        <label for="u844_input">
+          <!-- Unnamed () -->
+          <div id="u845" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u844_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u846" class="ax_radio_button">
+        <label for="u846_input">
+          <!-- Unnamed () -->
+          <div id="u847" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u846_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u848" class="ax_shape">
+        <img id="u848_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u849" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u850" class="ax_paragraph">
+        <img id="u850_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u851" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u852" class="ax_shape">
+        <img id="u852_img" class="img " src="images/班级设置/u231.png"/>
+        <!-- Unnamed () -->
+        <div id="u853" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u854" class="ax_shape">
+        <img id="u854_img" class="img " src="images/班级设置/u644.png"/>
+        <!-- Unnamed () -->
+        <div id="u855" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u856" class="ax_radio_button">
+        <label for="u856_input">
+          <!-- Unnamed () -->
+          <div id="u857" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u856_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u858" class="ax_radio_button">
+        <label for="u858_input">
+          <!-- Unnamed () -->
+          <div id="u859" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u858_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u860" class="ax_radio_button">
+        <label for="u860_input">
+          <!-- Unnamed () -->
+          <div id="u861" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u860_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u862" class="ax_radio_button">
+        <label for="u862_input">
+          <!-- Unnamed () -->
+          <div id="u863" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u862_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u864" class="ax_radio_button">
+        <label for="u864_input">
+          <!-- Unnamed () -->
+          <div id="u865" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u864_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u866" class="ax_radio_button">
+        <label for="u866_input">
+          <!-- Unnamed () -->
+          <div id="u867" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u866_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u868" class="ax_shape">
+        <img id="u868_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u869" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u870" class="ax_paragraph">
+        <img id="u870_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u871" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u872" class="ax_image">
+        <img id="u872_img" class="img " src="images/班级设置/u562.png"/>
+        <!-- Unnamed () -->
+        <div id="u873" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u874" class="ax_image">
+        <img id="u874_img" class="img " src="images/班级设置/u564.png"/>
+        <!-- Unnamed () -->
+        <div id="u875" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u876" class="ax_image">
+        <img id="u876_img" class="img " src="images/班级设置/u566.png"/>
+        <!-- Unnamed () -->
+        <div id="u877" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u878" class="ax_paragraph">
+        <img id="u878_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u879" class="text">
+          <p><span>关</span><span>联学科：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u880" class="ax_shape">
+        <img id="u880_img" class="img " src="images/学年学期设置/u45.png"/>
+        <!-- Unnamed () -->
+        <div id="u881" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u882" class="ax_shape">
+        <img id="u882_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u883" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u884" class="ax_paragraph">
+        <img id="u884_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u885" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u886" class="ax_shape">
+        <img id="u886_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u887" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u888" class="ax_shape">
+        <img id="u888_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u889" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u890" class="ax_paragraph">
+        <img id="u890_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u891" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u892" class="ax_shape">
+        <img id="u892_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u893" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u894" class="ax_shape">
+        <img id="u894_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u895" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u896" class="ax_paragraph">
+        <img id="u896_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u897" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u898" class="ax_shape">
+        <img id="u898_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u899" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u900" class="ax_shape">
+        <img id="u900_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u901" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u902" class="ax_shape">
+        <img id="u902_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u903" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u904" class="ax_paragraph">
+        <img id="u904_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u905" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u906" class="ax_shape">
+        <img id="u906_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u907" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u908" class="ax_shape">
+        <img id="u908_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u909" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u910" class="ax_paragraph">
+        <img id="u910_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u911" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u912" class="ax_shape">
+        <img id="u912_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u913" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u914" class="ax_shape">
+        <img id="u914_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u915" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u916" class="ax_shape">
+        <img id="u916_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u917" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u918" class="ax_paragraph">
+        <img id="u918_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u919" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u920" class="ax_shape">
+        <img id="u920_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u921" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u922" class="ax_shape">
+        <img id="u922_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u923" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u924" class="ax_paragraph">
+        <img id="u924_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u925" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u926" class="ax_shape">
+        <img id="u926_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u927" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u928" class="ax_shape">
+        <img id="u928_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u929" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u930" class="ax_shape">
+        <img id="u930_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u931" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u932" class="ax_paragraph">
+        <img id="u932_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u933" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u934" class="ax_shape">
+        <img id="u934_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u935" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u936" class="ax_shape">
+        <img id="u936_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u937" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u938" class="ax_paragraph">
+        <img id="u938_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u939" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u940" class="ax_shape">
+        <img id="u940_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u941" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u942" class="ax_shape">
+        <img id="u942_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u943" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u944" class="ax_shape">
+        <img id="u944_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u945" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u946" class="ax_paragraph">
+        <img id="u946_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u947" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u948" class="ax_shape">
+        <img id="u948_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u949" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u950" class="ax_shape">
+        <img id="u950_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u951" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u952" class="ax_paragraph">
+        <img id="u952_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u953" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u954" class="ax_shape">
+        <img id="u954_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u955" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u956" class="ax_shape">
+        <img id="u956_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u957" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u958" class="ax_shape">
+        <img id="u958_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u959" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u960" class="ax_paragraph">
+        <img id="u960_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u961" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u962" class="ax_shape">
+        <img id="u962_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u963" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u964" class="ax_shape">
+        <img id="u964_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u965" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u966" class="ax_paragraph">
+        <img id="u966_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u967" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u968" class="ax_shape">
+        <img id="u968_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u969" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u970" class="ax_shape">
+        <img id="u970_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u971" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u972" class="ax_shape">
+        <img id="u972_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u973" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u974" class="ax_paragraph">
+        <img id="u974_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u975" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u976" class="ax_shape">
+        <img id="u976_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u977" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u978" class="ax_shape">
+        <img id="u978_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u979" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u980" class="ax_paragraph">
+        <img id="u980_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u981" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u982" class="ax_shape">
+        <img id="u982_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u983" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u984" class="ax_shape">
+        <img id="u984_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u985" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u986" class="ax_shape">
+        <img id="u986_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u987" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u988" class="ax_paragraph">
+        <img id="u988_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u989" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u990" class="ax_shape">
+        <img id="u990_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u991" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u992" class="ax_shape">
+        <img id="u992_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u993" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u994" class="ax_paragraph">
+        <img id="u994_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u995" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u996" class="ax_shape">
+        <img id="u996_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u997" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u998" class="ax_shape">
+        <img id="u998_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u999" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1000" class="ax_shape">
+        <img id="u1000_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u1001" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1002" class="ax_paragraph">
+        <img id="u1002_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1003" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1004" class="ax_shape">
+        <img id="u1004_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u1005" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1006" class="ax_shape">
+        <img id="u1006_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u1007" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1008" class="ax_paragraph">
+        <img id="u1008_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1009" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1010" class="ax_shape">
+        <img id="u1010_img" class="img " src="images/班级设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u1011" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1012" class="ax_shape">
+        <img id="u1012_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u1013" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1014" class="ax_shape">
+        <img id="u1014_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u1015" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1016" class="ax_paragraph">
+        <img id="u1016_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1017" class="text">
+          <p><span>请选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1018" class="ax_shape">
+        <img id="u1018_img" class="img " src="images/班级设置/u886.png"/>
+        <!-- Unnamed () -->
+        <div id="u1019" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1020" class="ax_shape">
+        <img id="u1020_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u1021" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1022" class="ax_paragraph">
+        <img id="u1022_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1023" class="text">
+          <p><span>请选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1024" class="ax_connector">
+        <img id="u1024_seg0" class="img " src="images/班级设置/u1024_seg0.png" alt="u1024_seg0"/>
+        <!-- Unnamed () -->
+        <div id="u1025" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1026" class="ax_paragraph">
+        <img id="u1026_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1027" class="text">
+          <p><span>&#149; 必</span><span>须要先选择年级、数量、科目，</span><span>下方的表格才能继续操作</span></p><p><span>&#149; 否则，下方不允许操作</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1028" class="ax_shape">
+        <img id="u1028_img" class="img " src="images/班级设置/u1028.png"/>
+        <!-- Unnamed () -->
+        <div id="u1029" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1030" class="ax_shape">
+        <img id="u1030_img" class="img " src="images/班级设置/u122.png"/>
+        <!-- Unnamed () -->
+        <div id="u1031" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1032" class="ax_shape">
+        <img id="u1032_img" class="img " src="images/班级设置/u124.png"/>
+        <!-- Unnamed () -->
+        <div id="u1033" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1034" class="ax_shape">
+        <img id="u1034_img" class="img " src="images/班级设置/u126.png"/>
+        <!-- Unnamed () -->
+        <div id="u1035" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1036" class="ax_shape">
+        <img id="u1036_img" class="img " src="images/班级设置/u126.png"/>
+        <!-- Unnamed () -->
+        <div id="u1037" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1038" class="ax_paragraph">
+        <img id="u1038_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1039" class="text">
+          <p><span>物理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1040" class="ax_paragraph">
+        <img id="u1040_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1041" class="text">
+          <p><span>所</span><span>在</span><span>年级</span><span>：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1042" class="ax_paragraph">
+        <img id="u1042_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1043" class="text">
+          <p><span>班</span><span>级名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1044" class="ax_paragraph">
+        <img id="u1044_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1045" class="text">
+          <p><span>新</span><span>增</span><span>教学</span><span>班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1046" class="ax_shape">
+        <img id="u1046_img" class="img " src="images/学年学期设置/u63.png"/>
+        <!-- Unnamed () -->
+        <div id="u1047" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1048" class="ax_shape">
+        <img id="u1048_img" class="img " src="images/班级设置/u140.png"/>
+        <!-- Unnamed () -->
+        <div id="u1049" class="text">
+          <p><span>确</span><span>定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1050" class="ax_shape">
+        <img id="u1050_img" class="img " src="images/班级设置/u140.png"/>
+        <!-- Unnamed () -->
+        <div id="u1051" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1052" class="ax_paragraph">
+        <img id="u1052_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1053" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1054" class="ax_shape">
+        <img id="u1054_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u1055" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1056" class="ax_shape">
+        <img id="u1056_img" class="img " src="images/班级设置/u148.png"/>
+        <!-- Unnamed () -->
+        <div id="u1057" class="text">
+          <p><span>&nbsp;</span><span>2</span><span>015-2016学年</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1058" class="ax_paragraph">
+        <img id="u1058_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1059" class="text">
+          <p><span>入</span><span>学学年：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u1060" class="ax_radio_button">
+        <label for="u1060_input">
+          <!-- Unnamed () -->
+          <div id="u1061" class="text">
+            <p><span>普</span><span>通班</span></p>
+          </div>
+        </label>
+        <input id="u1060_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u1062" class="ax_radio_button">
+        <label for="u1062_input">
+          <!-- Unnamed () -->
+          <div id="u1063" class="text">
+            <p><span>平行班</span></p>
+          </div>
+        </label>
+        <input id="u1062_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u1064" class="ax_radio_button">
+        <label for="u1064_input">
+          <!-- Unnamed () -->
+          <div id="u1065" class="text">
+            <p><span>实</span><span>验班</span></p>
+          </div>
+        </label>
+        <input id="u1064_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u1066" class="ax_radio_button">
+        <label for="u1066_input">
+          <!-- Unnamed () -->
+          <div id="u1067" class="text">
+            <p><span>侧</span><span>文班</span></p>
+          </div>
+        </label>
+        <input id="u1066_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u1068" class="ax_radio_button">
+        <label for="u1068_input">
+          <!-- Unnamed () -->
+          <div id="u1069" class="text">
+            <p><span>侧</span><span>理班</span></p>
+          </div>
+        </label>
+        <input id="u1068_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u1070" class="ax_radio_button">
+        <label for="u1070_input">
+          <!-- Unnamed () -->
+          <div id="u1071" class="text">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u1070_input" type="radio" value="radio" name="ss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1072" class="ax_shape">
+        <img id="u1072_img" class="img " src="images/班级设置/u164.png"/>
+        <!-- Unnamed () -->
+        <div id="u1073" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1074" class="ax_paragraph">
+        <img id="u1074_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1075" class="text">
+          <p><span>其</span><span>他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1076" class="ax_paragraph">
+        <img id="u1076_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1077" class="text">
+          <p><span>班</span><span>级类型：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1078" class="ax_text_field">
+        <input id="u1078_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1079" class="ax_paragraph">
+        <img id="u1079_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1080" class="text">
+          <p><span>*</span><span>提</span><span>示信息</span><span>（</span><span>校验信息</span><span>）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1081" class="ax_paragraph">
+        <img id="u1081_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1082" class="text">
+          <p><span>班</span><span>级名称：</span><span>默认为学科名开头</span></p><p><span>&#149; 提示信息：该班级名称已经存在</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1083" class="ax_paragraph">
+        <img id="u1083_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1084" class="text">
+          <p><span>班</span><span>级类型：</span></p><p><span>其他：默认值为“其他”，选中该项时，获取焦点，用户用户自定义</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1085" class="ax_paragraph">
+        <img id="u1085_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1086" class="text">
+          <p><span>&#149; 新</span><span>增</span><span>教学</span><span>班</span><span>/编辑</span><span>教学</span><span>班</span><span>：交互方式——弹出层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1087" class="ax_paragraph">
+        <img id="u1087_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1088" class="text">
+          <p><span>&#149; 班</span><span>级名称：</span><span>默认名称</span><span>-学科+xx（序号）+班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1089" class="ax_connector">
+        <img id="u1089_seg0" class="img " src="images/班级设置/u1089_seg0.png" alt="u1089_seg0"/>
+        <img id="u1089_seg1" class="img " src="images/班级设置/u1089_seg1.png" alt="u1089_seg1"/>
+        <img id="u1089_seg2" class="img " src="images/班级设置/u1089_seg2.png" alt="u1089_seg2"/>
+        <img id="u1089_seg3" class="img " src="images/班级设置/u1089_seg3.png" alt="u1089_seg3"/>
+        <img id="u1089_seg4" class="img " src="images/班级设置/u1089_seg4.png" alt="u1089_seg4"/>
+        <!-- Unnamed () -->
+        <div id="u1090" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1091" class="ax_paragraph">
+        <img id="u1091_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1092" class="text">
+          <p><span>&#149; 当学科没有选择时，默认名称不显示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1093" class="ax_shape">
+        <img id="u1093_img" class="img " src="images/班级设置/u126.png"/>
+        <!-- Unnamed () -->
+        <div id="u1094" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1095" class="ax_paragraph">
+        <img id="u1095_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1096" class="text">
+          <p><span>关</span><span>联学科：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1097" class="ax_paragraph">
+        <img id="u1097_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1098" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1099" class="ax_shape">
+        <img id="u1099_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u1100" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1101" class="ax_shape">
+        <img id="u1101_img" class="img " src="images/班级设置/u1101.png"/>
+        <!-- Unnamed () -->
+        <div id="u1102" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1103" class="ax_paragraph">
+        <img id="u1103_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1104" class="text">
+          <p><span>任</span><span>课教师：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1105" class="ax_paragraph">
+        <img id="u1105_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1106" class="text">
+          <p><span>请</span><span>选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1107" class="ax_shape">
+        <img id="u1107_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u1108" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1109" class="ax_shape">
+        <img id="u1109_img" class="img " src="images/班级设置/u1101.png"/>
+        <!-- Unnamed () -->
+        <div id="u1110" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1111" class="ax_paragraph">
+        <img id="u1111_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1112" class="text">
+          <p><span>请</span><span>选择</span><span>教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1113" class="ax_shape">
+        <img id="u1113_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u1114" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1115" class="ax_text_field">
+        <input id="u1115_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1116" class="ax_paragraph">
+        <img id="u1116_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1117" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1118" class="ax_text_field">
+        <input id="u1118_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1119" class="ax_paragraph">
+        <img id="u1119_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1120" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1121" class="ax_text_field">
+        <input id="u1121_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1122" class="ax_paragraph">
+        <img id="u1122_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1123" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1124" class="ax_text_field">
+        <input id="u1124_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1125" class="ax_paragraph">
+        <img id="u1125_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1126" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1127" class="ax_text_field">
+        <input id="u1127_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1128" class="ax_paragraph">
+        <img id="u1128_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1129" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1130" class="ax_text_field">
+        <input id="u1130_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1131" class="ax_paragraph">
+        <img id="u1131_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1132" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1133" class="ax_text_field">
+        <input id="u1133_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1134" class="ax_paragraph">
+        <img id="u1134_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1135" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1136" class="ax_text_field">
+        <input id="u1136_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1137" class="ax_paragraph">
+        <img id="u1137_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1138" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1139" class="ax_text_field">
+        <input id="u1139_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1140" class="ax_paragraph">
+        <img id="u1140_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1141" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1142" class="ax_text_field">
+        <input id="u1142_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1143" class="ax_paragraph">
+        <img id="u1143_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1144" class="text">
+          <p><span>物</span><span>理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1145" class="ax_paragraph">
+        <img id="u1145_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1146" class="text">
+          <p><span>班</span><span>级类型：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1147" class="ax_shape">
+        <img id="u1147_img" class="img " src="images/班级设置/u1147.png"/>
+        <!-- Unnamed () -->
+        <div id="u1148" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1149" class="ax_shape">
+        <img id="u1149_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u1150" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1151" class="ax_paragraph">
+        <img id="u1151_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1152" class="text">
+          <p><span>全</span><span>部</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

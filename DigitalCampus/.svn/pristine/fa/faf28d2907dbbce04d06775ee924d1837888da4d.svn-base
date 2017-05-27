@@ -1,0 +1,1757 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>新增考试科目信息</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/新增考试科目信息/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/新增考试科目信息/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Shape) -->
+      <div id="u0" class="ax_shape">
+        <img id="u0_img" class="img " src="images/编内导入/u0.png"/>
+        <!-- Unnamed () -->
+        <div id="u1" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2" class="ax_shape">
+        <img id="u2_img" class="img " src="images/新增考试科目信息/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u3" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4" class="ax_shape">
+        <img id="u4_img" class="img " src="images/新增考试科目信息/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u5" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u6" class="ax_shape">
+        <img id="u6_img" class="img " src="images/新增考试科目信息/u6.png"/>
+        <!-- Unnamed () -->
+        <div id="u7" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u8" class="ax_shape">
+        <img id="u8_img" class="img " src="images/新增考试科目信息/u8.png"/>
+        <!-- Unnamed () -->
+        <div id="u9" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (考试成绩导航) -->
+
+      <!-- Unnamed (Shape) -->
+      <div id="u11" class="ax_shape">
+        <img id="u11_img" class="img " src="images/考试信息设置/u3.png"/>
+        <!-- Unnamed () -->
+        <div id="u12" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u13" class="ax_image">
+        <img id="u13_img" class="img " src="images/学年学期设置/u3.png"/>
+        <!-- Unnamed () -->
+        <div id="u14" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u15" class="ax_shape">
+        <img id="u15_img" class="img " src="images/学年学期设置/u19.png"/>
+        <!-- Unnamed () -->
+        <div id="u16" class="text">
+          <p><span>&nbsp; &nbsp; </span><span>教</span><span>务信息管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u17" class="ax_shape">
+        <img id="u17_img" class="img " src="images/学年学期设置/教务导航_u7.png"/>
+        <!-- Unnamed () -->
+        <div id="u18" class="text">
+          <p><span>&nbsp; &nbsp; </span><span>考</span><span>试成绩管理</span></p>
+        </div>
+      </div>
+
+      <!-- 考11 (Shape) -->
+      <div id="u19" class="ax_shape" data-label="考11">
+        <img id="u19_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u20" class="text">
+          <p><span>考</span><span>试信息设置</span></p>
+        </div>
+      </div>
+
+      <!-- 考12 (Shape) -->
+      <div id="u21" class="ax_shape" data-label="考12">
+        <img id="u21_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u22" class="text">
+          <p><span>考</span><span>试科目设置</span></p>
+        </div>
+      </div>
+
+      <!-- 考13 (Shape) -->
+      <div id="u23" class="ax_shape" data-label="考13">
+        <img id="u23_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u24" class="text">
+          <p><span>学</span><span>生考号设置</span></p>
+        </div>
+      </div>
+
+      <!-- 考21 (Shape) -->
+      <div id="u25" class="ax_shape" data-label="考21">
+        <img id="u25_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u26" class="text">
+          <p><span>成</span><span>绩录入</span></p>
+        </div>
+      </div>
+
+      <!-- 考22 (Shape) -->
+      <div id="u27" class="ax_shape" data-label="考22">
+        <img id="u27_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u28" class="text">
+          <p><span>异</span><span>常分数校验</span></p>
+        </div>
+      </div>
+
+      <!-- 考31 (Shape) -->
+      <div id="u29" class="ax_shape" data-label="考31">
+        <img id="u29_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u30" class="text">
+          <p><span>统计维度设置</span></p>
+        </div>
+      </div>
+
+      <!-- 考32 (Shape) -->
+      <div id="u31" class="ax_shape" data-label="考32">
+        <img id="u31_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u32" class="text">
+          <p><span>选</span><span>考组合</span><span>导入</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u33" class="ax_paragraph">
+        <img id="u33_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u34" class="text">
+          <p><span>考</span><span>务</span><span>设置</span><span>相关——</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u35" class="ax_paragraph">
+        <img id="u35_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u36" class="text">
+          <p><span>成</span><span>绩录入相关——</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u37" class="ax_paragraph">
+        <img id="u37_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u38" class="text">
+          <p><span>成</span><span>绩分析相关——</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u39" class="ax_shape">
+        <img id="u39_img" class="img " src="images/学年学期设置/u19.png"/>
+        <!-- Unnamed () -->
+        <div id="u40" class="text">
+          <p><span>&nbsp; &nbsp; </span><span>成</span><span>绩分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u41" class="ax_connector">
+        <img id="u41_seg0" class="img " src="images/考试信息设置/u33_seg0.png" alt="u41_seg0"/>
+        <img id="u41_seg1" class="img " src="images/考试信息设置/u33_seg1.png" alt="u41_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u42" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u43" class="ax_connector">
+        <img id="u43_seg0" class="img " src="images/考试信息设置/u35_seg0.png" alt="u43_seg0"/>
+        <img id="u43_seg1" class="img " src="images/考试信息设置/u35_seg1.png" alt="u43_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u44" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u45" class="ax_connector">
+        <img id="u45_seg0" class="img " src="images/学年学期设置/u29_seg0.png" alt="u45_seg0"/>
+        <img id="u45_seg1" class="img " src="images/学年学期设置/u29_seg1.png" alt="u45_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u46" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u47" class="ax_connector">
+        <img id="u47_seg0" class="img " src="images/考试信息设置/u39_seg0.png" alt="u47_seg0"/>
+        <img id="u47_seg1" class="img " src="images/考试信息设置/u39_seg1.png" alt="u47_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u48" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u49" class="ax_connector">
+        <img id="u49_seg0" class="img " src="images/考试信息设置/u41_seg0.png" alt="u49_seg0"/>
+        <img id="u49_seg1" class="img " src="images/考试信息设置/u41_seg1.png" alt="u49_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u50" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u51" class="ax_connector">
+        <img id="u51_seg0" class="img " src="images/考试信息设置/u35_seg0.png" alt="u51_seg0"/>
+        <img id="u51_seg1" class="img " src="images/考试信息设置/u35_seg1.png" alt="u51_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u52" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 录分 (Shape) -->
+      <div id="u53" class="ax_shape" data-label="录分">
+        <img id="u53_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u54" class="text">
+          <p><span>录</span><span>分人员管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u55" class="ax_connector">
+        <img id="u55_seg0" class="img " src="images/考试信息设置/u35_seg0.png" alt="u55_seg0"/>
+        <img id="u55_seg1" class="img " src="images/考试信息设置/u35_seg1.png" alt="u55_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u56" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u57" class="ax_paragraph">
+        <img id="u57_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u58" class="text">
+          <p><span>成</span><span>绩</span><span>校验</span><span>相关——</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u59" class="ax_connector">
+        <img id="u59_seg0" class="img " src="images/考试信息设置/u41_seg0.png" alt="u59_seg0"/>
+        <img id="u59_seg1" class="img " src="images/考试信息设置/u41_seg1.png" alt="u59_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u60" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u61" class="ax_connector">
+        <img id="u61_seg0" class="img " src="images/考试信息设置/u35_seg0.png" alt="u61_seg0"/>
+        <img id="u61_seg1" class="img " src="images/考试信息设置/u35_seg1.png" alt="u61_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u62" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 成绩校验相关2 (Shape) -->
+      <div id="u63" class="ax_shape" data-label="成绩校验相关2">
+        <img id="u63_img" class="img " src="images/学年学期设置/教1_u9.png"/>
+        <!-- Unnamed () -->
+        <div id="u64" class="text">
+          <p><span>录</span><span>入进度管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u65" class="ax_shape">
+        <img id="u65_img" class="img " src="images/年级设置/u169.png"/>
+        <!-- Unnamed () -->
+        <div id="u66" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u67" class="ax_paragraph">
+        <img id="u67_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u68" class="text">
+          <p><span>当</span><span>前位置：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u69" class="ax_paragraph">
+        <img id="u69_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u70" class="text">
+          <p><span>考</span><span>试科目设置 &gt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u71" class="ax_paragraph">
+        <img id="u71_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u72" class="text">
+          <p><span>新增考试科目信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u73" class="ax_shape">
+        <img id="u73_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u74" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u75" class="ax_paragraph">
+        <img id="u75_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u76" class="text">
+          <p><span>考</span><span>试日期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u77" class="ax_paragraph">
+        <img id="u77_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u78" class="text">
+          <p><span>考试对象：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u79" class="ax_shape">
+        <img id="u79_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u80" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u81" class="ax_shape">
+        <img id="u81_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u82" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u83" class="ax_paragraph">
+        <img id="u83_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u84" class="text">
+          <p><span>请选择年级</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u85" class="ax_shape">
+        <img id="u85_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u86" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u87" class="ax_shape">
+        <img id="u87_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u88" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u89" class="ax_paragraph">
+        <img id="u89_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u90" class="text">
+          <p><span>请</span><span>选择考试科目</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u91" class="ax_paragraph">
+        <img id="u91_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u92" class="text">
+          <p><span>新</span><span>增考试科目信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u93" class="ax_paragraph">
+        <img id="u93_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u94" class="text">
+          <p><span>2</span><span>016-06-26</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u95" class="ax_image">
+        <img id="u95_img" class="img " src="images/学年学期设置/u85.png"/>
+        <!-- Unnamed () -->
+        <div id="u96" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u97" class="ax_paragraph">
+        <img id="u97_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u98" class="text">
+          <p><span>考</span><span>试名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u99" class="ax_shape">
+        <img id="u99_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u100" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u101" class="ax_shape">
+        <img id="u101_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u102" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u103" class="ax_paragraph">
+        <img id="u103_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u104" class="text">
+          <p><span>请选择学年</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u105" class="ax_shape">
+        <img id="u105_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u106" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u107" class="ax_shape">
+        <img id="u107_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u108" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u109" class="ax_paragraph">
+        <img id="u109_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u110" class="text">
+          <p><span>请选择</span><span>学期</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u111" class="ax_shape">
+        <img id="u111_img" class="img " src="images/新增考试科目信息/u111.png"/>
+        <!-- Unnamed () -->
+        <div id="u112" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u113" class="ax_shape">
+        <img id="u113_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u114" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u115" class="ax_paragraph">
+        <img id="u115_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u116" class="text">
+          <p><span>请</span><span>选择考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u117" class="ax_shape">
+        <img id="u117_img" class="img " src="images/新增考试科目信息/u117.png"/>
+        <!-- Unnamed () -->
+        <div id="u118" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u119" class="ax_shape">
+        <img id="u119_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u120" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u121" class="ax_paragraph">
+        <img id="u121_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u122" class="text">
+          <p><span>请输入客观题分数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u123" class="ax_shape">
+        <img id="u123_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u124" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u125" class="ax_paragraph">
+        <img id="u125_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u126" class="text">
+          <p><span>请输入</span><span>主观</span><span>题分数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u127" class="ax_radio_button">
+        <label for="u127_input">
+          <!-- Unnamed () -->
+          <div id="u128" class="text">
+            <p><span>分别设置主客观题分数</span></p>
+          </div>
+        </label>
+        <input id="u127_input" type="radio" value="radio" name="sss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u129" class="ax_shape">
+        <img id="u129_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u130" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u131" class="ax_paragraph">
+        <img id="u131_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u132" class="text">
+          <p><span>请输入</span><span>试卷总分</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u133" class="ax_radio_button">
+        <label for="u133_input">
+          <!-- Unnamed () -->
+          <div id="u134" class="text">
+            <p><span>只</span><span>设置总分</span></p>
+          </div>
+        </label>
+        <input id="u133_input" type="radio" value="radio" name="sss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u135" class="ax_shape">
+        <img id="u135_img" class="img " src="images/新增考试科目信息/u135.png"/>
+        <!-- Unnamed () -->
+        <div id="u136" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u137" class="ax_paragraph">
+        <img id="u137_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u138" class="text">
+          <p><span>行</span><span>政班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u139" class="ax_checkbox">
+        <label for="u139_input">
+          <!-- Unnamed () -->
+          <div id="u140" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u139_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u141" class="ax_checkbox">
+        <label for="u141_input">
+          <!-- Unnamed () -->
+          <div id="u142" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u141_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u143" class="ax_checkbox">
+        <label for="u143_input">
+          <!-- Unnamed () -->
+          <div id="u144" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u143_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u145" class="ax_checkbox">
+        <label for="u145_input">
+          <!-- Unnamed () -->
+          <div id="u146" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u145_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u147" class="ax_checkbox">
+        <label for="u147_input">
+          <!-- Unnamed () -->
+          <div id="u148" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u147_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u149" class="ax_checkbox">
+        <label for="u149_input">
+          <!-- Unnamed () -->
+          <div id="u150" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u149_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u151" class="ax_checkbox">
+        <label for="u151_input">
+          <!-- Unnamed () -->
+          <div id="u152" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u151_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u153" class="ax_checkbox">
+        <label for="u153_input">
+          <!-- Unnamed () -->
+          <div id="u154" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u153_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u155" class="ax_checkbox">
+        <label for="u155_input">
+          <!-- Unnamed () -->
+          <div id="u156" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u155_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u157" class="ax_checkbox">
+        <label for="u157_input">
+          <!-- Unnamed () -->
+          <div id="u158" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u157_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u159" class="ax_checkbox">
+        <label for="u159_input">
+          <!-- Unnamed () -->
+          <div id="u160" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u159_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u161" class="ax_checkbox">
+        <label for="u161_input">
+          <!-- Unnamed () -->
+          <div id="u162" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u161_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u163" class="ax_checkbox">
+        <label for="u163_input">
+          <!-- Unnamed () -->
+          <div id="u164" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u163_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u165" class="ax_checkbox">
+        <label for="u165_input">
+          <!-- Unnamed () -->
+          <div id="u166" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u165_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u167" class="ax_checkbox">
+        <label for="u167_input">
+          <!-- Unnamed () -->
+          <div id="u168" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u167_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u169" class="ax_checkbox">
+        <label for="u169_input">
+          <!-- Unnamed () -->
+          <div id="u170" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u169_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u171" class="ax_checkbox">
+        <label for="u171_input">
+          <!-- Unnamed () -->
+          <div id="u172" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u171_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u173" class="ax_checkbox">
+        <label for="u173_input">
+          <!-- Unnamed () -->
+          <div id="u174" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u173_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u175" class="ax_checkbox">
+        <label for="u175_input">
+          <!-- Unnamed () -->
+          <div id="u176" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u175_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u177" class="ax_checkbox">
+        <label for="u177_input">
+          <!-- Unnamed () -->
+          <div id="u178" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u177_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u179" class="ax_checkbox">
+        <label for="u179_input">
+          <!-- Unnamed () -->
+          <div id="u180" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u179_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u181" class="ax_checkbox">
+        <label for="u181_input">
+          <!-- Unnamed () -->
+          <div id="u182" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u181_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u183" class="ax_checkbox">
+        <label for="u183_input">
+          <!-- Unnamed () -->
+          <div id="u184" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u183_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u185" class="ax_checkbox">
+        <label for="u185_input">
+          <!-- Unnamed () -->
+          <div id="u186" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u185_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u187" class="ax_checkbox">
+        <label for="u187_input">
+          <!-- Unnamed () -->
+          <div id="u188" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u187_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u189" class="ax_checkbox">
+        <label for="u189_input">
+          <!-- Unnamed () -->
+          <div id="u190" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u189_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u191" class="ax_checkbox">
+        <label for="u191_input">
+          <!-- Unnamed () -->
+          <div id="u192" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u191_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u193" class="ax_checkbox">
+        <label for="u193_input">
+          <!-- Unnamed () -->
+          <div id="u194" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u193_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u195" class="ax_checkbox">
+        <label for="u195_input">
+          <!-- Unnamed () -->
+          <div id="u196" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u195_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u197" class="ax_checkbox">
+        <label for="u197_input">
+          <!-- Unnamed () -->
+          <div id="u198" class="text">
+            <p><span>小一01班</span></p>
+          </div>
+        </label>
+        <input id="u197_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u199" class="ax_connector">
+        <img id="u199_seg0" class="img " src="images/新增考试科目信息/u199_seg0.png" alt="u199_seg0"/>
+        <img id="u199_seg1" class="img " src="images/新增考试科目信息/u199_seg1.png" alt="u199_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u200" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u201" class="ax_paragraph">
+        <img id="u201_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u202" class="text">
+          <p><span>&#149; 依次选择后，显示全部班级</span></p><p><span>&#149; 默认全选</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u203" class="ax_shape">
+        <img id="u203_img" class="img " src="images/考试信息设置/u243.png"/>
+        <!-- Unnamed () -->
+        <div id="u204" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u205" class="ax_vertical_line">
+        <img id="u205_start" class="img " src="resources/images/transparent.gif" alt="u205_start"/>
+        <img id="u205_end" class="img " src="resources/images/transparent.gif" alt="u205_end"/>
+        <img id="u205_line" class="img " src="images/考试信息设置/u245_line.png" alt="u205_line"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u206" class="ax_shape">
+        <img id="u206_img" class="img " src="images/考试信息设置/u246.png"/>
+        <!-- Unnamed () -->
+        <div id="u207" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u208" class="ax_paragraph">
+        <img id="u208_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u209" class="text">
+          <p><span>相</span><span>似结果</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u210" class="ax_paragraph">
+        <img id="u210_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u211" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u212" class="ax_paragraph">
+        <img id="u212_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u213" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u214" class="ax_paragraph">
+        <img id="u214_img" class="img " src="images/考试信息设置/u254.png"/>
+        <!-- Unnamed () -->
+        <div id="u215" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u216" class="ax_paragraph">
+        <img id="u216_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u217" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u218" class="ax_paragraph">
+        <img id="u218_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u219" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u220" class="ax_paragraph">
+        <img id="u220_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u221" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u222" class="ax_paragraph">
+        <img id="u222_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u223" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u224" class="ax_paragraph">
+        <img id="u224_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u225" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u226" class="ax_paragraph">
+        <img id="u226_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u227" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u228" class="ax_paragraph">
+        <img id="u228_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u229" class="text">
+          <p><span>考试名称考试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u230" class="ax_paragraph">
+        <img id="u230_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u231" class="text">
+          <p><span>考</span><span>试名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u232" class="ax_shape">
+        <img id="u232_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u233" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u234" class="ax_image">
+        <img id="u234_img" class="img " src="images/考试信息设置/u274.png"/>
+        <!-- Unnamed () -->
+        <div id="u235" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u236" class="ax_paragraph">
+        <img id="u236_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u237" class="text">
+          <p><span>筛</span><span>选考试名称：交互方式——模糊搜索+下拉框</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u238" class="ax_paragraph">
+        <img id="u238_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u239" class="text">
+          <p><span>&#149; 可</span><span>以选中某个结果</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u240" class="ax_connector">
+        <img id="u240_seg0" class="img " src="images/新增考试科目信息/u240_seg0.png" alt="u240_seg0"/>
+        <!-- Unnamed () -->
+        <div id="u241" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u242" class="ax_paragraph">
+        <img id="u242_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u243" class="text">
+          <p><span>通</span><span>用信息设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u244" class="ax_paragraph">
+        <img id="u244_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u245" class="text">
+          <p><span>教学班</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u246" class="ax_paragraph">
+        <img id="u246_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u247" class="text">
+          <p><span>科</span><span>目及分数设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u248" class="ax_shape">
+        <img id="u248_img" class="img " src="images/新增考试科目信息/u248.png"/>
+        <!-- Unnamed () -->
+        <div id="u249" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u250" class="ax_paragraph">
+        <img id="u250_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u251" class="text">
+          <p><span>＋</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u252" class="ax_paragraph">
+        <img id="u252_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u253" class="text">
+          <p><span>新增科目及分数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u254" class="ax_shape">
+        <img id="u254_img" class="img " src="images/新增考试科目信息/u6.png"/>
+        <!-- Unnamed () -->
+        <div id="u255" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u256" class="ax_shape">
+        <img id="u256_img" class="img " src="images/新增考试科目信息/u8.png"/>
+        <!-- Unnamed () -->
+        <div id="u257" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u258" class="ax_shape">
+        <img id="u258_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u259" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u260" class="ax_shape">
+        <img id="u260_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u261" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u262" class="ax_paragraph">
+        <img id="u262_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u263" class="text">
+          <p><span>请</span><span>选择考试科目</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u264" class="ax_shape">
+        <img id="u264_img" class="img " src="images/新增考试科目信息/u117.png"/>
+        <!-- Unnamed () -->
+        <div id="u265" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u266" class="ax_shape">
+        <img id="u266_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u267" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u268" class="ax_paragraph">
+        <img id="u268_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u269" class="text">
+          <p><span>请输入客观题分数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u270" class="ax_shape">
+        <img id="u270_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u271" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u272" class="ax_paragraph">
+        <img id="u272_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u273" class="text">
+          <p><span>请输入</span><span>主观</span><span>题分数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u274" class="ax_radio_button">
+        <label for="u274_input">
+          <!-- Unnamed () -->
+          <div id="u275" class="text">
+            <p><span>分别设置主客观题分数</span></p>
+          </div>
+        </label>
+        <input id="u274_input" type="radio" value="radio" name="sss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u276" class="ax_shape">
+        <img id="u276_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u277" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u278" class="ax_paragraph">
+        <img id="u278_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u279" class="text">
+          <p><span>请输入</span><span>试卷总分</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u280" class="ax_radio_button">
+        <label for="u280_input">
+          <!-- Unnamed () -->
+          <div id="u281" class="text">
+            <p><span>只</span><span>设置总分</span></p>
+          </div>
+        </label>
+        <input id="u280_input" type="radio" value="radio" name="sss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u282" class="ax_shape">
+        <img id="u282_img" class="img " src="images/新增考试科目信息/u6.png"/>
+        <!-- Unnamed () -->
+        <div id="u283" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u284" class="ax_shape">
+        <img id="u284_img" class="img " src="images/新增考试科目信息/u8.png"/>
+        <!-- Unnamed () -->
+        <div id="u285" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u286" class="ax_shape">
+        <img id="u286_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u287" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u288" class="ax_shape">
+        <img id="u288_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u289" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u290" class="ax_paragraph">
+        <img id="u290_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u291" class="text">
+          <p><span>请</span><span>选择考试科目</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u292" class="ax_shape">
+        <img id="u292_img" class="img " src="images/新增考试科目信息/u117.png"/>
+        <!-- Unnamed () -->
+        <div id="u293" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u294" class="ax_shape">
+        <img id="u294_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u295" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u296" class="ax_paragraph">
+        <img id="u296_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u297" class="text">
+          <p><span>请输入客观题分数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u298" class="ax_shape">
+        <img id="u298_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u299" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u300" class="ax_paragraph">
+        <img id="u300_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u301" class="text">
+          <p><span>请输入</span><span>主观</span><span>题分数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u302" class="ax_radio_button">
+        <label for="u302_input">
+          <!-- Unnamed () -->
+          <div id="u303" class="text">
+            <p><span>分别设置主客观题分数</span></p>
+          </div>
+        </label>
+        <input id="u302_input" type="radio" value="radio" name="sss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u304" class="ax_shape">
+        <img id="u304_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u305" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u306" class="ax_paragraph">
+        <img id="u306_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u307" class="text">
+          <p><span>请输入</span><span>试卷总分</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Radio Button) -->
+      <div id="u308" class="ax_radio_button">
+        <label for="u308_input">
+          <!-- Unnamed () -->
+          <div id="u309" class="text">
+            <p><span>只</span><span>设置总分</span></p>
+          </div>
+        </label>
+        <input id="u308_input" type="radio" value="radio" name="sss"/>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u310" class="ax_shape">
+        <img id="u310_img" class="img " src="images/新增考试科目信息/u310.png"/>
+        <!-- Unnamed () -->
+        <div id="u311" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u312" class="ax_shape">
+        <img id="u312_img" class="img " src="images/新增考试科目信息/u310.png"/>
+        <!-- Unnamed () -->
+        <div id="u313" class="text">
+          <p><span>删</span><span>除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u314" class="ax_shape">
+        <img id="u314_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u315" class="text">
+          <p><span>确</span><span>定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u316" class="ax_shape">
+        <img id="u316_img" class="img " src="images/学年学期设置/u51.png"/>
+        <!-- Unnamed () -->
+        <div id="u317" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u318" class="ax_shape">
+        <img id="u318_img" class="img " src="images/新增考试科目信息/u318.png"/>
+        <!-- Unnamed () -->
+        <div id="u319" class="text">
+          <p><span>复</span><span>用之前的考试设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u320" class="ax_connector">
+        <img id="u320_seg0" class="img " src="images/新增考试科目信息/u320_seg0.png" alt="u320_seg0"/>
+        <img id="u320_seg1" class="img " src="images/新增考试科目信息/u320_seg1.png" alt="u320_seg1"/>
+        <img id="u320_seg2" class="img " src="images/新增考试科目信息/u320_seg2.png" alt="u320_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u321" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u322" class="ax_shape">
+        <img id="u322_img" class="img " src="images/任课信息设置/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u323" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u324" class="ax_shape">
+        <img id="u324_img" class="img " src="images/任课信息设置/u4.png"/>
+        <!-- Unnamed () -->
+        <div id="u325" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u326" class="ax_shape">
+        <img id="u326_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u327" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u328" class="ax_shape">
+        <img id="u328_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u329" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u330" class="ax_shape">
+        <img id="u330_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u331" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u332" class="ax_paragraph">
+        <img id="u332_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u333" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u334" class="ax_paragraph">
+        <img id="u334_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u335" class="text">
+          <p><span>学</span><span>&nbsp; &nbsp; &nbsp; &nbsp; </span><span>期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u336" class="ax_shape">
+        <img id="u336_img" class="img " src="images/学年学期设置/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u337" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u338" class="ax_paragraph">
+        <img id="u338_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u339" class="text">
+          <p><span>考</span><span>试名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u340" class="ax_paragraph">
+        <img id="u340_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u341" class="text">
+          <p><span>请</span><span>选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u342" class="ax_paragraph">
+        <img id="u342_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u343" class="text">
+          <p><span>选</span><span>择复用对象</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u344" class="ax_shape">
+        <img id="u344_img" class="img " src="images/学年学期设置/u63.png"/>
+        <!-- Unnamed () -->
+        <div id="u345" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u346" class="ax_shape">
+        <img id="u346_img" class="img " src="images/学年学期设置/u65.png"/>
+        <!-- Unnamed () -->
+        <div id="u347" class="text">
+          <p><span>确</span><span>定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u348" class="ax_shape">
+        <img id="u348_img" class="img " src="images/学年学期设置/u65.png"/>
+        <!-- Unnamed () -->
+        <div id="u349" class="text">
+          <p><span>取</span><span>消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u350" class="ax_shape">
+        <img id="u350_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u351" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u352" class="ax_paragraph">
+        <img id="u352_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u353" class="text">
+          <p><span>请选择</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u354" class="ax_shape">
+        <img id="u354_img" class="img " src="images/学年学期设置/u39.png"/>
+        <!-- Unnamed () -->
+        <div id="u355" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u356" class="ax_paragraph">
+        <img id="u356_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u357" class="text">
+          <p><span>学</span><span>&nbsp; &nbsp; &nbsp; &nbsp; </span><span>年</span><span>：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u358" class="ax_paragraph">
+        <img id="u358_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u359" class="text">
+          <p><span>复</span><span>用之前</span><span>的</span><span>考试</span><span>设置</span><span>：交互方式——弹出层</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

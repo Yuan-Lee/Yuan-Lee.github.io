@@ -1,0 +1,286 @@
+
+/*-----------------------------------*\
+    #7选3
+\*-----------------------------------*/
+
+/********** 无数据状态 **********/
+.no-data-container{position:relative;}
+.no-data{margin:6% 0;text-align:center;}
+.no-data-img{display:inline-block;}
+.no-data-body{margin-top:20px;}
+.no-data-txt{font-size:16px;}
+.no-data-link{color:#ff9308;}
+.no-data-hor .no-data-body{display:inline-block;margin-left:30px;text-align:left;vertical-align:middle;}
+
+.page-title{margin:0 0 20px;font-size:20px;text-align:center;line-height:1;}
+
+
+
+/********** 流程步骤 **********/
+.steps{display:table;width:100%;padding:10px 0 0;}
+.steps li{display:table-cell;width:1%;text-align:center;}
+.steps li>a{display:block;color:#333;}
+.steps li>a:hover,
+.steps li>a:active{text-decoration:none;}
+.steps li:before{position:relative;top:18px;display:block;content:'';height:3px;background-color:#bcc2c4;}
+.steps li.first:before{left:50%;width:50%;}
+.steps li.last:before{width:50%;}
+.step{display:inline-block;width:32px;height:32px;border-radius:50%;background-color:#bcc2c4;}
+.steps p{color:#999;}
+.steps li.active:before,
+.steps li.active .step,
+.steps li.completed:before,
+.steps li.completed .step{background-color:#2c9ae8;}
+.steps li.active a{color:#2c9ae8;}
+
+
+
+/********** 新建系统流程 **********/
+.system-flow{padding-top:8px;margin-right:-20px;}
+.system-flow-delete{float:right;font-size:18px;color:#ccc;}
+.system-flow-delete:hover{color:red;}
+.flow{float:left;width:190px;height:86px;padding:10px;border:1px solid #e8e8e8;border-radius:3px;margin:0 20px 10px 0;background-color:#fff}
+.flow.disabled{background-color:#f9f8f8;cursor:default;}
+.flow:hover{box-shadow:0 0 10px rgba(0,0,0,.2);text-decoration:none;transition:box-shadow .3s;}
+.flow:focus{text-decoration:none;}
+.flow.disabled:hover{box-shadow:none;}
+.flow-img{float:left;width:60px;height:60px;background:url(../images/7choose3/icons/system-flow.png) no-repeat;}
+.flow-content{margin-left:70px;}
+.flow-name{font-size:16px;color:#333;}
+.flow.disabled .flow-name{color:#999;}
+.flow-txt{color:#999;}
+.flow-img-walkClass{background-position:0 -63px;}
+.flow-img-selected{background-position:0 -188px;}
+.flow-img-openClass{background-position:0 -312px;}
+.flow-img-openResult{background-position:0 -436px;}
+.flow-img-schedule{background-position:0 -560px;}
+.flow.disabled .flow-img-walkClass{background-position:0 0;}
+.flow.disabled .flow-img-selected{background-position:0 -126px;}
+.flow.disabled .flow-img-openClass{background-position:0 -250px;}
+.flow.disabled .flow-img-openResult{background-position:0 -374px;}
+.flow.disabled .flow-img-schedule{background-position:0 -498px;}
+.layer-delSystem .form-control{float:left;width:180px;margin-right:10px;}
+
+
+
+/*学生已选课程*/
+.selectResult-box{height:330px;border:1px solid #e8e8e8;}
+.selectResult-title{height:36px;margin:0;padding-left: 15px;line-height:36px;font-size:14px;font-weight:bold;background-color:#ececec;}
+.selectResult-body{}
+.selectResult-body.unselect{height:300px;background:url(../images/7choose3/unselect.png) no-repeat center center;}
+.selectResult-content{display:table-cell;width:1%;height:300px;vertical-align:middle;text-align:center;}
+.selectResult-content span{display:block;font-size:24px;color:#317eeb;}
+.choose-explain{padding-left:20px;font-size:16px;color:#666;}
+.choose-explain h5{font-size:24px;}
+.choose-explain p{margin-bottom:5px;}
+.table-selectCourse > tbody >tr{cursor:pointer;}
+
+
+
+/*选择结果-选择课程*/
+.course-choose{position:relative;display:inline-block;width:50px;height:20px;border:1px solid;border-radius:10px;font-size:12px;text-align:center;line-height:18px;color:#317eeb;background-color:#fff;cursor:pointer;}
+.course-choose.selected:after{position:absolute;left:0;top:0;right:0;bottom:0;border-radius:10px;content:'\e68a';font-family:'wpfont';font-size:20px;text-align:center;line-height:inherit;color:#fff;background-color:#317eeb;}
+.course-choose.disabled{color:#ccc;background-color:#fcfcfc;cursor:default;}
+.course-review{position:relative;cursor:pointer;}
+.course-review:hover{background-color:#fff;}
+.course-review.locked:before,
+.course-review.unlocked:before{position:absolute;top:0;right:0;content:'';width:0;right:0;border:12px solid transparent;}
+.course-review.locked:before{border-color:#2c9ae8 #2c9ae8 transparent transparent;}
+.course-review.unlocked:before{border-color:#f1b53d #f1b53d transparent transparent;}
+.course-review.locked:after,
+.course-review.unlocked:after{position:absolute;top:0;right:2px;font-family:"fontawesome";font-size:12px;color:#fff;}
+.course-review.locked:after{content:'\f023';}
+.course-review.unlocked:after{content:'\f09c';}
+
+
+
+/********** 课表 **********/
+.schedule-collapse{position:relative;}
+.schedule-collapse-btn{position:absolute;right:10px;top:5px;}
+.schedule-collapse-content{max-height:200px;padding-right:3em;overflow:auto;}
+.schedule-collapse-content.collapsed{height:40px;overflow:hidden;}
+.schedule-labels{margin-bottom:7px;}
+.schedule-label{display:inline-block;width:100px;height:40px;border:1px solid #e9e9e9;border-radius:3px;color:#666;font-size:16px;font-weight:normal;text-align:center;line-height:38px;cursor:pointer;}
+.schedule-label.thin{display:block;width:auto;height:26px;line-height:26px;font-size:14px;}
+.schedule-label.selected{color:#fff;border-color:transparent;}
+.schedule-label-1.selected{background-color:#2c9ae8;}
+.schedule-label-2.selected{background-color:#10c469;}
+.schedule-label-3.selected{background-color:#f9c851;}
+.schedule-label-4.selected{background-color:#9161c5;}
+.schedule-label-5.selected{background-color:#fe6695;}
+.schedule-label-6.selected{background-color:#fe8f35;}
+.schedule-label-7.selected{background-color:#3db9db;}
+.schedule-label-0.selected{background-color:#ff5d48;}
+.table .schedule-label{margin:0;}
+.table-schedule{table-layout:fixed;}
+.table-schedule >tbody>tr>td{height:50px;vertical-align:middle;}
+.table-schedule .edited:hover{background-color:#eee;}
+
+.schedule-collapse-infor.collapsed{height:93px;overflow:hidden;}
+
+
+
+/*-----------------------------------*\
+    #成绩分析
+\*-----------------------------------*/
+
+/**********信息导入步骤**********/
+.import-step-num{float:left;}
+.import-content{margin-left:2em;}
+.import-filelist{list-style:none; margin-left:0;}
+.import-footer{padding:10px 2em; border-top:1px solid #dedede;}
+.import-state{padding:.2em .5em;margin:0;color:#fff;}
+.import-state-current{background-color:#3198dd;}
+.import-state-waiting{background-color:#ffb752;}
+.import-state-success{background-color:#87b87f;}
+.import-state-failed{background-color:#d15b47;}
+
+
+
+/**********统计维度设置**********/
+.gradeset-body{border:1px solid #dedede;margin:0 0 -1px;}
+.gradeset-content{padding:10px;}
+.gradeset-name{padding:10px;border-bottom:1px solid #dedede;margin:0;background:#f5f8fc;}
+.gradeset-item{position:relative;padding-left:1em;margin:10px 0;}
+.gradeset-close{position:absolute;left:0;line-height:30px;}
+.gradeset-item label{margin-right:10px;}
+.gradeset-item input[type='text'],
+.gradeset-item select{display:inline-block;width:150px;margin-right:10px;}
+.gradeset-content+.btn{margin:0 0 10px 24px;}
+
+
+
+/**********页面底部按钮区域**********/
+.page-btns{padding:20px 0 0;border-top:1px solid #dedede;}
+.page-btns.no-border{border:none;}
+.page-btns .btn{margin-right:15px;}
+
+
+
+/**********树目录**********/
+.tree-wrap{float:left;width:200px;}
+.tree-wrap:before{position:absolute;top:0;bottom:0;z-index:-1;content:'';width:inherit;background-color:#f4f4f4;}
+.tree-wrap + div{margin-left:210px;overflow:hidden;}
+
+
+
+/**********新增考试科目**********/
+.box-boder {border: 1px solid #CCC; padding:12px;}
+.box-bluebg {background:#e6f3ff;}
+.add-exam {padding:10px 30px;}
+.add-exam-item{float:left;position:relative;width:280px;margin:0 20px 20px 0;  border: 1px solid #CCC;  padding: 10px;}
+.add-exam-close{display:none;position:absolute;right:0;top:0;margin: -10px -10px 0 0;font-size:20px;line-height:1;color:#999;}
+.add-exam-close:hover{color:red;}
+.add-exam-item:hover .add-exam-close{display:block;}
+.add-exam-item .filter-item{float:none;margin-right:0;}
+.add-exam-item .filter-item .form-control,
+.add-exam-item .filter-item .input-group{width:100%;}
+.add-exam-btn{display:block;height:100%;padding-top:100px;font-size:16px;text-align:center;color:#0c65a1;}
+.add-exam-btn:hover{text-decoration:none;}
+.add-exam-item .filter-item .form-control.width-85{width: 85%;}
+.add-exam-tbale .add-exam-item .filter-item .form-control {height: 32px;}
+
+
+
+/**********添加录分人员**********/
+.inputerset-item{margin:10px 0;line-height:30px;}
+.inputerset-item .well{min-height:32px;padding:0 15px;margin-bottom:0;}
+.inputerset-del{float:left;margin-right:10px;}
+.inputerset-item-teacher{float:left;width:180px;}
+.inputerset-item-icon{float:left;width:30px;height:30px;text-align:center;}
+.inputerset-item-classes{float:left;min-width:300px;max-width:800px;}
+.inputerset-item-classes span{margin-right:10px;white-space:nowrap;}
+.inputerset-item-classes span a{padding:0 5px;font-weight:bold;}
+
+.form-box-wrap{}
+.form-box{}
+.form-group-item{margin-bottom:20px;}
+.form-group-item select,
+.form-group-item input{width:200px;margin-right:10px;}
+.form-group-del{display:inline-block;}
+
+
+
+/**********班级标签选择**********/
+.label-select{margin-bottom:10px;font-size:0;}
+.label-select-item{display:inline-block;width:87px;height:25px;border:1px solid #d0d5d8;margin:0 10px 10px 0;font-size:14px;line-height:25px;text-align:center;background-color:#e6f4ff;cursor:pointer;}
+.label-select-item.active{border-color:#3198dd;background:#fff url(../images/scoreAnalysis/label-selected.png) no-repeat right bottom;}
+.label-select-item.disabled{border-color:#d0d5d8;background:#eee !important;cursor:default;}
+.label-select-item:hover{text-decoration:none;}
+
+
+
+
+/*-----------------------------------*\
+    #基础数据
+\*-----------------------------------*/
+
+.layui-layer-tips .layui-layer-content{font-size: 14px !important;}
+/**********开发者**********/
+
+/*单点登录*/
+.base-fixed-menu{position: fixed;top: 215px;right: 215px;}
+.base-fixed-menu li{line-height: 30px;font-size: 16px;}
+.base-fixed-menu a{color: #333;}
+.base-fixed-menu a:hover{text-decoration: none;color: #2c9ae8;}
+.base-fixed-menu i{float: left;margin: 15px 5px 0 0;font-size: 5px;color: #fff;}
+.base-fixed-menu li.active a,.base-fixed-menu li.active i{color: #2c9ae8;}
+.base-fixed-menu-tier2{padding-left: 1em;}
+.base-fixed-menu-tier3{padding-left: 2em;}
+.base-item{padding-top: 5px;}
+.base-item .table > tbody > tr > th,.base-item .table > tbody > tr > td{width:inherit;table-layout:fixed;border:1px solid #ddd;padding: 10px 15px;}
+.base-hljs{display: block;background: #f0f3fa;border: 1px solid #e9e9e9;border-radius: 0;margin-top: 15px;padding: 1em 2em;font-size: 14px;word-wrap:break-word;word-break:break-all;}
+.base-hljs.form-control{padding: 6px 12px;}
+.base-item > ul{margin-top: 10px;}
+.base-li-group{border: 1px solid #ececec;border-left-width: 6px;padding: 10px 15px;margin-top: 0;}
+.base-li{line-height: 30px;font-size: 16px;}
+.base-warn{padding-top: 10px;font-size: 16px;font-weight: 700;}
+
+/*应用管理*/
+.base-apply{position: relative;min-height: 233px;padding: 20px;}
+.base-apply .fa-trash{display: none;position: absolute;top: 15px;right: 30px;z-index: 9;font-size: 20px;color: #666;cursor: pointer;}
+.base-apply:hover .fa-trash{display: block;}
+.base-apply-img{text-align: center;}
+.base-apply-img img{max-width: 100%;}
+.base-apply-title{font-size: 18px;}
+.base-apply-title > .badge{margin-left: 10px;}
+.base-apply-time{color: #999;}
+.base-apply-des{height: 100px;line-height: 24px;margin-top: 15px;color: #666;overflow: hidden;}
+
+/*数据管理*/
+.base-lead{padding: 5px 0 15px;line-height: 1.5;font-size: 14px;color: #999;}
+.baseData-wrap{margin-bottom: 20px;}
+.baseData-wrap .tab-content{padding-top: 0;}
+.baseData-header{height: 60px;line-height: 60px;background-color: #ececec;padding: 0 20px;cursor:pointer;}
+.baseData-header .fa{float: right;margin-top: 10px;font-size:40px;color: #d5d5d5;}
+.baseData-header span{font-size: 16px;font-weight: 700;}
+.baseData-body{display: none;}
+.baseData-wrap.active .baseData-body{display: block;}
+.baseData-inner-wrap{margin-top: 10px;}
+.baseData-inner-body{display: none;}
+.baseData-inner-wrap.active .baseData-inner-body{display: block;}
+.baseData-inner-header{height:40px;line-height:40px;border:1px solid #d2d5d7;background:#f6fbff;padding:0 22px 0 115px;position:relative;overflow: hidden;cursor:pointer;}
+.baseData-inner-header span{display:inline-block;}
+.baseData-inner-header .method{position:absolute;top:-1px;left:-1px;width:100px;height:40px;line-height:40px;background:#2c9ae8;text-align:center;font-size:16px;color:#fff;}
+.baseData-inner-header .path{float:left;font-size:16px;}
+.baseData-inner-header .description,.baseData-inner-header .fa{float:right;color:#1e9bf2;}
+.baseData-inner-header .fa{margin: 12px 0 0 10px;font-size: 20px;}
+.baseData-inner-body{border: 1px solid #d2d5d7;padding:0 20px 20px;margin-top: -1px;}
+.baseData-inner-body > h5{padding: 10px 0 5px;}
+.baseData-response{display: none;}
+.baseData-wrap .fa-angle-double-up{display: none;cursor: pointer;color: #ccc;}
+.baseData-wrap.active .fa-angle-down,.baseData-inner-wrap.active .fa-caret-down{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+
+
+
+/**********超管**********/
+
+/*授权*/
+.authorization-title{background: #fff;border: 1px solid #d2d5d7;padding: 10px 15px;}
+.authorization-body{background: #fff;border: 1px solid #d2d5d7;border-top: 0;padding: 15px;}
+
+/*应用列表*/
+.base-app-list{margin-left: -60px;}
+.base-app-item{float: left;width: 80px;display: inline-block;margin-left: 60px;text-align: center;}
+.base-app-img{width: 80px;height: 80px;margin-bottom: 5px;}
+.base-app-title{font-weight: 700;color: #333;}
