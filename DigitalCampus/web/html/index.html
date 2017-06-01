@@ -487,7 +487,7 @@
 
 								<li class="list-group-item" href="#">小刺猬 <a class="user-switch" href="">切换</a></li>
 
-								<li class="list-group-item text-center" href="#"><a href="">退出</a></a>
+								<li class="list-group-item text-center" href="#"><a href="">退出</a></li>
 							</ul>
 						</div>
 					</li>
@@ -512,414 +512,49 @@
 				</div>
 				<div class="nav-wrap js-nav-wrap">
 					<div class="common-module">
-						<ul class="nav nav-list">
-							<li class="active">
+						<ul id="commonNavList" class="nav nav-list">
+							<li v-for="item in items">
 								<a href="#">
-									<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon01.png" alt="">
-									<span class="menu-text">桌面</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon02.png" alt="">
-									<span class="menu-text">学科模块管理</span>
-								</a>
-							</li>
-
-							<li>
-								<a href="#">
-									<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon03.png" alt="">
-									<span class="menu-text">课程开设</span>
-								</a>
-							</li>
-
-							<li>
-								<a href="#">
-									<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon04.png" alt="">
-									<span class="menu-text">课程表维护</span>
-								</a>
-							</li>
-
-							<li>
-								<a href="#">
-									<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon05.png" alt="">
-									<span class="menu-text">选修课设置</span>
-								</a>
-							</li>
-
-							<li>
-								<a href="#">
-									<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon06.png" alt="">
-									<span class="menu-text">高考成绩分析</span>
+									<img class="menu-icon" :src="item.menuIcon" alt="">
+									<span class="menu-text">{{item.menuText}}</span>
 								</a>
 							</li>
 						</ul>
 					</div>
-					<ul class="nav nav-list">
-						<li>
-							<a href="#" class="dropdown-toggle" data-show="a">
-								<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon07.png" alt="">
-								<span class="menu-text">学科模块管理</span>
-								<b class="arrow fa fa-angle-right"></b>
+					<ul id="navList" class="nav nav-list">
+						<li v-for="item in items">
+							<a href="#" :data-show="item.show" :class="{'dropdown-toggle':item.hasChildren}">
+								<img :src="item.menuIcon" alt="" class="menu-icon">
+								<span class="menu-text">{{item.menuText}}</span>
+								<b class="arrow fa fa-angle-right" v-if="item.hasChildren"></b>
 							</a>
-							<ul class="submenu">
-								<li class="">
-									<a href="#" class="dropdown-toggle">
-										二级导航
-										<b class="arrow fa fa-angle-right"></b>
+							<ul class="submenu" v-if="item.hasChildren">
+								<li v-for="(item,index) in item.children">
+									<a href="#" :class="{'dropdown-toggle':item.hasChildren}">
+										{{item.menuText}}-{{index}}
+										<b class="arrow fa fa-angle-right" v-if="item.hasChildren"></b>
 									</a>
-
-									<ul class="submenu">
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-									</ul>
-								</li>
-
-								<li class="">
-									<a href="#">
-										二级导航
-									</a>
-								</li>
-
-								<li class="">
-									<a href="#">
-										二级导航
-									</a>
-								</li>
-
-								<li class="">
-									<a href="#" class="dropdown-toggle">
-										二级导航
-										<b class="arrow fa fa-angle-right"></b>
-									</a>
-
-									<ul class="submenu">
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-										<li class="">
-											<a href="#">
-												三级导航
+									<ul class="submenu" v-if="item.hasChildren">
+										<li v-for="(item,index) in item.children">
+											<a href="#" :class="{'dropdown-toggle':item.hasChildren}">
+												{{item.menuText}}-{{index}}
 											</a>
 										</li>
 									</ul>
 								</li>
 							</ul>
-						</li>
-
-						<li>
-							<a href="#" class="dropdown-toggle" data-show="b">
-								<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon01.png" alt="">
-								<span class="menu-text">课程开设</span>
-								<b class="arrow fa fa-angle-right"></b>
-							</a>
-							
-							<ul class="submenu">
-								<li class="">
-									<a href="#" class="dropdown-toggle">
-										二级导航
-										<b class="arrow fa fa-angle-right"></b>
-									</a>
-
-									<ul class="submenu">
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-									</ul>
-								</li>
-
-								<li class="">
-									<a href="#">
-										二级导航
-									</a>
-								</li>
-
-								<li class="">
-									<a href="#">
-										二级导航
-									</a>
-								</li>
-
-								<li class="">
-									<a href="#" class="dropdown-toggle">
-										二级导航
-										<b class="arrow fa fa-angle-right"></b>
-									</a>
-
-									<ul class="submenu">
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-										<li class="">
-											<a href="#">
-												三级导航
-											</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-
-						<li>
-							<a href="#" data-show="c">
-								<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon02.png" alt="">
-								<span class="menu-text">课程表维护</span>
-							</a>
-						</li>
-
-						<li>
-							<a href="#" data-show="d">
-								<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon03.png" alt="">
-								<span class="menu-text">选修课设置</span>
-							</a>
-						</li>
-
-						<li>
-							<a href="#" data-show="e">
-								<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon04.png" alt="">
-								<span class="menu-text">教师课程表</span>
-							</a>
-						</li>
-
-						<li>
-							<a href="#" data-show="f">
-								<img class="menu-icon" src="../dist/images/icons/app-icon/app-icon05.png" alt="">
-								<span class="menu-text">高考成绩分析</span>
-							</a>
 						</li>
 					</ul>
 				</div>
 				<div class="subNav-modal js-subNav-modal">
-					<div class="subNav-modal-container">
-						<div class="subNav" data-id="a">
-							<h3 class="subNav-name">学科模块管理</h3>
+					<div id="subNav" class="subNav-modal-container">
+						<div class="subNav" v-for="item in items" :data-id="item.id">
+							<h3 class="subNav-name">{{item.name}}</h3>
 							<div class="subNav-container">
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
+								<div class="subNav-item" v-for="item in item.item">
+									<h5 class="subNav-item-name">{{item.name}}</h5>
 									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="subNav" data-id="b">
-							<h3 class="subNav-name">课程开设</h3>
-							<div class="subNav-container">
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="subNav" data-id="c">
-							<h3 class="subNav-name">课程表维护</h3>
-							<div class="subNav-container">
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置</a></li>
-									</ul>
-								</div>
-								<div class="subNav-item">
-									<h5 class="subNav-item-name">基础信息</h5>
-									<ul class="subNav-list clearfix">
-										<li><a href="">考核时间设置</a></li>
-										<li><a href="">班级设置</a></li>
-										<li><a href="">班干部管理</a></li>
-										<li><a href="">班主任费统计</a></li>
-										<li><a href="">人员权限设置</a></li>
-										<li><a href="">人员权限设置 last</a></li>
+										<li v-for="item in item.list"><a href="">{{item.name}}</a></li>
 									</ul>
 								</div>
 							</div>
@@ -1877,8 +1512,8 @@
 			    	"bootstrap":["jquery"],
 			        "jquery-slimscroll/jquery.slimscroll.min":["jquery"],
 			        "chosen/chosen.jquery.min":["jquery"],
-			        // "bootstrap-datepicker/dist/js/bootstrap-datepicker.min":["bootstrap"],
-			        // "bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min":["datapicker"],
+			        "bootstrap-datepicker/dist/js/bootstrap-datepicker.min":["bootstrap"],
+			        "bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min":["datapicker"],
 			        "typeahead.js/dist/typeahead.jquery.min":["jquery"],
 			        "dragsort/jquery-list-dragsort":["jquery"],
 			        "js/desktop.min":["jquery"],
@@ -1891,18 +1526,18 @@
 				'layer/layer',
 				'jquery-slimscroll/jquery.slimscroll.min',
 				'chosen/chosen.jquery.min',
-				// 'bootstrap-datepicker/dist/js/bootstrap-datepicker.min',
-				// 'bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min',
+				'bootstrap-datepicker/dist/js/bootstrap-datepicker.min',
+				'bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min',
 				'typeahead.js/dist/typeahead.jquery.min',
 				'dragsort/jquery-list-dragsort',
-				'js/desktop.min'], function(){
+				'js/desktop.min'], function(bootstrap,layer,slimscroll,chosen,datapicker,datapicker,typeahead,dragsort){
 					// 设置模块
 					
 					$('.js-box-setting').on('click',function(){
 						layer.open({
 							type: 1,
 							shade: .5,
-							title: ['设置','font-size:16px'],
+							title: ['设置'],
 							area: ['940px','640px'],
 							btn:['确定','取消'],
 							content: $('.layer-boxSetting')
@@ -1960,7 +1595,7 @@
 					$('.js-box-remove').on('click',function(){
 						var that=$(this);
 						layer.confirm('确定删除该模块吗？',{
-							title:['提示','font-size:16px;'],
+							title:['提示'],
 							btn:['确定','取消'],
 							yes: function(index){
 								that.closest('.box').remove();
@@ -1974,7 +1609,7 @@
 						layer.open({
 							type: 1,
 							shade: .5,
-							title: ['添加模块','font-size:16px'],
+							title: ['添加模块'],
 							area: ['940px','600px'],
 							btn:['确定','取消'],
 							content: $('.layer-addModule')
@@ -2027,15 +1662,137 @@
 					    'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
 					];
 
-					// $('.typeahead').typeahead({
-					//     hint: true,
-					//     highlight: true,
-					//     minLength: 1
-					// },{
-					//     name: 'states',
-					//     source: substringMatcher(states)
-					// });
+					$('.typeahead').typeahead({
+					    hint: true,
+					    highlight: true,
+					    minLength: 1
+					},{
+					    name: 'states',
+					    source: substringMatcher(states)
+					});
 			})
+		</script>
+		<script>
+			require(["../node_modules/vue/dist/vue.min.js"],function(Vue){
+
+				var commonNavList = new Vue({
+					el:"#commonNavList",
+					data:{
+						items:[
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon01.png','menuText':'桌面'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon02.png','menuText':'学科模块管理'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon03.png','menuText':'课程开设'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon04.png','menuText':'课程表维护'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon05.png','menuText':'选修课设置'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon06.png','menuText':'高考成绩分析'}
+						]
+					}
+				})
+
+				var navList = new Vue({
+					el:"#navList",
+					data:{
+						items:[
+							{
+								'show':'a',
+								'hasChildren':true,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon01.png',
+								'menuText':'学科模块管理',
+								'children':[
+									{
+										'hasChildren':true,
+										'menuText':'二级导航',
+										'children':[
+											{'menuText':'三级导航'},
+											{'menuText':'三级导航'},
+											{'menuText':'三级导航'},
+											{'menuText':'三级导航'}
+										]
+									},
+									{'hasChildren':false,'menuText':'二级导航'},
+									{'hasChildren':false,'menuText':'二级导航'},
+									{'hasChildren':false,'menuText':'二级导航'}
+								]
+							},
+							{
+								'show':'b',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon02.png',
+								'menuText':'学科模块管理'
+							},
+							{
+								'show':'c',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon03.png',
+								'menuText':'课程开设'
+							},
+							{
+								'show':'d',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon04.png',
+								'menuText':'课程表维护'
+							},
+							{
+								'show':'e',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon05.png',
+								'menuText':'选修课设置'
+							},
+							{
+								'show':'f',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon06.png',
+								'menuText':'高考成绩分析'
+							}
+						]
+					}
+				})
+
+				var commonNavList = new Vue({
+					el:"#subNav",
+					data:{
+						items:[
+							{
+								'id':'a',
+								'name':'学科模块管理',
+								'item':[
+									{
+										'name':'基础信息',
+										'list':[
+											{'name':'考核时间设置'},
+											{'name':'班级设置'},
+											{'name':'班干部管理'},
+											{'name':'班主任费统计'},
+											{'name':'人员权限设置'}
+										]
+									},
+									{
+										'name':'基础信息',
+										'list':[
+											{'name':'考核时间设置'},
+											{'name':'班级设置'},
+											{'name':'班干部管理'},
+											{'name':'班主任费统计'},
+											{'name':'人员权限设置'}
+										]
+									},
+									{
+										'name':'基础信息',
+										'list':[
+											{'name':'考核时间设置'},
+											{'name':'班级设置'},
+											{'name':'班干部管理'},
+											{'name':'班主任费统计'},
+											{'name':'人员权限设置'}
+										]
+									},
+								]
+							}
+						]
+					}
+				})
+			})
+				
 		</script>
 		
 	</body>

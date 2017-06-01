@@ -1,14 +1,19 @@
 
+:root{
+	--color:red;
+}
 /********** 全局设置 **********/
 html {min-height: 100%;position: relative;}
-body{min-height: 100%;-ms-overflow-style: scrollbar;font-size:14px; font-family:"Microsoft Yahei", Helvetica , Arial, sans-serif; word-wrap:break-word; line-height:1.5; color:#333;}
+body{min-height: 100%;background-color:var(--color);-ms-overflow-style: scrollbar;font-size:14px; font-family:"Microsoft Yahei", Helvetica , Arial, sans-serif; word-wrap:break-word; line-height:1.5; color:#333;}
 ul,ol,li{margin:0;padding:0;list-style:none;}
 pre{background: none;border: 0;border-radius: 0;padding: 0;margin: 0;} /*代码高亮*/
 a.disabled{color:#818a91;cursor:not-allowed;}
 a.disabled:hover,
 a.disabled:active{text-decoration:none;}
 
-
+.precss {
+ background: color(red alpha(-10%));
+}
 /********** 标题、段落 **********/
 h1,h2,h3,h4,h5,h6{font-weight:normal; font-family:"Microsoft Yahei";}
 h2,.h2{font-size: 28px;}

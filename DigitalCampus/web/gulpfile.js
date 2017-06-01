@@ -1,11 +1,11 @@
 var gulp=require('gulp');
-var del=require('del');
+var del=require('del');var browserSync=require('browser-sync');
+var rename=require('gulp-rename');
+var uglify=require('gulp-uglify');
 var postcss=require('gulp-postcss');
 var autoprefixer=require('gulp-autoprefixer');
 var cssnano=require('cssnano');
-var browserSync=require('browser-sync');
-var rename=require('gulp-rename');
-var uglify=require('gulp-uglify');
+var cssnext=require('cssnext');
 
 var paths={
 	srcCSS:'src/css/*.css',
@@ -41,9 +41,10 @@ gulp.task('dealHtml', function(){
 })
 
 gulp.task('dealCss', function(){
+
 	var processers=[
 			autoprefixer/*({browses:['last 4 version']})*/,
-			cssnano
+			cssnext
 		];
 	return gulp.src(paths.srcCSS)
 				.pipe(postcss(processers))
