@@ -92,7 +92,7 @@
 				<div class="nav-wrap js-nav-wrap">
 					<div class="common-module">
 						<ul id="commonNavList" class="nav nav-list">
-							<li v-for="item in items">
+							<li v-for="item in commonNav">
 								<a href="#">
 									<img class="menu-icon" :src="item.menuIcon" alt="">
 									<span class="menu-text">{{item.menuText}}</span>
@@ -101,7 +101,7 @@
 						</ul>
 					</div>
 					<ul id="navList" class="nav nav-list">
-						<li v-for="item in items">
+						<li v-for="item in nav">
 							<a href="#" :data-show="item.show" :class="{'dropdown-toggle':item.hasChildren}">
 								<img :src="item.menuIcon" alt="" class="menu-icon">
 								<span class="menu-text">{{item.menuText}}</span>
@@ -127,7 +127,7 @@
 				</div>
 				<div class="subNav-modal js-subNav-modal">
 					<div id="subNav" class="subNav-modal-container">
-						<div class="subNav" v-for="item in items" :data-id="item.id">
+						<div class="subNav" v-for="item in subNav" :data-id="item.id">
 							<h3 class="subNav-name">{{item.name}}</h3>
 							<div class="subNav-container">
 								<div class="subNav-item" v-for="item in item.item">
@@ -928,6 +928,116 @@
 		<!-- basic scripts -->
 		<script src="../components/requirejs/require.js"></script>
 		<script>
+			require(["../node_modules/vue/dist/vue.min.js"],function(Vue){
+
+				var sidebar = new Vue({
+					el: "#sidebar",
+					data:{
+						commonNav:[
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon01.png','menuText':'桌面'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon02.png','menuText':'学科模块管理'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon03.png','menuText':'课程开设'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon04.png','menuText':'课程表维护'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon05.png','menuText':'选修课设置'},
+							{'menuIcon':'../dist/images/icons/app-icon/app-icon06.png','menuText':'高考成绩分析'}
+						],
+						nav:[
+							{
+								'show':'a',
+								'hasChildren':true,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon01.png',
+								'menuText':'学科模块管理',
+								'children':[
+									{
+										'hasChildren':true,
+										'menuText':'二级导航',
+										'children':[
+											{'menuText':'三级导航'},
+											{'menuText':'三级导航'},
+											{'menuText':'三级导航'},
+											{'menuText':'三级导航'}
+										]
+									},
+									{'hasChildren':false,'menuText':'二级导航'},
+									{'hasChildren':false,'menuText':'二级导航'},
+									{'hasChildren':false,'menuText':'二级导航'}
+								]
+							},
+							{
+								'show':'b',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon02.png',
+								'menuText':'学科模块管理'
+							},
+							{
+								'show':'c',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon03.png',
+								'menuText':'课程开设'
+							},
+							{
+								'show':'d',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon04.png',
+								'menuText':'课程表维护'
+							},
+							{
+								'show':'e',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon05.png',
+								'menuText':'选修课设置'
+							},
+							{
+								'show':'f',
+								'hasChildren':false,
+								'menuIcon':'../dist/images/icons/app-icon/app-icon06.png',
+								'menuText':'高考成绩分析'
+							}
+						],
+						subNav:[
+							{
+								'id':'a',
+								'name':'学科模块管理',
+								'item':[
+									{
+										'name':'基础信息',
+										'list':[
+											{'name':'考核时间设置'},
+											{'name':'班级设置'},
+											{'name':'班干部管理'},
+											{'name':'班主任费统计'},
+											{'name':'人员权限设置'}
+										]
+									},
+									{
+										'name':'基础信息',
+										'list':[
+											{'name':'考核时间设置'},
+											{'name':'班级设置'},
+											{'name':'班干部管理'},
+											{'name':'班主任费统计'},
+											{'name':'人员权限设置'}
+										]
+									},
+									{
+										'name':'基础信息',
+										'list':[
+											{'name':'考核时间设置'},
+											{'name':'班级设置'},
+											{'name':'班干部管理'},
+											{'name':'班主任费统计'},
+											{'name':'人员权限设置'}
+										]
+									}
+								]
+							}
+						]
+					}
+				})
+			})
+				
+		</script>
+		<script>
 			require.config({
 			    baseUrl:"../components/",
 			    
@@ -1034,128 +1144,6 @@
 					})
 
 			})
-		</script>
-		<script>
-			require(["../node_modules/vue/dist/vue.min.js"],function(Vue){
-
-				var commonNavList = new Vue({
-					el:"#commonNavList",
-					data:{
-						items:[
-							{'menuIcon':'../dist/images/icons/app-icon/app-icon01.png','menuText':'桌面'},
-							{'menuIcon':'../dist/images/icons/app-icon/app-icon02.png','menuText':'学科模块管理'},
-							{'menuIcon':'../dist/images/icons/app-icon/app-icon03.png','menuText':'课程开设'},
-							{'menuIcon':'../dist/images/icons/app-icon/app-icon04.png','menuText':'课程表维护'},
-							{'menuIcon':'../dist/images/icons/app-icon/app-icon05.png','menuText':'选修课设置'},
-							{'menuIcon':'../dist/images/icons/app-icon/app-icon06.png','menuText':'高考成绩分析'}
-						]
-					}
-				})
-
-				var navList = new Vue({
-					el:"#navList",
-					data:{
-						items:[
-							{
-								'show':'a',
-								'hasChildren':true,
-								'menuIcon':'../dist/images/icons/app-icon/app-icon01.png',
-								'menuText':'学科模块管理',
-								'children':[
-									{
-										'hasChildren':true,
-										'menuText':'二级导航',
-										'children':[
-											{'menuText':'三级导航'},
-											{'menuText':'三级导航'},
-											{'menuText':'三级导航'},
-											{'menuText':'三级导航'}
-										]
-									},
-									{'hasChildren':false,'menuText':'二级导航'},
-									{'hasChildren':false,'menuText':'二级导航'},
-									{'hasChildren':false,'menuText':'二级导航'}
-								]
-							},
-							{
-								'show':'b',
-								'hasChildren':false,
-								'menuIcon':'../dist/images/icons/app-icon/app-icon02.png',
-								'menuText':'学科模块管理'
-							},
-							{
-								'show':'c',
-								'hasChildren':false,
-								'menuIcon':'../dist/images/icons/app-icon/app-icon03.png',
-								'menuText':'课程开设'
-							},
-							{
-								'show':'d',
-								'hasChildren':false,
-								'menuIcon':'../dist/images/icons/app-icon/app-icon04.png',
-								'menuText':'课程表维护'
-							},
-							{
-								'show':'e',
-								'hasChildren':false,
-								'menuIcon':'../dist/images/icons/app-icon/app-icon05.png',
-								'menuText':'选修课设置'
-							},
-							{
-								'show':'f',
-								'hasChildren':false,
-								'menuIcon':'../dist/images/icons/app-icon/app-icon06.png',
-								'menuText':'高考成绩分析'
-							}
-						]
-					}
-				})
-
-				var commonNavList = new Vue({
-					el:"#subNav",
-					data:{
-						items:[
-							{
-								'id':'a',
-								'name':'学科模块管理',
-								'item':[
-									{
-										'name':'基础信息',
-										'list':[
-											{'name':'考核时间设置'},
-											{'name':'班级设置'},
-											{'name':'班干部管理'},
-											{'name':'班主任费统计'},
-											{'name':'人员权限设置'}
-										]
-									},
-									{
-										'name':'基础信息',
-										'list':[
-											{'name':'考核时间设置'},
-											{'name':'班级设置'},
-											{'name':'班干部管理'},
-											{'name':'班主任费统计'},
-											{'name':'人员权限设置'}
-										]
-									},
-									{
-										'name':'基础信息',
-										'list':[
-											{'name':'考核时间设置'},
-											{'name':'班级设置'},
-											{'name':'班干部管理'},
-											{'name':'班主任费统计'},
-											{'name':'人员权限设置'}
-										]
-									},
-								]
-							}
-						]
-					}
-				})
-			})
-				
 		</script>
 		
 	</body>
