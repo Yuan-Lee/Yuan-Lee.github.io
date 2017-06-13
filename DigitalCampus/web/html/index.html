@@ -42,15 +42,13 @@
 			<div class="navbar-container clearfix" id="navbar-container">
 				
 				<div class="navbar-header">
-					<!-- #section:basics/navbar.layout.brand -->
+					
 					<a href="#" class="navbar-brand">
 						<img class="logo" src="../dist/images/desktop/logo02.png" alt="">
 						<span>浙江万朋教育 · 数字校园</span>
 					</a>
 
-					<!-- /section:basics/navbar.layout.brand -->
 				</div>
-				<!-- #section:basics/navbar.dropdown -->
 
 				<ul class="nav navbar-nav navbar-right">
 
@@ -75,14 +73,12 @@
 					</li>
 				</ul>
 
-			</div><!-- /.navbar-container -->
+			</div>
 		</div>
 
-		<!-- /section:basics/navbar.layout -->
 		<div class="main-container" id="main-container">
 
-			<!-- #section:basics/sidebar -->
-			<div id="sidebar" class="sidebar                  responsive sidebar-fixed">
+			<div id="sidebar" class="sidebar sidebar-fixed">
 
 				<div class="sidebar-shortcuts">
 					<button class="btn btn-tohome js-siderbar-collapse">
@@ -91,7 +87,7 @@
 				</div>
 				<div class="nav-wrap js-nav-wrap">
 					<div class="common-module">
-						<ul id="commonNavList" class="nav nav-list">
+						<ul class="nav nav-list">
 							<li v-for="item in commonNav">
 								<a href="#">
 									<img class="menu-icon" :src="item.menuIcon" alt="">
@@ -100,7 +96,7 @@
 							</li>
 						</ul>
 					</div>
-					<ul id="navList" class="nav nav-list">
+					<ul class="nav nav-list">
 						<li v-for="item in nav">
 							<a href="#" :data-show="item.show" :class="{'dropdown-toggle':item.hasChildren}">
 								<img :src="item.menuIcon" alt="" class="menu-icon">
@@ -126,7 +122,7 @@
 					</ul>
 				</div>
 				<div class="subNav-modal js-subNav-modal">
-					<div id="subNav" class="subNav-modal-container">
+					<div class="subNav-modal-container">
 						<div class="subNav" v-for="item in subNav" :data-id="item.id">
 							<h3 class="subNav-name">{{item.name}}</h3>
 							<div class="subNav-container">
@@ -142,9 +138,9 @@
 				</div>
 			</div>
 
-			<!-- /section:basics/sidebar -->
 			<div class="main-content">
-				<div class="page-tab-wrap show">
+
+				<div id="pageTab" class="page-tab-wrap show">
 					<div class="btn-tab-scroll left show js-pageTabLeft">
 						<a href="#">
 							<i class="wpfont icon-arrow-left"></i>
@@ -152,23 +148,7 @@
 					</div>
 					<div class="page-tabs js-pageTabs">
 						<div class="page-tabs-container js-pageTabsContainer">
-							<a class="js-pageTab active" href="">选修课设置<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护1<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护2<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护3<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护4<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护5<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护6<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护7<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护8<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护9<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护10<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护11<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护12<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护13<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护14<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护15<i class="fa fa-times-circle"></i></a>
-							<a class="js-pageTab" href="">课程表维护16<i class="fa fa-times-circle"></i></a>
+							<a href="#" class="js-pageTab" v-for="(item,index) in items">{{item.name}}{{index}}<i class="fa fa-times-circle"></i></a>
 						</div>
 					</div>
 					<div class="btn-tab-scroll right show js-pageTabRight">
@@ -177,164 +157,32 @@
 						</a>
 					</div>
 				</div>
+
 				<div class="main-content-inner">
-					<ol class="breadcrumb hidden "></ol>
 					<div class="page-content">
 						<div class="row">
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
 								<div class="row">
 									<div class="col-sm-8">
-										<div class="box box-default">
+										<div id="myApp" class="box box-default">
 											<div class="box-header">
-												<h4 class="box-title">应用操作</h4>
+												<h4 class="box-title">{{moduleName}}</h4>
 											</div>
 											<div class="box-body">
 												<ul class="app-list clearfix">
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon01.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon02.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon03.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon04.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon05.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon06.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon07.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon01.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon02.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon03.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon04.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon05.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon06.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon07.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon01.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon02.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
+													<li class="app" v-for="item in items">
+														<a href="#">
+															<img :src="item.icon" alt="" class="app-img">
+															<span class="app-name">{{item.name}}</span>
 														</a>
 													</li>
 												</ul>
 												<ul class="app-list app-list-big clearfix">
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon01-big.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon02-big.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon03-big.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon04-big.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon05-big.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon06-big.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon07-big.png" alt="" class="app-img">
-															<span class="app-name">新生数据维护</span>
-														</a>
-													</li>
-													<li class="app">
-														<a href="">
-															<img src="../dist/images/icons/app-icon/app-icon01-big.png" alt="" class="app-img">
-															<span class="app-name">数字化教学</span>
+													<li class="app" v-for="item in items">
+														<a href="#">
+															<img :src="item.bigIcon" alt="" class="app-img">
+															<span class="app-name">{{item.name}}</span>
 														</a>
 													</li>
 												</ul>
@@ -348,30 +196,20 @@
 												</ul>
 											</div>
 										</div>
-										<div class="box box-default">
+										<div id="memo" class="box box-default">
 											<div class="box-header">
-												<h4 class="box-title">备忘录</h4>
+												<h4 class="box-title">{{moduleName}}</h4>
 											</div>
 											<div class="box-body">
 												<table class="table table-striped no-margin">
 													<thead>
 														<tr>
-															<th>时间</th>
-															<th>事件</th>
+															<th v-for="item in columns">{{item}}</th>
 														</tr>
 													</thead>
 													<tbody>
-														<tr>
-															<td>05/19 08:30</td>
-															<td>月度例会</td>
-														</tr>
-														<tr>
-															<td>05/19 08:30</td>
-															<td>月度例会</td>
-														</tr>
-														<tr>
-															<td>05/19 08:30</td>
-															<td>月度例会</td>
+														<tr v-for="item in girdData">
+															<td v-for="key in columns">{{item[key]}}</td>
 														</tr>
 													</tbody>
 												</table>
@@ -388,107 +226,20 @@
 												</ul>
 											</div>
 										</div>
-										<div class="box box-default">
+										<div id="schedule" class="box box-default">
 											<div class="box-header">
-												<h4 class="box-title">课表</h4>
+												<h4 class="box-title">{{moduleName}}</h4>
 											</div>
 											<div class="box-body">
 												<table class="table table-bordered">
 													<thead>
 														<tr>
-															<th class="text-center"></th>
-															<th class="text-center" width="40"></th>
-															<th class="text-center">周一</th>
-															<th class="text-center">周二</th>
-															<th class="text-center">周三</th>
-															<th class="text-center">周四</th>
-															<th class="text-center">周五</th>
-															<th class="text-center">周六</th>
-															<th class="text-center">周日</th>
+															<th class="text-center" v-for="item in columns">{{item}}</th>
 														</tr>
 													</thead>
 													<tbody>
-														<tr>
-															<td class="text-center" rowspan="4">上午</td>
-															<td class="text-center">1</td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-														</tr>
-														<tr>
-															<td class="text-center">2</td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-														</tr>
-														<tr>
-															<td class="text-center">3</td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-														</tr>
-														<tr>
-															<td class="text-center">4</td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-														</tr>
-														<tr>
-															<td class="text-center" rowspan="4">下午</td>
-															<td class="text-center">5</td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-														</tr>
-														<tr>
-															<td class="text-center">6</td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-														</tr>
-														<tr>
-															<td class="text-center">7</td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-														</tr>
-														<tr>
-															<td class="text-center">8</td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
-															<td class="text-center"></td>
+														<tr v-for="item in gridData">
+															<td class="text-center" v-for="key in columns">{{item[key]}}</td>
 														</tr>
 													</tbody>
 												</table>
@@ -496,119 +247,38 @@
 										</div>
 									</div>
 									<div class="col-sm-4">
-										<div class="box box-default">
+										<div id="news" class="box box-default">
 											<div class="box-header">
-												<h4 class="box-title">新闻</h4>
+												<h4 class="box-title">{{moduleName}}</h4>
 											</div>
 											<div class="box-body">
 												<ul class="msg-list">
-													<li class="msg-item">
-														<a href="">
-															<span class="msg-time before">12/15</span>
-															<span class="msg-text">这里可以放下十六个字个字个字个字这里可以放下十六个字个字个字个字</span>
-														</a>
-													</li>
-													<li class="msg-item">
-														<a href="">
-															<span class="msg-time before">12/15</span>
-															<span class="msg-text">这里可以放下十六个字个字个字个字</span>
-														</a>													
-													</li>
-													<li class="msg-item">
-														<a href="">
-															<span class="msg-time before">12/15</span>
-															<span class="msg-text">这里可以放下十六个字个字个字个字</span>
-														</a>
-													</li>
-													<li class="msg-item">
-														<a href="">
-															<span class="msg-label">公告</span>
-															<span class="msg-time">12/15</span>
-															<span class="msg-text">这里可以放下十六个字个字个字个字这里可以放下十六个字个字个字个字</span>
-														</a>
-													</li>
-													<li class="msg-item">
-														<a href="">
-															<span class="msg-label">系统</span>
-															<span class="msg-time">12/15</span>
-															<span class="msg-text">这里可以放下十六个字个字个字个字</span>
-														</a>													
-													</li>
-													<li class="msg-item">
-														<a href="">
-															<span class="msg-label">办公</span>
-															<span class="msg-time">12/15</span>
-															<span class="msg-text">这里可以放下十六个字个字个字个字</span>
+													<li class="msg-item" v-for="item in items">
+														<a href="#">
+															<span class="msg-label" v-if="!item.isBefore">{{item.label}}</span>
+															<span class="msg-time" :class="{before:item.isBefore}">{{item.time}}</span>
+															<span class="msg-text">{{item.msg}}</span>
 														</a>
 													</li>
 												</ul>
 											</div>
 										</div>
-										<div class="box box-default">
+										<div id="ranking" class="box box-default">
 											<div class="box-header">
-												<h4 class="box-title">排行榜</h4>
+												<h4 class="box-title">{{moduleName}}</h4>
 											</div>
 											<div class="box-body">
 												<ul class="user-list user-list-hover user-list-bordered">
-													<li>
-														<span class="user-sort"><img src="../dist/images/desktop/sort-first.png" alt=""></span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
-													</li>
-													<li>
-														<span class="user-sort"><img src="../dist/images/desktop/sort-second.png" alt=""></span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
-													</li>
-													<li>
-														<span class="user-sort"><img src="../dist/images/desktop/sort-third.png" alt=""></span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
-													</li>
-													<li>
-														<span class="user-sort">4</span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
-													</li>
-													<li>
-														<span class="user-sort">5</span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
-													</li>
-													<li>
-														<span class="user-sort">6</span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
-													</li>
-													<li>
-														<span class="user-sort">7</span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
-													</li>
-													<li>
-														<span class="user-sort">8</span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
-													</li>
-													<li>
-														<span class="user-sort">9</span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
-													</li>
-													<li>
-														<span class="user-sort">10</span>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<div class="user-content">今天放学别走</div>
+													<li v-for="item in items">
+														<span class="user-sort"  v-if="item.hasImg">
+															<img :src="item.sortimg" alt="">
+														</span>
+														<span class="user-sort" v-else>
+															{{item.number}}
+														</span>
+														<img class="user-avatar" :src="item.userImg" alt="">
+														<h5 class="user-name">{{item.name}}</h5>
+														<div class="user-content">{{item.msg}}</div>
 													</li>
 												</ul>
 												<div class="box-more"><a href="">更多&gt;</a></div>
@@ -622,28 +292,16 @@
 												</ul>
 											</div>
 										</div>
-										<div class="box box-default">
+										<div id="birthday" class="box box-default">
 											<div class="box-header">
-												<h4 class="box-title">生日提醒</h4>
+												<h4 class="box-title">{{moduleName}}</h4>
 											</div>
 											<div class="box-body">
 												<ul class="user-list user-list-bordered">
-													<li>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<span class="user-tips">将在4天后生日</span>
-														<div class="user-content"><a href="">发生日贺卡</a><a href="">发名姓片</a></div>
-													</li>
-													<li>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<span class="user-tips">将在4天后生日</span>
-														<div class="user-content"><a href="">发生日贺卡</a><a href="">发名姓片</a></div>
-													</li>
-													<li>
-														<img src="../dist/images/desktop/user-temp.png" alt="" class="user-avatar">
-														<h5 class="user-name">李思甜</h5>
-														<span class="user-tips">将在4天后生日</span>
+													<li v-for="item in items">
+														<img :src="item.img" alt="" class="user-avatar">
+														<h5 class="user-name">{{item.name}}</h5>
+														<span class="user-tips">{{item.tip}}</span>
 														<div class="user-content"><a href="">发生日贺卡</a><a href="">发名姓片</a></div>
 													</li>
 												</ul>
@@ -1034,8 +692,211 @@
 						]
 					}
 				})
+
+				var pageTab = new Vue({
+					el:"#pageTab",
+					data:{
+						items:[
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'},
+							{'name':'课程表维护'}
+						]
+					}
+				})
+
+				var myApp = new Vue({
+					el:"#myApp",
+					data:{
+						moduleName:'我的应用',
+						items:[
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon01.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon01-big.png',
+								'name':'新生数据维护'
+							},
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon02.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon02-big.png',
+								'name':'数字化教学'
+							},
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon03.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon03-big.png',
+								'name':'新生数据维护'
+							},
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon04.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon04-big.png',
+								'name':'数字化教学'
+							},
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon05.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon05-big.png',
+								'name':'新生数据维护'
+							},
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon06.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon06-big.png',
+								'name':'数字化教学'
+							},
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon07.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon07-big.png',
+								'name':'新生数据维护'
+							},
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon02.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon02-big.png',
+								'name':'数字化教学'
+							},
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon01.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon01-big.png',
+								'name':'新生数据维护'
+							},
+							{
+								'icon':'../dist/images/icons/app-icon/app-icon01.png',
+								'bigIcon':'../dist/images/icons/app-icon/app-icon01-big.png',
+								'name':'数字化教学'
+							}
+						]
+					}
+				})
+
+				var memo = new Vue({
+					el:'#memo',
+					data:{
+						moduleName:'备忘录',
+						columns:['时间','事件'],
+						girdData:[
+							{'时间':'05/19 08:30','事件':'月度例会'},
+							{'时间':'05/20 08:30','事件':'月度例会'},
+							{'时间':'05/21 08:30','事件':'月度例会'}
+						]
+					}
+				})
+
+				var schedule = new Vue({
+					el:'#schedule',
+					data:{
+						moduleName:'课表',
+						columns:['','节数','周一','周二','周三','周四','周五','周六','周日'],
+						gridData:[
+							{'':'上午','节数':'1','周一':'','周二':'','周三':'','周四':'','周五':'','周六':'','周日':''},
+							{'':'上午','节数':'2','周一':'','周二':'','周三':'','周四':'','周五':'','周六':'','周日':''},
+							{'':'上午','节数':'3','周一':'','周二':'','周三':'','周四':'','周五':'','周六':'','周日':''},
+							{'':'上午','节数':'4','周一':'','周二':'','周三':'','周四':'','周五':'','周六':'','周日':''},
+							{'':'下午','节数':'5','周一':'','周二':'','周三':'','周四':'','周五':'','周六':'','周日':''},
+							{'':'下午','节数':'6','周一':'','周二':'','周三':'','周四':'','周五':'','周六':'','周日':''},
+							{'':'下午','节数':'7','周一':'','周二':'','周三':'','周四':'','周五':'','周六':'','周日':''},
+							{'':'下午','节数':'8','周一':'','周二':'','周三':'','周四':'','周五':'','周六':'','周日':''}
+						]
+					}
+				})
+
+				var news = new Vue({
+					el:'#news',
+					data:{
+						moduleName:'新闻',
+						items:[
+							{'isBefore':true,'label':null,'time':'12/7','msg':'这里可以放下十六个字个字个字个字'},
+							{'isBefore':true,'label':null,'time':'12/7','msg':'这里可以放下十六个字个字个字个字'},
+							{'isBefore':true,'label':null,'time':'12/7','msg':'这里可以放下十六个字个字个字个字'},
+							{'isBefore':true,'label':null,'time':'12/7','msg':'这里可以放下十六个字个字个字个字'},
+							{'isBefore':false,'label':'公告','time':'12/7','msg':'这里可以放下十六个字个字个字个字'},
+							{'isBefore':false,'label':'系统','time':'12/7','msg':'这里可以放下十六个字个字个字个字'},
+							{'isBefore':false,'label':'公告','time':'12/7','msg':'这里可以放下十六个字个字个字个字'},
+							{'isBefore':false,'label':'办公','time':'12/7','msg':'这里可以放下十六个字个字个字个字'},
+							{'isBefore':false,'label':'公告','time':'12/7','msg':'这里可以放下十六个字个字个字个字'},
+							{'isBefore':false,'label':'公告','time':'12/7','msg':'这里可以放下十六个字个字个字个字'}
+						]
+							
+					}
+				})
+
+				var ranking = new Vue({
+					el:'#ranking',
+					data:{
+						moduleName:'排行榜',
+						items:[
+							{
+								'hasImg':true,
+								'sortimg':'../dist/images/desktop/sort-first.png',
+								'number':'1',
+								'userImg':'../dist/images/desktop/user-temp.png',
+								'name':'李思甜','msg':'今天放学别走'
+							},
+							{
+								'hasImg':true,
+								'sortimg':'../dist/images/desktop/sort-second.png',
+								'number':'2',
+								'userImg':'../dist/images/desktop/user-temp.png',
+								'name':'李思甜',
+								'msg':'今天放学别走'
+							},
+							{
+								'hasImg':true,
+								'sortimg':'../dist/images/desktop/sort-third.png',
+								'number':'3',
+								'userImg':'../dist/images/desktop/user-temp.png',
+								'name':'李思甜',
+								'msg':'今天放学别走'
+							},
+							{
+								'hasImg':false,
+								'sortimg':null,
+								'number':'4',
+								'userImg':'../dist/images/desktop/user-temp.png',
+								'name':'李思甜',
+								'msg':'今天放学别走'
+							},
+							{
+								'hasImg':false,
+								'sortimg':null,
+								'number':'5',
+								'userImg':'../dist/images/desktop/user-temp.png',
+								'name':'李思甜',
+								'msg':'今天放学别走'
+							},
+							{
+								'hasImg':false,
+								'sortimg':null,
+								'number':'6',
+								'userImg':'../dist/images/desktop/user-temp.png',
+								'name':'李思甜',
+								'msg':'今天放学别走'
+							}
+						]
+					}
+				})
+
+				var birthday = new Vue({
+					el:'#birthday',
+					data:{
+						moduleName:'生日提醒',
+						items:[
+							{'img':'../dist/images/desktop/user-temp.png','name':'李思甜','tip':'将在4天后生日'},
+							{'img':'../dist/images/desktop/user-temp.png','name':'李思甜','tip':'将在4天后生日'},
+							{'img':'../dist/images/desktop/user-temp.png','name':'李思甜','tip':'将在4天后生日'}
+						]
+					}
+				})
 			})
-				
 		</script>
 		<script>
 			require.config({
@@ -1055,8 +916,8 @@
 			        "bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min":["datapicker"],
 			        "typeahead.js/dist/typeahead.jquery.min":["jquery"],
 			        "dragsort/jquery-list-dragsort":["jquery"],
-			        "js/desktop.min":["jquery"],
-			        "layer/layer":["jquery"]
+			        "layer/layer":["jquery"],
+			        "js/desktop.min":["jquery"]
 			    }
 
 			})
