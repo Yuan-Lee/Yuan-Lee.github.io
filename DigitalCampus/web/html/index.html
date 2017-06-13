@@ -13,9 +13,8 @@
 		<link rel="stylesheet" href="../components/font-awesome/css/font-awesome.css" />
 
 		<!-- page specific plugin styles -->
-		<!-- <link rel="stylesheet" href="../components/layer/skin/layer.css"> -->
+		<link rel="stylesheet" href="../components/layer/skin/layer.css">
 		<link rel="stylesheet" href="../components/chosen/chosen.min.css">
-		<link rel="stylesheet" href="../components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css">
 
 		
 		<link rel="stylesheet" href="../dist/css/iconfont.min.css">
@@ -905,15 +904,12 @@
 			    paths:{//相对位置
 			        "jquery":"jquery/dist/jquery",
 			        "bootstrap":"bootstrap/bootstrap.min",
-			        "datapicker":"bootstrap-datepicker/dist/js/bootstrap-datepicker.min",
 			        "js":"../dist/js/"
 			    },
 			    shim:{//依赖关系
 			    	"bootstrap":["jquery"],
 			        "jquery-slimscroll/jquery.slimscroll.min":["jquery"],
 			        "chosen/chosen.jquery.min":["jquery"],
-			        "bootstrap-datepicker/dist/js/bootstrap-datepicker.min":["bootstrap"],
-			        "bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min":["datapicker"],
 			        "typeahead.js/dist/typeahead.jquery.min":["jquery"],
 			        "dragsort/jquery-list-dragsort":["jquery"],
 			        "layer/layer":["jquery"],
@@ -926,14 +922,12 @@
 				'layer/layer',
 				'jquery-slimscroll/jquery.slimscroll.min',
 				'chosen/chosen.jquery.min',
-				'bootstrap-datepicker/dist/js/bootstrap-datepicker.min',
-				'bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min',
 				'typeahead.js/dist/typeahead.jquery.min',
 				'dragsort/jquery-list-dragsort',
-				'js/desktop.min'], function(bootstrap,layer,slimscroll,chosen,datapicker,datapicker,typeahead,dragsort){
+				'js/desktop.min'], function(bootstrap,layer,slimscroll,chosen,typeahead,dragsort){
 					// 设置模块
 					
-					$('.js-box-setting').on('click',function(){
+					$(document).on('click','.js-box-setting',function(){
 						layer.open({
 							type: 1,
 							shade: .5,
@@ -1003,7 +997,6 @@
 							}
 						})
 					})
-
 			})
 		</script>
 		
