@@ -4,7 +4,7 @@ import Vue from 'vue';
 import 'font-awesome/css/font-awesome.css';
 import App from './App';
 import router from './router';
-import './components/common/index.css';
+import './components/common/index.scss';
 
 
 Vue.config.productionTip = false;

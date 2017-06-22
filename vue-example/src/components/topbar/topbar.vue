@@ -1,50 +1,52 @@
 <template>
-  <div class="index">
-    <div id="navbar" class="navbar navbar-fixed-top">
+  <div id="navbar" class="navbar navbar-fixed-top">
 
-      <div class="navbar-container clearfix" id="navbar-container">
+    <div class="navbar-container clearfix" id="navbar-container">
 
-        <div class="navbar-header">
+      <div class="navbar-header">
 
-          <a href="#" class="navbar-brand">
-            <img class="logo" src="./logo02.png" alt="">
-            <span>浙江万朋教育 · 数字校园</span>
-          </a>
+        <a href="#" class="navbar-brand">
+          <img class="logo" :src="header.logo" alt="">
+          <span>{{header.sitename}}</span>
+        </a>
 
-        </div>
-
-        <ul class="nav navbar-nav navbar-right">
-
-          <li class="navbar-item-user" :class="{'open':open}">
-            <a href="#" data-toggle="dropdown" @click="dropdown">
-              <img class="nav-user-photo" src="./user-temp.png" alt="Jason's Photo" />
-              <span class="user-info">阮小天</span>
-
-              <i class="fa fa-caret-down"></i>
-            </a>
-            <div class="dropdown-menu" v-if="open">
-              <ul class="list-group">
-                <li class="list-group-item" href="#">小猫 <a class="user-switch" href="">切换</a></li>
-
-                <li class="list-group-item" href="#">小狗 <a class="user-switch" href="">切换</a></li>
-
-                <li class="list-group-item" href="#">小刺猬 <a class="user-switch" href="">切换</a></li>
-
-                <li class="list-group-item text-center" href="#"><a href="">退出</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
       </div>
+
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="navbar-item-user" :class="{'open':open}">
+          <a href="#" data-toggle="dropdown" @click="dropdown">
+            <img class="nav-user-photo" src="./user-temp.png" alt="Jason's Photo" />
+            <span class="user-info">阮小天</span>
+            <i class="fa fa-caret-down"></i>
+          </a>
+          <div class="dropdown-menu" v-if="open">
+            <ul class="list-group">
+              <li class="list-group-item" href="#">小猫 <a class="user-switch" href="">切换</a></li>
+
+              <li class="list-group-item" href="#">小狗 <a class="user-switch" href="">切换</a></li>
+
+              <li class="list-group-item" href="#">小刺猬 <a class="user-switch" href="">切换</a></li>
+
+              <li class="list-group-item text-center" href="#"><a href="">退出</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: 'index',
+  name: 'topbar',
   data() {
     return {
+      header: {
+        logo: './src/components/topbar/logo02.png',
+        sitename: '浙江万朋教育 · 数字校园',
+      },
       open: false,
     };
   },
@@ -63,6 +65,7 @@ export default {
     margin-bottom:0;
     background:#317eeb;
   }
+  .navbar-fixed-top{position:fixed;width:100%;}
   .navbar-header{float:left;}
   .navbar-brand{
     height:46px;
