@@ -3,7 +3,9 @@
     <v-topbar></v-topbar>
     <div class="main-container" id="main-container">
       <v-sidebar></v-sidebar>
-      <div class="main-content"></div>
+      <div class="main-content">
+        <div class="page-content"></div>
+      </div>
     </div>
   </div>
 </template>

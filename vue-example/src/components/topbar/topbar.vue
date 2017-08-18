@@ -44,7 +44,7 @@ export default {
   data() {
     return {
       header: {
-        logo: './src/components/topbar/logo02.png',
+        logo: '', /* ./src/components/topbar/logo02.png*/
         sitename: '浙江万朋教育 · 数字校园',
       },
       open: false,
