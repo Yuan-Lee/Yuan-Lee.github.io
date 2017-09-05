@@ -22,8 +22,9 @@
 			fangxiang = document.getElementById('fangxiang'),
 			x,y,h,p;
 
-		
-		navigator.geolocation.getCurrentPosition(function(position){
+
+		navigator.geolocation.watchPosition(function(position){
+
 			x = position.coords.latitude;
 			y = position.coords.longitude;
 			h = position.coords.altitude;
@@ -32,7 +33,8 @@
 			weidu.innerText = y;
 			haiba.innerText = h;
 			fangxiang.innerText = p;
-		})		
+
+		})
 		
 	</script>
 </body>
