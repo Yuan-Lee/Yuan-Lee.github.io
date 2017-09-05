@@ -6,6 +6,7 @@
 	<style>
 		#mymap{
 			height: 500px;
+			width:800px;
 		}
 	</style>
 </head>
@@ -14,8 +15,6 @@
 	<p>纬度：<span id="weidu"></span></p>
 	<p>海拔：<span id="haiba"></span></p>
 	<p>指南针方向：<span id="fangxiang"></span></p>
-	<div id="mymap"></div>
-	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=e6MYlnPHSuU8eK7csIcYVeA7eFp3sZOd"></script>
 	<script>
 		var jindu = document.getElementById('jindu'),
 			weidu = document.getElementById('weidu'),
@@ -23,10 +22,8 @@
 			fangxiang = document.getElementById('fangxiang'),
 			x,y,h,p;
 
-		var map = new BMap.Map("mymap");    // 创建Map实例
-		map.centerAndZoom(new BMap.Point(116.404, 39.915), 15);  // 初始化地图,设置中心点坐标和地图级别
-
-		navigator.geolocation.watchPosition(function(position){
+		
+		navigator.geolocation.getCurrentPosition(function(position){
 			x = position.coords.latitude;
 			y = position.coords.longitude;
 			h = position.coords.altitude;
@@ -35,18 +32,7 @@
 			weidu.innerText = y;
 			haiba.innerText = h;
 			fangxiang.innerText = p;
-			
-        	var convertor = new BMap.Convertor();
-        	var pointArr = [];
-        	pointArr.push(new BMap.Point(x, y));
-       		convertor.translate(pointArr, 1, 5, function(data){
-       			var marker = new BMap.Marker([x,y]);
-	        	map.addOverlay(marker);
-	        	map.setCenter([x,y]);
-				map.panTo(new BMap.Point(x, y));
-       		})
-		})
-				
+		})		
 		
 	</script>
 </body>

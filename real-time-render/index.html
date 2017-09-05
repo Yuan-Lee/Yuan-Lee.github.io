@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>当前页面查看代码效果</title>
+	<style>
+		*{
+			padding:0;
+			margin:0;
+		}
+		#code{
+			position:relative;
+			width:800px;
+			max-width:100%;
+			margin:10px auto;
+		}
+		#run{
+			position:absolute;
+			right:0;
+			top:0;
+			padding:8px 15px;
+			border:none;
+			border-radius:3px;
+			font-size:16px;
+			color:#fff;
+			background-color:red;
+		}
+		iframe{
+			position:fixed;
+			left:10%;top:10%;
+			width:80%;
+			height:80%;
+			z-index:1;
+		}
+	</style>
+	<link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/agate.min.css" rel="stylesheet">
+</head>
+<body>
+	<div id="code">
+	<button id="run">运行代码</button>
+	<pre><code class="html">&lt;style&gt;
+	html {
+	  height: 100vh;
+	}
+	body {
+	  height: inherit;
+	  background: #2e576b;
+	  display: -ms-grid;
+	  display: grid;
+	}
+	.container {
+	  margin: auto;
+	}
+	.card {
+	  position: relative;
+	  width: 300px; height: 300px;
+	  background: #fff;
+	  border-radius: 50%;
+	  box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.08);
+	  overflow: hidden;
+	}
+	.card::after {
+	  content: '';
+	  display: block;
+	  width: 100%;  height: 100%;
+	  background: linear-gradient(to bottom, #0065a8, rgba(221, 238, 255, 0.4) 46%, rgba(255, 255, 255, 0.5));
+	}
+	.wave {
+	  position: absolute;
+	  top: 3%; left: 50%;
+	  width: 400px;  height: 400px;
+	  margin-top: -200px; margin-left: -200px;
+	  background: #0af;
+	  border-radius: 40%;
+	  opacity: .4;
+	  animation: shift 3s infinite linear;
+	}
+	.wave.w2 {
+	  background: yellow;
+	  opacity: .1;
+	  animation: shift 7s infinite linear;
+	}
+	.wave.w3 {
+	  animation: shift 5s infinite linear;
+	  background: crimson;
+	  opacity: 0.1;
+	}
+	@-webkit-keyframes shift {
+	  from {
+	    transform: rotate(360deg);
+	  }
+	}
+	@keyframes shift {
+	  from {
+	    transform: rotate(360deg);
+	  }
+	}
+&lt;/style&gt;
+
+&lt;div class="container"&gt;
+	&lt;div class="card"&gt;
+	    &lt;div class="wave w1"&gt;&lt;/div&gt;
+	    &lt;div class="wave w2"&gt;&lt;/div&gt;
+	    &lt;div class="wave w3"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		  $('pre code').each(function(i, block) {
+		    hljs.highlightBlock(block);
+		  });
+
+		  $('#run').on('click', function(){
+		  	if($('iframe').length){
+		  		$('iframe').remove();
+		  	}else{
+		  		// 1. 创建<iframe>元素
+				var iframe = document.createElement('iframe');
+				// 2. 将CSS，HTML字符串转换为Blob对象
+				var blob = new Blob([$('#code code').text()], {
+				  'type': 'text/html'
+				});
+				console.log(blob)
+				// 3. 使用URL.createObjectURL()方法将...
+				iframe.src = URL.createObjectURL(blob);
+				$('body').append(iframe)
+		  	}
+			return false;
+		  })
+		  $(document).on('click', function(){
+		  	$('iframe').remove();
+		  })
+		});
+	</script>
+</body>
+</html>
