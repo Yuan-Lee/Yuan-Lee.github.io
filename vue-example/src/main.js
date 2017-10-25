@@ -17,14 +17,3 @@ new Vue({
   template: '<App/>',
   components: { App },
 });
-
-let allcss;
-const sheets = document.styleSheets;
-for (let i = 0; i < sheets.length; i += 1) {
-  const rules = sheets[i].rules;
-  for (let j = 0; j < rules.length; j += 1) {
-    const cssItem = '<p>' + j + ' ' + rules[j].cssText + '</p>';
-    allcss += cssItem;
-  }
-}
-document.getElementsByClassName('page-content')[0].innerHTML = allcss;

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>collapse</title>
+	<style>
+		.collapse{
+			margin: 50px 30px;
+		}
+		[data-toggle=collapse]{
+			color: red;
+			text-decoration: none;
+		}
+		[data-toggle=collapse]:before{
+			display:inline-block;
+			content:'';
+			width:0;
+			height:0;
+			border-style:solid;
+			border-color: transparent;
+			margin-right:5px;
+		}
+		.arrow-right:before{
+			border-width: 6px 0 6px 10px;
+			border-left-color: #666;
+		}
+
+		.arrow-down:before{
+			border-width: 10px 6px 0;
+			border-top-color: #666;
+		}
+
+		.collapse-body{
+			display:none;
+			transition: height 1.5s linear;
+		}
+	</style>
+</head>
+<body>
+	<div class="collapse">
+		<div class="collapse-header">
+			<a href="#a" data-toggle="collapse" class="button">example1</a>
+		</div>
+		<div id="a" class="collapse-body">
+			<ul>
+				<li>潮平两岸阔，风正一帆悬</li>
+				<li>潮平两岸阔，风正一帆悬</li>
+				<li>潮平两岸阔，风正一帆悬</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="collapse">
+		<div class="collapse-header">
+			<a href="#b" data-toggle="collapse" class="button">example2</a>
+		</div>
+		<div id="b" class="collapse-body">
+			<ul>
+				<li>疏影横斜水清浅，暗香浮动月黄昏</li>
+				<li>疏影横斜水清浅，暗香浮动月黄昏</li>
+				<li>疏影横斜水清浅，暗香浮动月黄昏</li>
+			</ul>
+		</div>
+	</div>
+		
+	<script>
+		var collapse = (function(){
+			var btn = document.querySelectorAll('[data-toggle=collapse]'),
+				closeState = ' arrow-right' || '',
+				openState = ' arrow-down' || '';
+
+			for(var i=0; i<btn.length; i++){
+
+				var c = btn[i].getAttribute('class');
+				btn[i].setAttribute('role','button');
+				btn[i].setAttribute('class', c + closeState);
+
+				btn[i].addEventListener('click', function(e){
+					e.preventDefault();
+
+					var id = this.getAttribute('href').split('#')[1],
+						content = document.getElementById(id),
+						display = document.defaultView.getComputedStyle(content).display;
+
+					content.setAttribute('aria-hidden', true);
+
+					if(display === 'none'){
+						this.setAttribute('class', c + openState);
+						content.style.display = 'block';
+						content.setAttribute('aria-hidden', false);
+					}else{
+						this.setAttribute('class', c + closeState);
+						content.style.display = 'none';
+						content.setAttribute('aria-hidden', true);
+					}
+				}, false);
+			}
+		})();
+	</script>
+</body>
+</html>
