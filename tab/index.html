@@ -145,10 +145,17 @@
 		function initTab(tab){
 			var links = tab.children;
 			var content = tab.getAttribute('data-control');
+			var tabpanes = document.getElementById(content).children;
 			
+			tab.setAttribute('role', 'tablist');
+
+			for(var i=0; i<tabpanes.length; i++){
+				tabpanes[i].setAttribute('role', 'tabpanel');
+			}
+
 			for( var j=0; j<links.length; j++){
 				var a = links[j].children[0];
-				
+				a.setAttribute('role', 'tab');
 				a.addEventListener('click', function(e){
 					e.preventDefault();
 					selectTab(this, content);
