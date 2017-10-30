@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tab</title>
+	<style>
+		.tab{
+			width: 400px;
+			min-height:300px;
+			margin:30px;
+			border:1px solid #999;
+		}
+		.tab-nav{
+			border-bottom:1px solid #999;
+			padding:0;
+			margin:0;
+			list-style: none;
+			overflow:hidden;
+		}
+		.tab-nav li{
+			float:left;
+		}
+		.tab-nav a{
+			display:block;
+			padding: 5px 20px;
+			text-decoration:none;
+			color: #333;
+		}
+		.tab-nav a:hover{
+			color:#ff8400;
+		}
+		.tab-nav li.active a{
+			background-color:#ddd;
+		}
+		.tab-pane{
+			display:none;
+			padding:10px;
+		}
+		.tab-pane.active{
+			display:block;
+		}
+		blockquote{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="tab">
+		<ul class="tab-nav" data-control="tab01">
+			<li class="active"><a href="#a">李白</a></li>
+			<li><a href="#b">杜甫</a></li>
+			<li><a href="#c">苏轼</a></li>
+		</ul>
+		<div id="tab01" class="tab-content">
+			<div id="a" class="tab-pane active">
+				<blockquote>
+					<h3>静夜思</h3>
+					<p>床前明月光，</p>
+					<p>疑是地上霜。</p>
+					<p>举头望明月，</p>
+					<p>低头思故乡。</p>
+				</blockquote>
+			</div>
+			<div id="b" class="tab-pane">
+				<blockquote>
+					<h3>春夜喜雨</h3>
+					<p>好雨知时节，当春乃发生。</p>
+					<p>随风潜入夜，润物细无声。</p>
+					<p>野径云俱黑，江船火独明。</p>
+					<p>晓看红湿处，花重锦官城。</p>
+				</blockquote>
+			</div>
+			<div id="c" class="tab-pane">
+				<blockquote>
+					<h3>念奴娇 赤壁怀古</h3>
+					<p>大江东去，浪淘尽，千古风流人物。故垒西边，人道是，三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，一时多少豪杰。</p>
+					<p>遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间，樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。人生如梦，一尊还酹江月。</p>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+
+	<div class="tab">
+		<ul class="tab-nav" data-control="tab02">
+			<li class="active"><a href="#aa">李白</a></li>
+			<li><a href="#bb">杜甫</a></li>
+			<li><a href="#cc">苏轼</a></li>
+		</ul>
+		<div id="tab02" class="tab-content">
+			<div id="aa" class="tab-pane active">
+				<blockquote>
+					<h3>月下独酌</h3>
+					<p>花间一壶酒，独酌无相亲。</p>
+					<p>举杯邀明月，对影成三人。</p>
+					<p>月既不解饮，影徒随我身。</p>
+					<p>暂伴月将影，行乐须及春。</p>
+					<p>我歌月徘徊，我舞影零乱。</p>
+					<p>醒时相交欢，醉后各分散。</p>
+					<p>永结无情游，相期邈云汉。</p>					
+				</blockquote>
+			</div>
+			<div id="bb" class="tab-pane">
+				<blockquote>
+					<h3>春望</h3>
+					<p>国破山河在，城春草木深。</p>
+					<p>感时花溅泪，恨别鸟惊心。</p>
+					<p>烽火连三月，家书抵万金。</p>
+					<p>白头搔更短，浑欲不胜簪。</p>		
+				</blockquote>
+			</div>
+			<div id="cc" class="tab-pane">
+				<blockquote>
+					<h3>水调歌头·明月几时有</h3>
+					<p>明月几时有，把酒问青天。不知天上宫阙，今夕是何年？我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间！</p>
+					<p>转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。</p>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+		function removeClass(container, classname){
+			var elements = document.querySelector(container).children;
+			for(var i=0; i<elements.length; i++){
+				if(elements[i].classList.contains(classname)){
+					elements[i].classList.remove(classname);
+				}
+			}
+		}
+
+		function selectTab(that, content){
+			if(that.parentNode.classList.contains('active')) return;
+
+			var tabpane = that.getAttribute('href').split('#')[1];
+			
+			removeClass('[data-control='+ content +']', 'active');
+			that.parentNode.classList.add('active');
+
+			removeClass('#'+content, 'active');
+			document.querySelector('#'+ tabpane).classList.add('active');
+		}
+
+		function initTab(tab){
+			var links = tab.children;
+			var content = tab.getAttribute('data-control');
+			
+			for( var j=0; j<links.length; j++){
+				var a = links[j].children[0];
+				
+				a.addEventListener('click', function(e){
+					e.preventDefault();
+					selectTab(this, content);
+				}, false)
+			}
+		}
+
+		var navs = document.querySelectorAll('.tab-nav');
+
+		for(var i=0; i<navs.length; i++){
+			initTab(navs[i]);
+		}
+
+	</script>
+</body>
+</html>
