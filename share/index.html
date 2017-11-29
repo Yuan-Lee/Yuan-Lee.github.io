@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style>
+			.reveal pre code{max-height:600px;}
+			.reveal section img{border:none;}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>前端页面之二三事</h1>
+				</section>
+				<section>
+					<ol>
+						<li>系统整体页面结构</li>
+						<li>常见模块的结构</li>
+						<li>关于HTML、CSS、JS解耦的问题</li>
+					</ol>
+				</section>
+				<section>
+					<section>
+						<h2>系统页面结构</h2>
+					</section>
+					<section>
+						<img src="images/page.png" alt="">
+					</section>
+					<section>
+<pre><code>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta charset="utf-8" />
+<title>数字校园-首页</title>
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+<!-- bootstrap & fontawesome -->
+<link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="../components/font-awesome/css/font-awesome.css" />
+
+<link rel="stylesheet" href="../css/iconfont.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/page-desktop.css">
+<!--[if lte IE 9]>
+  <link rel="stylesheet" href="../css/pages-ie.css" />
+<![endif]-->
+<!-- inline styles related to this page -->
+<style></style>
+
+<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+<!--[if lte IE 8]>
+	<script src="../components/html5shiv/dist/html5shiv.min.js"></script>
+	<script src="../components/respond/dest/respond.min.js"></script>
+<![endif]-->
+</code></pre>
+					</section>
+					<section>
+						<pre><code>
+<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-container clearfix" id="navbar-container">
+    <div class="navbar-header">
+      <!-- #section:basics/navbar.layout.brand -->
+      <a href="#" class="navbar-brand">
+        <img class="logo" src="../images/desktop/logo.png" alt="">
+        <span>浙江万朋教育 · 数字校园</span>
+      </a>
+      <!-- /section:basics/navbar.layout.brand -->
+    </div>
+  </div><!-- /.navbar-container -->
+</div>
+
+<!-- /section:basics/navbar.layout -->
+<div class="main-container" id="main-container">
+  <div class="main-content">
+    <div class="main-content-inner">
+      <div class="page-content">
+        
+      </div><!-- /.page-content -->
+    </div>
+  </div><!-- /.main-content -->
+</div><!-- /.main-container -->
+						</code></pre>
+					</section>
+					<section>
+						<pre><code>
+<script src="../components/jquery/dist/jquery.js"></script>
+
+<!--[if IE]>
+<script src="../components/jquery.1x/dist/jquery.js"></script>
+<![endif]-->
+<script type="text/javascript">
+	if('ontouchstart' in document.documentElement) document.write("<script src='../components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"+"<"+"/script>");
+</script>
+<script src="../components/bootstrap/dist/js/bootstrap.js"></script>
+
+<!-- plugins script -->
+
+<!-- inline scripts related to this page -->
+<script>
+	$(function(){
+
+	})
+</script>
+						</code></pre>
+					</section>
+					<section>
+						<img src="images/box.png" alt="">
+					</section>
+					<section>
+						<pre><code>
+<div class="box box-default">
+  <div class="box-header">
+    <h4 class="box-title">应用操作</h4>
+    <div class="box-header-tools">
+      <div class="btn-group" role="group">
+        <a type="button" class="btn btn-sm btn-white" href="#">按妞</a>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-sm btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            更多
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-right">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box-body">
+    这里是内容
+  </div>
+  <div class="box-tools dropdown">
+    <a class="box-tools-btn" href="javascript:void(0);" data-toggle="dropdown" aria-expanded="false">
+      <i class="wpfont icon-ellipsis"></i>
+    </a>
+    <ul class="box-tools-menu dropdown-menu">
+      <span class="box-tools-menu-angle"></span>
+      <li><a class="js-common-setting" href="javascript:void(0);">设置</a></li>
+      <li><a class="js-box-remove" href="javascript:void(0);">删除</a></li>
+    </ul>
+  </div>
+</div>
+						</code></pre>
+					</section>
+					
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				mouseWheel: false,
+				transition: 'concave',
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
