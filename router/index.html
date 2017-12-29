@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>router</title>
+	<script src="router.js"></script>
+	<script>
+		var routes = {
+			'home': function(){
+				console.log('home')
+			},
+			'document': function(){
+				console.log('document')
+			},
+			'about': function(){
+				console.log('about')
+			}
+		}
+
+		var router = new Router(routes);
+		router.init();
+		router.route('contact', function(){
+			console.log('contact')
+		})
+
+		// window.onhashchange = function(){
+		// 	console.log(location.hash)
+		// }
+	</script>
+</head>
+<body>
+	<ul>
+		<li><a href="#home">home</a></li>
+		<li><a href="#document">document</a></li>
+		<li><a href="#about">about</a></li>
+	</ul>
+
+	<div router-view=""></div>
+</body>
+</html>
