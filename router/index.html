@@ -5,37 +5,46 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 	<title>router</title>
 	<script src="router.js"></script>
+</head>
+<body>
+	<ul>
+		<li><a href="#/home">home</a></li>
+		<li><a href="#/document">document</a></li>
+		<li><a href="#/about">about</a></li>
+	</ul>
+	<button id="contact">to contact</button>
+
+	<div id="router-view"></div>
 	<script>
+		var view = document.getElementById('router-view');
 		var routes = {
-			'home': function(){
-				console.log('home')
+			'/home': function(){
+				view.innerHTML = '<h1>This is home !</h1>'
 			},
-			'document': function(){
-				console.log('document')
+			'/document': function(){
+				view.innerHTML = '<h1>This is document !</h1>'
 			},
-			'about': function(){
-				console.log('about')
+			'/about': function(){
+				view.innerHTML = '<h1>This is about !</h1>'
 			}
 		}
 
 		var router = new Router(routes);
 		router.init();
-		router.route('contact', function(){
-			console.log('contact')
-		})
+
+		document.getElementById('contact').addEventListener('click', function(){
+			router.route('/contact', function(){
+				view.innerHTML = '<h1>This is contact !</h1>'
+			})
+		}, false)
+			
 
 		// window.onhashchange = function(){
 		// 	console.log(location.hash)
 		// }
+		// window.onpopstate = function(){
+		// 	console.log('pop')
+		// }
 	</script>
-</head>
-<body>
-	<ul>
-		<li><a href="#home">home</a></li>
-		<li><a href="#document">document</a></li>
-		<li><a href="#about">about</a></li>
-	</ul>
-
-	<div router-view=""></div>
 </body>
 </html>

@@ -30,7 +30,7 @@
 
 	Router.prototype.addRoute = function(path, callback){
 		this.routes[path] = callback;
-	}
+	};
 
 	Router.prototype.route = function(path, callback){
 		if(typeof this.routes[path] !== 'function'){
@@ -42,9 +42,11 @@
 	};
 
 	Router.prototype.reload = function(path){
-		var h = window.location.hash.split('#')[1];
-		if(h === '') return;
-		this.routes[h]();
+		var h = window.location.hash;
+		if(h !== ''){
+			this.routes[h.split('#')[1]]();
+		}
+		
 	};
 
 	Router.prototype.checkHash = function(){
@@ -57,11 +59,12 @@
 
 	Router.prototype.init = function(){
 		if('onpopstate' in window){
-			EventUtil.on(window, 'popstate', this.reload, false);
+			EventUtil.on(window, 'popstate', this.reload.bind(this));
+		}else{
+			EventUtil.on(window, 'hashchange', this.reload.bind(this));
 		}
-		EventUtil.on(window, 'hashchange', this.reload, false);
-		
-		EventUtil.on(window, 'load', this.reload, false);
+
+		EventUtil.on(window, 'load', this.reload.bind(this));
 	};
 
 	window.Router = Router;
