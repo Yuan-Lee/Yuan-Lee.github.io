@@ -5,37 +5,92 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 	<title>居中</title>
 	<style>
-		.demo05-wrap{position: relative;width: 200px;height:200px;border:5px solid #444;margin:50px auto;}
-		.demo05-example{width:80px;height:80px;background-color: #888;}
-		.demo05-example01{position: absolute;left:0;right:0;top:0;bottom:0;margin:auto;resize:both;}
-		.demo05-example02{position: absolute;left: 50%;top:50%;margin:-40px 0 0 -40px;}
-		.demo05-example03{
-			position: absolute;
-			left: 50%;top:50%;
-			-webkit-transform:-webkit-translate(-50%, -50%) -webkit-scale(.6);
-			transform:translate(-50%, -50%) scale(.6);
+		*{
+			padding:0;
+			margin:0;
+			box-sizing:border-box;
 		}
-		.demo05-wrap04{display: table-cell;vertical-align: middle;text-align: center;}
-		.demo05-example04{display: inline-block;vertical-align: middle;}
-		.demo05-wrap05{display:-weblit-flx;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;}
-		.demo05-example05{-ms-flex-item-align: center;-webkit-align-self: center;align-self: center;}
+		.wrapper{
+			position: relative;
+			width:100%;
+			height:200px;
+			border:5px solid #444;
+			margin:50px auto;
+		}
+		.item{
+			width:80px;
+			height:80px;
+			font-size:30px;
+			text-align:center;
+			line-height:80px;
+			color:#fff;
+			background-color: #888;
+		}
+		.item01{
+			position: absolute;
+			left:0;
+			right:0;
+			top:0;
+			bottom:0;
+			margin:auto;
+		}
+		.item02{
+			position: absolute;
+			left: 50%;
+			top:50%;
+			margin:-40px 0 0 -40px;
+		}
+		.item03{
+			position: absolute;
+			left: 50%;
+			top:50%;
+			transform:translate(-50%, -50%);
+		}
+		.wrapper04{
+			display: table;
+		}
+		.wrapper04 > div{
+			display:table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+		.item04{
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.wrapper05{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.wrapper06{
+			display: flex;
+		}
+		.item06{
+			margin: auto;
+		}
 	</style>
 </head>
 <body>
-	<div class="demo05-wrap">
-		<span class="demo05-example demo05-example01"></span>
+	<div class="wrapper">
+		<span class="item item01">1</span>
 	</div>
-	<div class="demo05-wrap">
-		<span class="demo05-example demo05-example02"></span>
+	<div class="wrapper">
+		<span class="item item02">2</span>
 	</div>
-	<div class="demo05-wrap">
-		<span class="demo05-example demo05-example03"></span>
+	<div class="wrapper">
+		<span class="item item03">3</span>
 	</div>
-	<div class="demo05-wrap demo05-wrap04">
-		<span class="demo05-example demo05-example04"></span>
+	<div class="wrapper wrapper04">
+		<div>
+			<span class="item item04">4</span>
+		</div>
 	</div>
-	<div class="demo05-wrap demo05-wrap05">
-		<span class="demo05-example demo05-example05"></span>
+	<div class="wrapper wrapper05">
+		<span class="item item05">5</span>
+	</div>
+	<div class="wrapper wrapper06">
+		<span class="item item06">6</span>
 	</div>
 </body>
 </html>
